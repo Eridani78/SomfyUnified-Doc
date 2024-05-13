@@ -16,8 +16,10 @@ Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom 
 - Rexel Energeasy Connect
 - Ubiwizz
 
-- 
-Le plugin **SomfyUnified** est compatible des sysèmes sous Debian 10, 11 & 12.
+
+## Compatibilité
+Le plugin **SomfyUnified** est compatible des systèmes fonctionnant sous Debian 10, 11 & 12.
+
 
 ## Statut de validation du plugin
 
@@ -42,7 +44,7 @@ Compte-tenu de l'état d'avancement, l'état de validation des différentes fami
 
 ## Ecosystème Somfy/TaHoma
 L'écosystème Somfy TaHoma comprend, à ce jour, de nombreux partenaires et est susceptible de continuer à s'étoffer et évoluer.
-Cela signifie qu'une box TaHoma peut s'interfacer à de nombreux dispositifs très différents les uns des autres pour les piloter.
+Cela signifie qu'une box des familles de l'écosystème (TaHoma, Cozytouch, ...) peut s'interfacer à de nombreux dispositifs très différents les uns des autres pour les piloter.
 On trouve actuellement dans l'écosystèmes Somfy le contrôle de dispositifs tels que des systèmes de controle d'ouverture ou fermeture d'ouvrants (volets roulants, portes, stores, ...), des systèmes d'alarme, des systèmes de chauffage et climatisation, ...
 
 L'absence de documentation de la part de Somfy sur les commandes des dispositifs rend la syntaxe de ces opérations particulièrement difficile à anticiper et implémenter dans un plugin et ce, à priori.
@@ -51,5 +53,5 @@ Afin de s'adapter au mieux à une telle diversité de commandes ou données pote
 
 
 ## API locale Somfy
-...
+A suivre ...
 
