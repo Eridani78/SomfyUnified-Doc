@@ -16,6 +16,9 @@ Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom 
 - Rexel Energeasy Connect
 - Ubiwizz
 
+- 
+Le plugin **SomfyUnified** est compatible des sysèmes sous Debian 10, 11 & 12.
+
 ## Statut de validation du plugin
 
 Compte-tenu de la grande diversité d'équipements susceptibles d'être gérés par le plugin, il est impossible, pour le développeur, d'avoir pu valider tous les types d'équipements.<br>
@@ -23,18 +26,18 @@ Les validations se feront donc au fur et à mesure de l'adoption du plugin par l
 
 Compte-tenu de l'état d'avancement, l'état de validation des différentes familles d'équipements est donné dans le tableau suivant:
 
-| Equipement                 |  Type API  |  Validé      |
-| :------------------------- | :--------: | :----------: |
-| Somfy TaHoma Cloud         | cloud      | oui          |
-| Somfy TaHoma Local         | local      | oui          |
-| Atlantic Cozytouch         | cloud      | en attente   |
-| Brandt Smart Control       | cloud      | en attente   |
-| Flexom                     | cloud      | en attente   |
-| Hexaom HexaConnect         | cloud      | en attente   |
-| Hitachi Hi Kumo            | cloud      | en attente   |
-| Nexity Eugénie             | cloud      | en attente   |
-| Rexel Energeasy Connect    | cloud      | en attente   |
-| Ubiwizz                    | cloud      | en attente   |
+| Equipement                 |  Type API  |  Etat de validation |
+| :------------------------- | :--------: | :-----------------: |
+| Somfy TaHoma Cloud         | cloud      | validé              |
+| Somfy TaHoma Local         | local      | validé              |
+| Atlantic Cozytouch         | cloud      | en attente          |
+| Brandt Smart Control       | cloud      | en attente          |
+| Flexom                     | cloud      | en attente          |
+| Hexaom HexaConnect         | cloud      | en attente          |
+| Hitachi Hi Kumo            | cloud      | en attente          |
+| Nexity Eugénie             | cloud      | en attente          |
+| Rexel Energeasy Connect    | cloud      | en attente          |
+| Ubiwizz                    | cloud      | en attente          |
 
 
 ## Ecosystème Somfy/TaHoma
