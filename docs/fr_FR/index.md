@@ -5,29 +5,36 @@
 
 ## Presentation
 Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom et les équipements connectés via les API OverKiz:
-- Somfy TaHoma Cloud (cloud)
-- Somfy TaHoma Local (local)
-- Atlantic Cozytouch (cloud)
-- Brandt Smart Control (cloud)
-- Flexom (cloud)
-- Hexaom HexaConnect (cloud)
-- Hitachi Hi Kumo (cloud)
-- Nexity Eugénie (cloud)
-- Rexel Energeasy Connect (cloud)
-- Ubiwizz (cloud)
+- Somfy TaHoma Cloud
+- Somfy TaHoma Local
+- Atlantic Cozytouch
+- Brandt Smart Control
+- Flexom
+- Hexaom HexaConnect
+- Hitachi Hi Kumo
+- Nexity Eugénie
+- Rexel Energeasy Connect
+- Ubiwizz
 
-| Equipement              | Type API | Validé     |
-| :---------------------- | :------: | :--------: |
-| Somfy TaHoma Cloud      | cloud    | oui        |
-| Somfy TaHoma Local      | local    | oui        |
-| Atlantic Cozytouch      | cloud    | en attente |
-| Brandt Smart Control    | cloud    | en attente |
-| Flexom                  | cloud    | en attente |
-| Hexaom HexaConnect      | cloud    | en attente |
-| Hitachi Hi Kumo         | cloud    | en attente |
-| Nexity Eugénie          | cloud    | en attente |
-| Rexel Energeasy Connect | cloud    | en attente |
-| Ubiwizz                 | cloud    | en attente |
+## Statut de validation du plugin
+
+Compte-tenu de la grande diversité d'équipements susceptibles d'être gérés par le plugin, il est impossible, pour le développeur, d'avoir pu valider tous les types d'équipements.
+Les validations se feront au fur et à mesure de l'adoption du plugin par les utilisateurs qui voudront bien tenter son intégration.
+
+L'état de validation, à ce jour, des différents types d'équipements est donné dans le tableau suivant:
+
+| Equipement                 |  Type API  |  Validé      |
+| :------------------------- | :--------: | :----------: |
+| Somfy TaHoma Cloud         | cloud      | oui          |
+| Somfy TaHoma Local         | local      | oui          |
+| Atlantic Cozytouch         | cloud      | en attente   |
+| Brandt Smart Control       | cloud      | en attente   |
+| Flexom                     | cloud      | en attente   |
+| Hexaom HexaConnect         | cloud      | en attente   |
+| Hitachi Hi Kumo            | cloud      | en attente   |
+| Nexity Eugénie             | cloud      | en attente   |
+| Rexel Energeasy Connect    | cloud      | en attente   |
+| Ubiwizz                    | cloud      | en attente   |
 
 
 ## Ecosystème Somfy/TaHoma
