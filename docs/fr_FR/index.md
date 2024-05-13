@@ -4,7 +4,7 @@
 
 
 ## Presentation
-Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom et les équipements connectés via les API OverKiz:
+Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom et les équipements de l'écosystème Somfy connectés via les API OverKiz et appartenant aux familles listées ci-dessous:
 - Somfy TaHoma Cloud
 - Somfy TaHoma Local
 - Atlantic Cozytouch
@@ -18,10 +18,10 @@ Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom 
 
 ## Statut de validation du plugin
 
-Compte-tenu de la grande diversité d'équipements susceptibles d'être gérés par le plugin, il est impossible, pour le développeur, d'avoir pu valider tous les types d'équipements.
-Les validations se feront au fur et à mesure de l'adoption du plugin par les utilisateurs qui voudront bien tenter son intégration.
+Compte-tenu de la grande diversité d'équipements susceptibles d'être gérés par le plugin, il est impossible, pour le développeur, d'avoir pu valider tous les types d'équipements.<br>
+Les validations se feront donc au fur et à mesure de l'adoption du plugin par les utilisateurs qui accepteront de tenter son intégration.
 
-L'état de validation, à ce jour, des différents types d'équipements est donné dans le tableau suivant:
+Compte-tenu de l'état d'avancement, l'état de validation des différentes familles d'équipements est donné dans le tableau suivant:
 
 | Equipement                 |  Type API  |  Validé      |
 | :------------------------- | :--------: | :----------: |
