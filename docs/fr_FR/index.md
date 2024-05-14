@@ -14,6 +14,7 @@ Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom 
 - Hitachi Hi Kumo
 - Nexity Eugénie
 - Rexel Energeasy Connect
+- Simu (LiveIn2)
 - Ubiwizz
 
 
@@ -39,6 +40,7 @@ Compte-tenu de l'état d'avancement, l'état de validation des différentes fami
 | Hitachi Hi Kumo            | cloud      | en attente          |
 | Nexity Eugénie             | cloud      | en attente          |
 | Rexel Energeasy Connect    | cloud      | en attente          |
+| Simu (LiveIn2)             | cloud      | en attente          |
 | Ubiwizz                    | cloud      | en attente          |
 
 
