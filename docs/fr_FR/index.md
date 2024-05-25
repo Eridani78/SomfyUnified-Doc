@@ -43,6 +43,7 @@ Compte-tenu de l'état d'avancement, l'état de validation des différentes fami
 | Rexel Energeasy Connect    | cloud      | en attente          |
 | Simu (LiveIn2)             | cloud      | en attente          |
 | Ubiwizz                    | cloud      | en attente          |
+
 (1) _Atlantic, Sauter, Thermor_
 
 
