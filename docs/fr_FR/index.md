@@ -60,5 +60,5 @@ A suivre ...
 ## FAQ
 | 01  | Mon équipement a été créé mais il n’y a aucune commande qui n’apparait ?  |
 | :-: | :------------------------------------------------------------------------ |
-|     | L’équipement n’est pas (encore) intégré dans la base de donnée (BdD) du plugin. A l’aide de l’explorateur de fichier Jeedom, se rendre dans le répertoire: userData/components. Créer une archive .zip du répertoire **undefined** puis la renommer en y ajoutant .txt à la fin. Envoyer ce fichier créer au concepteur du plugin (en MP) afin que l’équipement puisse être inclus à la BdD du plugin SomfyUnified.
+|     | L’équipement n’est pas (encore) intégré dans la base de donnée (BdD) du plugin. A l’aide de l’explorateur de fichier Jeedom, se rendre dans le répertoire: userData/components. Créer une archive .zip du répertoire **undefined** puis la renommer en y ajoutant .txt à la fin. Envoyer ce fichier créer au concepteur du plugin (en MP) afin que l’équipement puisse être inclus à la BdD du plugin SomfyUnified. |
 
