@@ -66,9 +66,8 @@ A suivre ...
 
 
 ## FAQ
-
-| :-: | :---------------------------------------------------------------------------------------------------------------------------------------- |
 | 01  | Mon équipement a été créé mais il n’y a aucune commande qui n’apparait ?                                                                  |
+| :-: | :---------------------------------------------------------------------------------------------------------------------------------------- |
 | 02  | Je souhaite piloter des équipements controlés par une box qui ne se trouvent pas sur le même réseau local (LAN) que celui gère mon Jeedom |
 | 03  |                                                                                                                                           |
 
