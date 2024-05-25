@@ -84,17 +84,13 @@ Comme le plugin **SomfyUnified** assure la gestion de tous les serveurs enregist
 
 ## Liste des équipements en BdD du plugin
 
-L'inclusion des équipements suivant a été réalisée:
+A cette date, l'inclusion des équipements suivant a été effectuée:
 
 | Equipement                 |  Nom technique                         |
 | :------------------------- | :------------------------------------- |
-
-
 | Alarm                      | internal:TSKAlarmComponent             |
 | :------------------------- | :----------------- |
 |				             | io:AlarmIOComponent                    |
-
-
 | Awning		             | io:AwningValanceIOComponent            |
 | :------------------------- | :------------------------------------- |
 |				             | io:HorizontalAwningIOComponent         |
