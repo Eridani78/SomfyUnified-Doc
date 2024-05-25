@@ -19,6 +19,7 @@ Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom 
 
 
 ## Compatibilité
+
 Le plugin **SomfyUnified** est compatible des systèmes fonctionnant sous Debian 10, 11 & 12.
 
 
@@ -43,6 +44,12 @@ Compte-tenu de l'état d'avancement, l'état de validation des différentes fami
 | Simu (LiveIn2)             | cloud      | en attente          |
 | Ubiwizz                    | cloud      | en attente          |
 
+## Feuille de route
+
+Dans l'état actuel du plugin, les fonctionnalités suivantes sont prévues mais non encore opérationnelles:
+1. Pas de mise à jour "instantée" des commandes Info. Les mises à jour sont toutes les 1 mn pour un serveur LOCAl et 30 mn pour un serveur CLOUD.
+2. Le plugin est en langue EN, non encore traduit EN FR
+3. Pas de widgets spécifiques associés aux commandes. Les widgets du core Jeedom s'appliquent.
 
 ## Ecosystème Somfy/TaHoma
 L'écosystème Somfy TaHoma comprend, à ce jour, de nombreux partenaires et est susceptible de continuer à s'étoffer et évoluer.
@@ -59,9 +66,12 @@ A suivre ...
 
 
 ## FAQ
-| 01  | Mon équipement a été créé mais il n’y a aucune commande qui n’apparait ?                                                                                                                                                                                                                                                                                                                                            |
-| :-: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-|     | L’équipement n’est pas (encore) intégré dans la base de donnée (BdD) du plugin. A l’aide de l’explorateur de fichier Jeedom, se rendre dans le répertoire: userData/components. Créer une archive .zip du répertoire **undefined** puis la renommer en y ajoutant .txt à la fin. Envoyer ce fichier créer au concepteur du plugin (en MP) afin que l’équipement puisse être inclus à la BdD du plugin SomfyUnified. |
-| 02  | Je souhaite piloter des équipements controlés par une box qui ne se trouvent pas sur le même réseau local (LAN) que celui gère mon Jeedom                                                                                                                                                                                                                                                                           |
-|     | C'est le cas d'équipements situés dans une résidence secondaire par exemple. Oui, cela est possible en gérant vos équipements via le serveur CLOUD associé.                                                                                                                                                                                                                                                         |
-| 03  |                                                                                                                                                                                                                                                                                                                                                                                                                     |
+
+| :-: | :---------------------------------------------------------------------------------------------------------------------------------------- |
+| 01  | Mon équipement a été créé mais il n’y a aucune commande qui n’apparait ?                                                                  |
+| 02  | Je souhaite piloter des équipements controlés par une box qui ne se trouvent pas sur le même réseau local (LAN) que celui gère mon Jeedom |
+| 03  |                                                                                                                                           |
+
+
+1. L’équipement n’est pas (encore) intégré dans la base de donnée (BdD) du plugin. A l’aide de l’explorateur de fichier Jeedom, se rendre dans le répertoire: userData/components. Créer une archive .zip du répertoire **undefined** puis la renommer en y ajoutant .txt à la fin. Envoyer ce fichier créer au concepteur du plugin (en MP) afin que l’équipement puisse être inclus à la BdD du plugin SomfyUnified.
+2. C'est le cas d'équipements situés dans une résidence secondaire par exemple. Oui, cela est possible en gérant vos équipements via le serveur CLOUD associé. Dans ce cas, votre box n'apparaitra pas dans le panel "Local IoT Gateways"
