@@ -59,8 +59,8 @@ A suivre ...
 
 
 ## FAQ
-| 01  | Mon équipement a été créé mais il n’y a aucune commande qui n’apparait ?  |
-| :-: | :------------------------------------------------------------------------ |
+| 01  | Mon équipement a été créé mais il n’y a aucune commande qui n’apparait ?                                                                                                                                                                                                                                                                                                                                            |
+| :-: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 |     | L’équipement n’est pas (encore) intégré dans la base de donnée (BdD) du plugin. A l’aide de l’explorateur de fichier Jeedom, se rendre dans le répertoire: userData/components. Créer une archive .zip du répertoire **undefined** puis la renommer en y ajoutant .txt à la fin. Envoyer ce fichier créer au concepteur du plugin (en MP) afin que l’équipement puisse être inclus à la BdD du plugin SomfyUnified. |
-| 02  | Je souhaite piloter des équipements controlés par une box qui ne se trouve pas sur mon réseau local (LAN) qui gère mon Jeedom |
-|     | C'est le cas d'équipements situés dans une résidence secondaire par exemple. Oui, cela est possible en gérant vos équipements via le serveur CLOUD associé. |
+| 02  | Je souhaite piloter des équipements controlés par une box qui ne se trouvent pas sur le même réseau local (LAN) qui gère mon Jeedom                                                                                                                                                                                                                                                                                 |
+|     | C'est le cas d'équipements situés dans une résidence secondaire par exemple. Oui, cela est possible en gérant vos équipements via le serveur CLOUD associé.                                                                                                                                                                                                                                                         |
