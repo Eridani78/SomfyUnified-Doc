@@ -34,7 +34,7 @@ Compte-tenu de l'état d'avancement, l'état de validation des différentes fami
 | :------------------------- | :--------: | :-----------------: |
 | Somfy TaHoma Cloud         | cloud      | validé              |
 | Somfy TaHoma Local         | local      | validé              |
-| Atlantic Cozytouch         | cloud      | validé              |
+| Atlantic Cozytouch (1)     | cloud      | validé              |
 | Brandt Smart Control       | cloud      | en attente          |
 | Flexom                     | cloud      | en attente          |
 | Hexaom HexaConnect         | cloud      | en attente          |
@@ -43,6 +43,8 @@ Compte-tenu de l'état d'avancement, l'état de validation des différentes fami
 | Rexel Energeasy Connect    | cloud      | en attente          |
 | Simu (LiveIn2)             | cloud      | en attente          |
 | Ubiwizz                    | cloud      | en attente          |
+(1) _Atlantic, Sauter, Thermor_
+
 
 ## Feuille de route
 
@@ -51,7 +53,9 @@ Dans l'état actuel du plugin, les fonctionnalités suivantes sont prévues mais
 2. Le plugin est en langue EN, non encore traduit FR
 3. Pas de widgets spécifiques associés aux commandes. Les widgets du core Jeedom s'appliquent.
 
+1. 
 ## Ecosystème Somfy/TaHoma
+
 L'écosystème Somfy TaHoma comprend, à ce jour, de nombreux partenaires et est susceptible de continuer à s'étoffer et évoluer.
 Cela signifie qu'une box des familles de l'écosystème (TaHoma, Cozytouch, ...) peut s'interfacer à de nombreux dispositifs très différents les uns des autres pour les piloter.
 On trouve actuellement dans l'écosystèmes Somfy le contrôle de dispositifs tels que des systèmes de controle d'ouverture ou fermeture d'ouvrants (volets roulants, portes, stores, ...), des systèmes d'alarme, des systèmes de chauffage et climatisation, ...
@@ -69,7 +73,8 @@ A suivre ...
 ## FAQ
 
 1. **Mon équipement a été créé mais il n’y a aucune commande qui apparait ?**<br>
-L’équipement n’est pas (encore) intégré dans la base de donnée (BdD) du plugin. A l’aide de l’explorateur de fichier Jeedom, se rendre dans le répertoire:<br>
+L’équipement n’est pas (encore) intégré dans la base de donnée (BdD) du plugin (voir ci-dessous).<br>
+A l’aide de l’explorateur de fichier Jeedom, se rendre dans le répertoire:<br>
 `plugins/SomfyUnified/userData/components/`<br>
 Créer une archive .zip du répertoire **undefined** puis la renommer en y ajoutant .txt à la fin. Envoyer ce fichier créer au concepteur du plugin (en MP) afin que l’équipement puisse être inclus à la BdD du plugin SomfyUnified.
 
@@ -88,7 +93,7 @@ Comme le plugin **SomfyUnified** assure la gestion de tous les serveurs enregist
 
 A cette date, l'inclusion des équipements suivant a été effectuée:
 
-| Type Equipement            |  Equipement                                                             |
+| Type Equipement            |  Identifiant Equipement                                                 |
 | :------------------------- | :---------------------------------------------------------------------- |
 | Alarm                      | internal:TSKAlarmComponent                                              |
 |				             | io:AlarmIOComponent                                                     |
