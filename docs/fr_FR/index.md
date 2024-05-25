@@ -88,17 +88,51 @@ Comme le plugin **SomfyUnified** assure la gestion de tous les serveurs enregist
 
 A cette date, l'inclusion des équipements suivant a été effectuée:
 
-| Type Equipement            |  Equipement                                   |
-| :------------------------- | :-------------------------------------------- |
-| Alarm                      | internal:TSKAlarmComponent                    |
-|				             | io:AlarmIOComponent                           |
-| Awning		             | io:AwningValanceIOComponent                   |
-|				             | io:HorizontalAwningIOComponent                |
-|				             | rts:HorizontalAwningRTSComponent              |
-| CarbonDioxideSensor		 | netatmo:CO2Component                          |
-| ConfigurationComponent     | netatmo:ConfigurationComponent                |
-|				             | netatmo:HomeController                        |
-|				             | netatmo:WeatherStationConfigurationComponent  |
+| Type Equipement            |  Equipement                                                    |
+| :------------------------- | :------------------------------------------------------------- |
+| Alarm                      | internal:TSKAlarmComponent                                     |
+|				             | io:AlarmIOComponent                                            |
+| Awning		             | io:AwningValanceIOComponent                                    |
+|				             | io:HorizontalAwningIOComponent                                 |
+|				             | rts:HorizontalAwningRTSComponent                               |
+| CarbonDioxideSensor		 | netatmo:CO2Component                                           |
+| ConfigurationComponent     | netatmo:ConfigurationComponent                                 |
+|				             | netatmo:HomeController                                         |
+|				             | netatmo:WeatherStationConfigurationComponent                   |
+| ConsumptionSensor          | io:DHWRelatedFossilEnergyConsumptionSensor                     |
+|				             | io:HeatingRelatedFossilEnergyConsumptionSensor                 |
+|				             | io:TotalFossilEnergyConsumptionSensor                          |
+| ContactSensor		         | io:ContactIOSystemDeviceSensor                                 |
+|				             | io:SomfyContactIOSystemSensor                                  |
+|				             | rtds:RTDSContactSensor                                         |
+|				             | zigbee:DoorSensorComponent                                     |
+| Dock		                 | internal:TSKDockComponent                                      |
+| ElectricitySensor		     | io:AirConditioningElectricalEnergyConsumptionSensor            |
+|				             | io:CumulatedElectricalEnergyConsumptionIOSystemDeviceSensor    |
+|				             | io:DHWCumulatedElectricalEnergyConsumptionIOSystemDeviceSensor |
+|				             | io:DHWElectricalEnergyConsumptionSensor                        |
+|				             | io:ElectricityMeterComponent                                   |
+|				             | io:EnergyConsumptionSensorsConfigurationComponent              |
+|				             | io:EnergyConsumptionSensorsHeatPumpComponent                   |
+|				             | io:HeatingElectricalEnergyConsumptionSensor                    |
+|				             | io:OtherElectricalEnergyConsumptionSensor                      |
+|				             | io:PlugsElectricalEnergyConsumptionSensor                      |
+|				             | io:TotalElectricalEnergyConsumptionIOSystemSensor              |
+| GarageDoor		         | io:DiscreteGarageOpenerIOComponent                             |
+| Gate		                 | io:SlidingDiscreteFullyPedestriableGateOpenerIOComponent       |
+| HeatingSystem		         | io:AtlanticElectricalHeaterIOComponent                                  |
+|				             | io:AtlanticElectricalHeaterWithAdjustableTemperatureSetpointIOComponent |
+|				             | io:AtlanticPassAPCBoilerMainComponent                                   |
+|				             | io:AtlanticPassAPCHeatingZoneComponent                                  |
+|				             | io:AtlanticPassAPCZoneControlMainComponent                              |
+|				             | io:AtlanticPassAPCZoneControlZoneComponent                              |
+
+
+
+
+
+
+
 
 
 
