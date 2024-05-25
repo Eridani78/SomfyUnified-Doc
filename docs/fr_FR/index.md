@@ -88,14 +88,23 @@ Comme le plugin **SomfyUnified** assure la gestion de tous les serveurs enregist
 
 A cette date, l'inclusion des équipements suivant a été effectuée:
 
-| Type Equipement            |  Equipement                            |
-| :------------------------- | :------------------------------------- |
-| Alarm                      | internal:TSKAlarmComponent             |
-| :------------------------- | :----------------- |
-|				             | io:AlarmIOComponent                    |
-| Awning		             | io:AwningValanceIOComponent            |
-| :------------------------- | :------------------------------------- |
-|				             | io:HorizontalAwningIOComponent         |
-|				             | rts:HorizontalAwningRTSComponent       |
+| Type Equipement            |  Equipement                                   |
+| :------------------------- | :-------------------------------------------- |
+| Alarm                      | internal:TSKAlarmComponent                    |
+|				             | io:AlarmIOComponent                           |
+| Awning		             | io:AwningValanceIOComponent                   |
+|				             | io:HorizontalAwningIOComponent                |
+|				             | rts:HorizontalAwningRTSComponent              |
+| CarbonDioxideSensor		 | netatmo:CO2Component                          |
+| ConfigurationComponent     | netatmo:ConfigurationComponent                |
+|				             | netatmo:HomeController                        |
+|				             | netatmo:WeatherStationConfigurationComponent  |
+
+
+
+
+
+
+
 
 
