@@ -69,8 +69,8 @@ A suivre ...
 ## FAQ
 
 1. **Mon équipement a été créé mais il n’y a aucune commande qui apparait ?**<br>
-L’équipement n’est pas (encore) intégré dans la base de donnée (BdD) du plugin. A l’aide de l’explorateur de fichier Jeedom, se rendre dans le répertoire:
-'plugins/SomfyUnified/userData/components/'.
+L’équipement n’est pas (encore) intégré dans la base de donnée (BdD) du plugin. A l’aide de l’explorateur de fichier Jeedom, se rendre dans le répertoire:<br>
+`plugins/SomfyUnified/userData/components/`<br>
 Créer une archive .zip du répertoire **undefined** puis la renommer en y ajoutant .txt à la fin. Envoyer ce fichier créer au concepteur du plugin (en MP) afin que l’équipement puisse être inclus à la BdD du plugin SomfyUnified.
 
 2. **Je souhaite piloter des équipements controlés par une box qui ne se trouvent pas sur le même réseau local (LAN) que celui qui gère mon Jeedom.**<br>
