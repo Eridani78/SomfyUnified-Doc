@@ -48,7 +48,7 @@ Compte-tenu de l'état d'avancement, l'état de validation des différentes fami
 
 Dans l'état actuel du plugin, les fonctionnalités suivantes sont prévues mais non encore opérationnelles:
 1. Pas de mise à jour "instantée" des commandes Info. Les mises à jour sont toutes les 1 mn pour un serveur LOCAl et 30 mn pour un serveur CLOUD.
-2. Le plugin est en langue EN, non encore traduit EN FR
+2. Le plugin est en langue EN, non encore traduit FR
 3. Pas de widgets spécifiques associés aux commandes. Les widgets du core Jeedom s'appliquent.
 
 ## Ecosystème Somfy/TaHoma
