@@ -86,18 +86,18 @@ Comme le plugin **SomfyUnified** assure la gestion de tous les serveurs enregist
 
 L'inclusion des équipements suivant a été réalisée:
 
-| Equipement                 |  Nom technique |
+| Equipement                 |  Nom technique                         |
+| :------------------------- | :------------------------------------- |
+
+
+| Alarm                      | internal:TSKAlarmComponent             |
 | :------------------------- | :----------------- |
+|				             | io:AlarmIOComponent                    |
 
 
-| Alarm         | internalTSKAlarmComponent             |
-| :------------------------- | :----------------- |
-|				| ioAlarmIOComponent            |
-
-
-| Awning		| ioAwningValanceIOComponent          |
-| :------------------------- | :----------------- |
-|				| ioHorizontalAwningIOComponent          |
-|				| rtsHorizontalAwningRTSComponent          |
+| Awning		             | io:AwningValanceIOComponent            |
+| :------------------------- | :------------------------------------- |
+|				             | io:HorizontalAwningIOComponent         |
+|				             | rts:HorizontalAwningRTSComponent       |
 
 
