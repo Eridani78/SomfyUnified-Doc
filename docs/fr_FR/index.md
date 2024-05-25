@@ -68,7 +68,7 @@ A suivre ...
 
 ## FAQ
 
-1. **Mon équipement a été créé mais il n’y a aucune commande qui n’apparait ?**<br>
+1. **Mon équipement a été créé mais il n’y a aucune commande qui apparait ?**<br>
 L’équipement n’est pas (encore) intégré dans la base de donnée (BdD) du plugin. A l’aide de l’explorateur de fichier Jeedom, se rendre dans le répertoire: userData/components. Créer une archive .zip du répertoire **undefined** puis la renommer en y ajoutant .txt à la fin. Envoyer ce fichier créer au concepteur du plugin (en MP) afin que l’équipement puisse être inclus à la BdD du plugin SomfyUnified.
 
 2. **Je souhaite piloter des équipements controlés par une box qui ne se trouvent pas sur le même réseau local (LAN) que celui qui gère mon Jeedom.**<br>
@@ -80,3 +80,20 @@ Une configuration classique pourrait être: Somfy TaHoma CLOUD + Somfy TaHoma LO
 
 4. **Sur mon Jeedom, puis-je gérer des équipements Somfy TaHoma qui ne sont pas reconnus par l'API Somfy Local ?.**<br>
 Comme le plugin **SomfyUnified** assure la gestion de tous les serveurs enregistrés, il est possible de gérer ses équipements Somfy TaHoma en local pour profiter des avantages retours d'état immédiats et mode Cloudless et d'avoir accès également via le serveur CLOUD aux autres équipements non reconnus par votre box TaHoma en local.<br>
+
+
+## Liste des équipements en BdD du plugin
+
+L'inclusion des équipements suivant a été réalisée:
+
+| Equipement                 |  Nom technique |
+| :------------------------- | :----------------- |
+
+| Alarm         | internalTSKAlarmComponent             |
+|				| ioAlarmIOComponent            |
+
+| Awning		| ioAwningValanceIOComponent          |
+|				| ioHorizontalAwningIOComponent          |
+|				| rtsHorizontalAwningRTSComponent          |
+
+
