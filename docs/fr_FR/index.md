@@ -89,12 +89,14 @@ L'inclusion des équipements suivant a été réalisée:
 | Equipement                 |  Nom technique |
 | :------------------------- | :----------------- |
 
-| :------------------------- | :----------------- |
+
 | Alarm         | internalTSKAlarmComponent             |
+| :------------------------- | :----------------- |
 |				| ioAlarmIOComponent            |
 
-| :------------------------- | :----------------- |
+
 | Awning		| ioAwningValanceIOComponent          |
+| :------------------------- | :----------------- |
 |				| ioHorizontalAwningIOComponent          |
 |				| rtsHorizontalAwningRTSComponent          |
 
