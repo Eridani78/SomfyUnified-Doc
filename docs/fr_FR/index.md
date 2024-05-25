@@ -33,7 +33,7 @@ Compte-tenu de l'état d'avancement, l'état de validation des différentes fami
 | :------------------------- | :--------: | :-----------------: |
 | Somfy TaHoma Cloud         | cloud      | validé              |
 | Somfy TaHoma Local         | local      | validé              |
-| Atlantic Cozytouch         | cloud      | en attente          |
+| Atlantic Cozytouch         | cloud      | validé              |
 | Brandt Smart Control       | cloud      | en attente          |
 | Flexom                     | cloud      | en attente          |
 | Hexaom HexaConnect         | cloud      | en attente          |
@@ -63,4 +63,4 @@ A suivre ...
 | :-: | :------------------------------------------------------------------------ |
 |     | L’équipement n’est pas (encore) intégré dans la base de donnée (BdD) du plugin. A l’aide de l’explorateur de fichier Jeedom, se rendre dans le répertoire: userData/components. Créer une archive .zip du répertoire **undefined** puis la renommer en y ajoutant .txt à la fin. Envoyer ce fichier créer au concepteur du plugin (en MP) afin que l’équipement puisse être inclus à la BdD du plugin SomfyUnified. |
 | 02  | Je souhaite piloter des équipements controlés par une box qui ne se trouve pas sur mon réseau local (LAN) qui gère mon Jeedom |
-|     | C'est le cas d'équipements situés dans une résidence secondaire par exemple. Oui, cela est possible en gérant vos équipements via le serveur CLOUD. |
+|     | C'est le cas d'équipements situés dans une résidence secondaire par exemple. Oui, cela est possible en gérant vos équipements via le serveur CLOUD associé. |
