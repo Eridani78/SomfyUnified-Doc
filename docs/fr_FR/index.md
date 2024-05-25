@@ -54,7 +54,7 @@ Dans l'état actuel du plugin, les fonctionnalités suivantes sont prévues mais
 2. Le plugin est en langue EN, non encore traduit FR
 3. Pas de widgets spécifiques associés aux commandes. Les widgets du core Jeedom s'appliquent.
 
-1. 
+
 ## Ecosystème Somfy/TaHoma
 
 L'écosystème Somfy TaHoma comprend, à ce jour, de nombreux partenaires et est susceptible de continuer à s'étoffer et évoluer.
