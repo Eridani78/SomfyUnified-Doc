@@ -82,7 +82,7 @@ Si la commande info `serverScenarioTimestamp` contient une date valide (au forma
 La liste des scénarios est mise à jour en même temps que les données Info des équipements (synchronisé par le cron Cloud).
 
 Notes<br>
-TaHoma: seuls les scénarios de type **Manuel** sont remontés par l'API.<br>
+TaHoma Cloud: seuls les scénarios de type **Manuel** sont remontés par l'API.<br>
 TaHoma Local: la gestion des scénarios n'est pas supportée par l'API locale (serveur Local).
 
 
