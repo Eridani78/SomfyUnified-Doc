@@ -51,7 +51,7 @@ Compte-tenu de l'état d'avancement, l'état de validation des différentes fami
 ## Feuille de route
 
 Dans l'état actuel du plugin, les fonctionnalités suivantes sont prévues mais non encore opérationnelles:
-1. Pas de mise à jour "instantée" des commandes Info. Les mises à jour sont toutes les 1 mn pour un serveur LOCAl et 30 mn pour un serveur CLOUD.
+1. La mise à jour "instantée" des commandes Info est en cours d'intégration. Les mises à jour sont toutes les 1 mn pour un serveur LOCAl et 30 mn pour un serveur CLOUD.
 2. Le plugin est en langue EN, la version FR sera bientôt disponible
 3. Pas de widgets spécifiques associés aux commandes. Les widgets du core Jeedom s'appliquent.
 
@@ -81,8 +81,8 @@ Si la commande info `serverScenarioTimestamp` contient une date valide (au forma
 
 La liste des scénarios est mise à jour en même temps que les données Info des équipements (synchronisé par le cron Cloud).
 
-Notes
-TaHoma: seuls les scénarios de type **Manuel** sont remontés par l'API.
+Notes<br>
+TaHoma: seuls les scénarios de type **Manuel** sont remontés par l'API.<br>
 TaHoma Local: la gestion des scénarios n'est pas supportée par l'API locale (serveur Local).
 
 
