@@ -35,23 +35,24 @@ Compte-tenu de l'état d'avancement, l'état de validation des différentes fami
 | Somfy TaHoma Cloud         | cloud      | validé              |
 | Somfy TaHoma Local         | local      | validé              |
 | Atlantic Cozytouch (1)     | cloud      | validé              |
-| Brandt Smart Control       | cloud      | en attente          |
-| Flexom                     | cloud      | en attente          |
-| Hexaom HexaConnect         | cloud      | en attente          |
-| Hitachi Hi Kumo            | cloud      | en attente          |
-| Nexity Eugénie             | cloud      | en attente          |
-| Rexel Energeasy Connect    | cloud      | en attente          |
-| Simu (LiveIn2)             | cloud      | en attente          |
-| Ubiwizz                    | cloud      | en attente          |
+| BFt (EasyAXS)              | cloud      | à confirmer         |
+| Brandt Smart Control       | cloud      | à confirmer         |
+| Flexom                     | cloud      | à confirmer         |
+| Hexaom HexaConnect         | cloud      | à confirmer         |
+| Hitachi Hi Kumo            | cloud      | à confirmer         |
+| Nexity Eugénie             | cloud      | à confirmer         |
+| Rexel Energeasy Connect    | cloud      | à confirmer         |
+| Simu (LiveIn2)             | cloud      | à confirmer         |
+| Ubiwizz                    | cloud      | à confirmer         |
 
-(1) _Atlantic, Sauter, Thermor_
+(1) _Atlantic, Sauter (Gen1), Thermor_
 
 
 ## Feuille de route
 
 Dans l'état actuel du plugin, les fonctionnalités suivantes sont prévues mais non encore opérationnelles:
 1. Pas de mise à jour "instantée" des commandes Info. Les mises à jour sont toutes les 1 mn pour un serveur LOCAl et 30 mn pour un serveur CLOUD.
-2. Le plugin est en langue EN, non encore traduit FR
+2. Le plugin est en langue EN, la version FR sera bientôt disponible
 3. Pas de widgets spécifiques associés aux commandes. Les widgets du core Jeedom s'appliquent.
 
 
@@ -69,6 +70,20 @@ Afin de s'adapter au mieux à une telle diversité de commandes ou données pote
 ## API locale Somfy
 
 A suivre ...
+
+
+## Gestion des Scénarios (App)
+
+Si des scénarios ont été programmés au niveau de l'app  constructeur, le plugin permet de les exécuter.
+Pour chaque serveur, la liste des scénarios se trouve dans l'équipement `serverScenarios_server` et sous forme d'une liste dans la commande `serverScenarioList`.
+Si la commande info `serverScenarioTimestamp` est égale à 0 ou contient une date Timestamp non valide, c'est à dire, correspondant à une date passée par rapport à maintenant, le scénario sera déclanché immédiatement.
+Si la commande info `serverScenarioTimestamp` contient une date valide (au format Unix Timestamp), le scénario sera alors déclanché à cette date (fonctionnalité non validée).
+
+La liste des scénarios est mise à jour en même temps que les données Info des équipements (synchronisé par le cron Cloud).
+
+Notes
+TaHoma: seuls les scénarios de type **Manuel** sont remontés par l'API.
+TaHoma Local: la gestion des scénarios n'est pas supportée par l'API locale (serveur Local).
 
 
 ## FAQ
