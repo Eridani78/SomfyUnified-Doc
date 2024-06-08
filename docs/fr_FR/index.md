@@ -139,6 +139,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | io:OtherElectricalEnergyConsumptionSensor                               |
 |				             | io:PlugsElectricalEnergyConsumptionSensor                               |
 |				             | io:TotalElectricalEnergyConsumptionIOSystemSensor                       |
+| ExteriorScreen		     | io:VerticalExteriorAwningIOComponent                                    |
 | GarageDoor		         | io:DiscreteGarageOpenerIOComponent                                      |
 | Gate		                 | io:SlidingDiscreteFullyPedestriableGateOpenerIOComponent                |
 | HeatingSystem		         | io:AtlanticElectricalHeaterIOComponent                                  |
