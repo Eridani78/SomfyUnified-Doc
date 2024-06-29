@@ -31,7 +31,31 @@ Le retour d'état est opérationnel quelque soit le type de serveur, cloud et lo
 
 (1) _Sauf si l'information n'était pas mise à disposition par le serveur_
 
-- 
+### Gestion des Scénarios (App)
+
+Si des scénarios ont été programmés au niveau de l'app  constructeur, le plugin permet de les exécuter.
+Pour chaque serveur, la liste des scénarios se trouve dans l'équipement `serverScenarios_server` et sous forme d'une liste dans la commande `serverScenarioList`.
+Si la commande info `serverScenarioTimestamp` est égale à 0 ou contient une date Timestamp non valide, c'est à dire, correspondant à une date passée par rapport à maintenant, le scénario sera déclanché immédiatement.
+Si la commande info `serverScenarioTimestamp` contient une date valide (au format Unix Timestamp), le scénario sera alors déclanché à cette date.
+
+La liste des scénarios est mise à jour en même temps que les données Info des équipements (synchronisé par le cron Cloud).
+
+Notes<br>
+TaHoma Cloud: seuls les scénarios de type **Manuel** sont remontés par l'API.<br>
+TaHoma Local: la gestion des scénarios n'est pas supportée par l'API locale (serveur Local).
+
+### Adaptabilité et évolutivité à l'écosystème
+
+L'écosystème géré par le plugin **SomfyUnified** comprend, à ce jour, de nombreux partenaires et est susceptible de continuer à s'étoffer et évoluer.<br>
+Cela signifie qu'une box des familles de l'écosystème (TaHoma, Cozytouch, ...) peut s'interfacer à de nombreux dispositifs très différents les uns des autres pour les piloter.
+On trouve actuellement dans l'écosystèmes le contrôle de dispositifs tels que des systèmes de controle d'ouverture ou fermeture d'ouvrants (volets roulants, portes, stores, ...), des systèmes d'alarme, des systèmes de chauffage et climatisation, ...<br>
+
+L'absence de documentation de la part de Somfy sur les commandes des dispositifs rend la syntaxe de ces opérations particulièrement difficile à anticiper et implémenter dans un plugin et ce, à priori.<br>
+
+Afin de s'adapter à une telle diversité de commandes ou données potentielles, le plugin gère les différents équipements à partir de fichiers de configurations propres à chaque équipement.<br>
+
+La liste des équipements dont le fichier de configuration est intégré au plugin est donnée en fin de ce document.
+
 ### Compatibilité
 
 Le plugin **SomfyUnified** est compatible des systèmes fonctionnant sous Debian 10, 11 & 12.
@@ -65,20 +89,8 @@ Compte-tenu de l'état d'avancement, l'état de validation des différentes fami
 ## Feuille de route
 
 Dans l'état actuel du plugin, les fonctionnalités suivantes sont prévues mais non encore opérationnelles:
-1. La mise à jour "instantée" des commandes Info est en cours d'intégration. Les mises à jour sont toutes les 1 mn pour un serveur LOCAl et 30 mn pour un serveur CLOUD.
-2. Le plugin est en langue EN, la version FR sera bientôt disponible
-3. Pas de widgets spécifiques associés aux commandes. Les widgets du core Jeedom s'appliquent.
-
-
-## Ecosystème Somfy/TaHoma
-
-L'écosystème Somfy TaHoma comprend, à ce jour, de nombreux partenaires et est susceptible de continuer à s'étoffer et évoluer.
-Cela signifie qu'une box des familles de l'écosystème (TaHoma, Cozytouch, ...) peut s'interfacer à de nombreux dispositifs très différents les uns des autres pour les piloter.
-On trouve actuellement dans l'écosystèmes Somfy le contrôle de dispositifs tels que des systèmes de controle d'ouverture ou fermeture d'ouvrants (volets roulants, portes, stores, ...), des systèmes d'alarme, des systèmes de chauffage et climatisation, ...
-
-L'absence de documentation de la part de Somfy sur les commandes des dispositifs rend la syntaxe de ces opérations particulièrement difficile à anticiper et implémenter dans un plugin et ce, à priori.
-
-Afin de s'adapter à une telle diversité de commandes ou données potentielles, le plugin gère les différents équipements à partir de fichiers de configurations propres à chaque équipement.
+1. Le plugin est en langue EN, la version FR sera bientôt disponible
+2. Pas de widgets spécifiques associés aux commandes. Les widgets du core Jeedom s'appliquent.
 
 
 ## API locale Somfy
@@ -86,18 +98,8 @@ Afin de s'adapter à une telle diversité de commandes ou données potentielles,
 L'utilisation du serveur local de votre gateway Somfy nécessite que vous ayez au préalable créé un Token d'authentification à partir de la page du plugin prévue à cet effet.
 
 
-## Gestion des Scénarios (App)
-
-Si des scénarios ont été programmés au niveau de l'app  constructeur, le plugin permet de les exécuter.
-Pour chaque serveur, la liste des scénarios se trouve dans l'équipement `serverScenarios_server` et sous forme d'une liste dans la commande `serverScenarioList`.
-Si la commande info `serverScenarioTimestamp` est égale à 0 ou contient une date Timestamp non valide, c'est à dire, correspondant à une date passée par rapport à maintenant, le scénario sera déclanché immédiatement.
-Si la commande info `serverScenarioTimestamp` contient une date valide (au format Unix Timestamp), le scénario sera alors déclanché à cette date.
-
-La liste des scénarios est mise à jour en même temps que les données Info des équipements (synchronisé par le cron Cloud).
-
-Notes<br>
-TaHoma Cloud: seuls les scénarios de type **Manuel** sont remontés par l'API.<br>
-TaHoma Local: la gestion des scénarios n'est pas supportée par l'API locale (serveur Local).
+## Rafraichissements périodiques
+Le rafraichissement de l'ensemble des données équipement s'effectue toutes les 1 mn pour un serveur LOCAL et 30 mn pour un serveur CLOUD.
 
 
 ## Utilisation des Logs
@@ -111,9 +113,10 @@ Lors du fonctionnement normal, positionner les Logs en mode `Defaut`.
 En fonctionnement normal, les Crons `cron` et `cron30` doivent être cochés.
 
 
-## Utilisation des command user
+## Utilisation des commandes user
 
 ...
+
 
 ## FAQ
 
