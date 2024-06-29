@@ -8,6 +8,7 @@ Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom 
 - Somfy TaHoma Cloud
 - Somfy TaHoma Local
 - Atlantic Cozytouch
+- Thermor Cozytouch
 - Brandt Smart Control
 - Flexom
 - Hexaom HexaConnect
@@ -18,7 +19,20 @@ Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom 
 - Ubiwizz
 
 
-## Compatibilité
+## Caractéristiques
+### Gestion multi-serveurs
+
+Basé sur une gestion multi-serveurs, le plugin **SomfyUnified** remonte, crée et gère la totalité des commandes et informations disponibles auprès des serveurs enregistrés et configurés par l'utilisateur.
+
+### Retour d'état instantané
+En fonctionnement opérationnel, la prise en compte d'une commande reçue par l'équipement sera suivie par une **mise à jour instantanée** de l'état/info correspondant (1).<br>
+Ce retour d'état instantané assure à l'utilisateur un réel confort d'utilisation et de programmation de ses équipements.<br>
+Le retour d'état est opérationnel quelque soit le type de serveur, cloud et local.
+
+(1) _Sauf si l'information n'était pas mise à disposition par le serveur_
+
+- 
+### Compatibilité
 
 Le plugin **SomfyUnified** est compatible des systèmes fonctionnant sous Debian 10, 11 & 12.
 
@@ -34,7 +48,7 @@ Compte-tenu de l'état d'avancement, l'état de validation des différentes fami
 | :------------------------- | :--------: | :-----------------: |
 | Somfy TaHoma Cloud         | cloud      | validé              |
 | Somfy TaHoma Local         | local      | validé              |
-| Atlantic Cozytouch (1)     | cloud      | validé              |
+| Cozytouch (2)              | cloud      | validé              |
 | BFt (EasyAXS)              | cloud      | à confirmer         |
 | Brandt Smart Control       | cloud      | à confirmer         |
 | Flexom                     | cloud      | à confirmer         |
@@ -45,7 +59,7 @@ Compte-tenu de l'état d'avancement, l'état de validation des différentes fami
 | Simu (LiveIn2)             | cloud      | à confirmer         |
 | Ubiwizz                    | cloud      | à confirmer         |
 
-(1) _Atlantic, Sauter (Gen1), Thermor_
+(2) _Atlantic, Sauter (Gen1), Thermor_
 
 
 ## Feuille de route
@@ -64,12 +78,12 @@ On trouve actuellement dans l'écosystèmes Somfy le contrôle de dispositifs te
 
 L'absence de documentation de la part de Somfy sur les commandes des dispositifs rend la syntaxe de ces opérations particulièrement difficile à anticiper et implémenter dans un plugin et ce, à priori.
 
-Afin de s'adapter au mieux à une telle diversité de commandes ou données potentielles, deux modes de fonctionnement du plugin ont du être implémenté.
+Afin de s'adapter à une telle diversité de commandes ou données potentielles, le plugin gère les différents équipements à partir de fichiers de configurations propres à chaque équipement.
 
 
 ## API locale Somfy
 
-A suivre ...
+L'utilisation du serveur local de votre gateway Somfy nécessite que vous ayez au préalable créé un Token d'authentification à partir de la page du plugin prévue à cet effet.
 
 
 ## Gestion des Scénarios (App)
@@ -77,7 +91,7 @@ A suivre ...
 Si des scénarios ont été programmés au niveau de l'app  constructeur, le plugin permet de les exécuter.
 Pour chaque serveur, la liste des scénarios se trouve dans l'équipement `serverScenarios_server` et sous forme d'une liste dans la commande `serverScenarioList`.
 Si la commande info `serverScenarioTimestamp` est égale à 0 ou contient une date Timestamp non valide, c'est à dire, correspondant à une date passée par rapport à maintenant, le scénario sera déclanché immédiatement.
-Si la commande info `serverScenarioTimestamp` contient une date valide (au format Unix Timestamp), le scénario sera alors déclanché à cette date (fonctionnalité non validée).
+Si la commande info `serverScenarioTimestamp` contient une date valide (au format Unix Timestamp), le scénario sera alors déclanché à cette date.
 
 La liste des scénarios est mise à jour en même temps que les données Info des équipements (synchronisé par le cron Cloud).
 
@@ -85,6 +99,21 @@ Notes<br>
 TaHoma Cloud: seuls les scénarios de type **Manuel** sont remontés par l'API.<br>
 TaHoma Local: la gestion des scénarios n'est pas supportée par l'API locale (serveur Local).
 
+
+## Utilisation des Logs
+
+Attention, les Logs `Debug` et `Info` génèrent beaucoup d'informations. Ces modes ne sont à utiliser que pour entrer en analyse du plugin et pendant des courtes périodes.<br>
+Lors du fonctionnement normal, positionner les Logs en mode `Defaut`.
+
+
+## Crons
+
+En fonctionnement normal, les Crons `cron` et `cron30` doivent être cochés.
+
+
+## Utilisation des command user
+
+...
 
 ## FAQ
 
@@ -98,11 +127,11 @@ Créer une archive .zip du répertoire **undefined** puis la renommer en y ajout
 C'est le cas d'équipements situés dans une résidence secondaire par exemple. Oui, cela est possible en gérant vos équipements via le serveur CLOUD associé. Dans ce cas, votre box n'apparaitra pas dans le panel "Local IoT Gateways".
 
 3. **Puis-je enregistrer et gérer plusieurs serveurs avec mon plugin SomfyUnified ?.**<br>
-Oui, le plugin **SomfyUnified** assure la gestion de tous les serveurs enregistrés par l'utilisateur et choisis dans la liste du menu "Manage Servers".<br>
+Oui, le plugin **SomfyUnified** assure la gestion de tous les serveurs enregistrés par l'utilisateur et choisis dans la liste du menu "Manage Servers" et correctement configurés.<br>
 Une configuration classique pourrait être: Somfy TaHoma CLOUD + Somfy TaHoma LOCAL + Cozytouch CLOUD.
 
 4. **Sur mon Jeedom, puis-je gérer des équipements Somfy TaHoma qui ne sont pas reconnus par l'API Somfy Local ?.**<br>
-Comme le plugin **SomfyUnified** assure la gestion de tous les serveurs enregistrés, il est possible de gérer ses équipements Somfy TaHoma en local pour profiter des avantages retours d'état immédiats et mode Cloudless et d'avoir accès également via le serveur CLOUD aux autres équipements non reconnus par votre box TaHoma en local.<br>
+Comme le plugin **SomfyUnified** assure la gestion de tous les serveurs enregistrés, il est possible de gérer ses équipements Somfy TaHoma en local pour profiter de l'avantages mode Cloudless et d'avoir accès également via le serveur CLOUD aux autres équipements non reconnus par votre box TaHoma en local.<br>
 
 
 ## Liste des équipements en BdD du plugin
