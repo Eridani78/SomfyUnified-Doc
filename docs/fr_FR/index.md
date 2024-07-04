@@ -2,7 +2,7 @@
 <img src="/docs/assets/images/SomfyUnified-Image.png" alt="" style="height: 40%; width:40%;"/>
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
-_Applicable version 1.1.0_
+_Applicable version 1.1.1_
 
 
 ## Presentation
@@ -182,6 +182,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | io:AtlanticPassAPCHeatingZoneComponent                                  |
 |				             | io:AtlanticPassAPCZoneControlMainComponent                              |
 |				             | io:AtlanticPassAPCZoneControlZoneComponent                              |
+|				             | ogp:HvacZone                                                            |
 | HumiditySensor		     | netatmo:HumidityComponent                                               |
 | Light         		     | hue:ColorTemperatureLightBulbHUEComponent                               |
 |				             | hue:ExtendedColorLightCandleHUEComponent                                |
@@ -207,8 +208,10 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | zigbee:TransceiverV3_0Component                                         |
 | RemoteController       	 | io:KeygoController                                                      |
 | RollerShutter       	     | io:RollerShutterGenericIOComponent                                      |
+|				             | io:RollerShutterVeluxIOComponent                                        |
 |				             | io:RollerShutterWithBatterySomfyIOComponent                             |
 |				             | io:RollerShutterWithLowSpeedManagementIOComponent                       |
+| Screen          	         | io:VerticalInteriorBlindVeluxIOComponent                                |
 | SmokeSensor       	     | io:SomfySmokeIOSystemSensor                                             |
 | TemperatureSensor      	 | netatmo:TemperatureComponent                                            |
 |				             | io:AtlanticPassAPCOutsideTemperatureSensor                              |
