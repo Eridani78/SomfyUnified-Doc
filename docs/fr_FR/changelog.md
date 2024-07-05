@@ -13,7 +13,7 @@
 - Ajout équipements en BDD
 
 # 03/07/2024 - v1.1.1 beta & stable
-- Améliorations
+- Améliorations sur page equipement
 
 # 26/06/2024 - v1.1.0 beta & stable
 - Fonction Daemon
