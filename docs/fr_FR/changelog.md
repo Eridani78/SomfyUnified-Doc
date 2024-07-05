@@ -8,6 +8,7 @@
 
 # 05/07/2024 - v1.1.2 beta & stable
 - Correction d'un bug empêchant la prise en compte des valeurs décimales
+- Ajout équipements en BDD
 
 # 04/07/2024 - v1.1.1 beta & stable
 - Ajout équipements en BDD
