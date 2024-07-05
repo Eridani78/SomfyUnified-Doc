@@ -2,7 +2,7 @@
 <img src="/docs/assets/images/SomfyUnified-Image.png" alt="" style="height: 40%; width:40%;"/>
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
-_Applicable version 1.1.1_
+_Applicable version 1.1.2_
 
 
 ## Presentation
@@ -191,6 +191,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | hue:GenericExtendedColorLightHUEComponent                               | Philps Hue             |
 |				             | io:DimmableLightIOComponent                                             |                        |
 |				             | io:OnOffLightIOComponent                                                |                        |
+|				             | rts:LightRTSComponent                                                   |                        |
 | LightSensor         	     | io:LightIOSystemSensor                                                  |                        |
 | MusicPlayer         	     | ogp:AudioPlayer                                                         |                        |
 | NoiseSensor         	     | netatmo:NoiseComponent                                                  | Legrand Netatmo        |
@@ -207,12 +208,14 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | zigbee:StackV3Component                                                 |                        |
 |				             | zigbee:TransceiverV3_0Component                                         |                        |
 | RemoteController       	 | io:KeygoController                                                      |                        |
+|				             | rtds:RTDSRemoteControllerComponent                                      |                        |
 | RollerShutter       	     | io:RollerShutterGenericIOComponent                                      |                        |
 |				             | io:RollerShutterVeluxIOComponent                                        |                        |
 |				             | io:RollerShutterWithBatterySomfyIOComponent                             |                        |
 |				             | io:RollerShutterWithLowSpeedManagementIOComponent                       | Somfy                  |
 | Screen          	         | io:VerticalInteriorBlindVeluxIOComponent                                |                        |
 | SmokeSensor       	     | io:SomfySmokeIOSystemSensor                                             | Somfy                  |
+| SwingingShutter       	 | rts:SwingingShutterRTSComponent                                         |                        |
 | TemperatureSensor      	 | netatmo:TemperatureComponent                                            | Legrand Netatmo        |
 |				             | io:AtlanticPassAPCOutsideTemperatureSensor                              | Atlantic               |
 |				             | io:AtlanticPassAPCZoneTemperatureSensor                                 | Atlantic               |
@@ -222,3 +225,4 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | io:AtlanticPassAPCDHWComponent                                          | Atlantic               |
 |				             | io:DomesticHotWaterTankComponent                                        |                        |
 | Wifi       	             | internal:WifiComponent                                                  |                        |
+| Window       	             | io:WindowOpenerVeluxIOComponent                                         | Velux                  |
