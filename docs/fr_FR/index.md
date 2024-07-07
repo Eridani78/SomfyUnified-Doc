@@ -3,6 +3,7 @@
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
 _Applicable version 1.1.2_
+_Updated 2024 0707_
 
 
 ## Presentation
@@ -175,7 +176,9 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | io:TotalElectricalEnergyConsumptionIOSystemSensor                       |                        |
 | ExteriorScreen		     | io:VerticalExteriorAwningIOComponent                                    |                        |
 | GarageDoor		         | io:DiscreteGarageOpenerIOComponent                                      |                        |
+|				             | io:GarageOpenerIOComponent                                              |                        |
 | Gate		                 | io:SlidingDiscreteFullyPedestriableGateOpenerIOComponent                |                        |
+|				             | rts:SlidingGateOpenerRTSComponent                                       |                        |
 | HeatingSystem		         | io:AtlanticElectricalHeaterIOComponent                                  | Atlantic               |
 |				             | io:AtlanticElectricalHeaterWithAdjustableTemperatureSetpointIOComponent | Atlantic               |
 |				             | io:AtlanticPassAPCBoilerMainComponent                                   | Atlantic               |
