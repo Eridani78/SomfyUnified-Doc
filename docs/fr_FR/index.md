@@ -3,7 +3,7 @@
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
 _Applicable version 1.1.2_<br>
-_Updated 2024 0707_
+_Updated 2024 0728_
 
 
 ## Presentation
@@ -17,7 +17,7 @@ Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom 
 - Hexaom HexaConnect
 - Hitachi Hi Kumo
 - Nexity Eugénie
-- Rexel Energeasy Connect
+- ~~Rexel Energeasy Connect~~ (ce serveur n'est plus supporté)
 - Simu (LiveIn2)
 - Ubiwizz
 
