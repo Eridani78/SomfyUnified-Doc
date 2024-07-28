@@ -82,7 +82,6 @@ Compte-tenu de l'état d'avancement, l'état de validation des différentes fami
 | Hexaom HexaConnect         | cloud      | à confirmer         |
 | Hitachi Hi Kumo            | cloud      | à confirmer         |
 | Nexity Eugénie             | cloud      | à confirmer         |
-| Rexel Energeasy Connect    | cloud      | à confirmer         |
 | Simu (LiveIn2)             | cloud      | à confirmer         |
 | Ubiwizz                    | cloud      | à confirmer         |
 
