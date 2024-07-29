@@ -17,7 +17,7 @@ Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom 
 - Hexaom HexaConnect
 - Hitachi Hi Kumo
 - Nexity Eugénie
-- ~~Rexel Energeasy Connect~~ (Changement d'API. Ce serveur n'est plus supporté)
+- ~~Rexel Energeasy Connect~~ (Changement d'API, ce serveur n'est plus supporté)
 - Simu (LiveIn2)
 - Ubiwizz
 
