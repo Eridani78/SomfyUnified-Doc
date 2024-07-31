@@ -2,8 +2,8 @@
 <img src="/docs/assets/images/SomfyUnified-Image.png" alt="" style="height: 40%; width:40%;"/>
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
-_Applicable version 1.1.2_<br>
-_Updated 2024 0728_
+_Applicable version 1.1.3_<br>
+_Updated 2024 0731_
 
 
 ## Presentation
@@ -226,5 +226,6 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 | WaterHeatingSystem      	 | io:AtlanticDomesticHotWaterProductionV2_CETHI_V4_IOComponent            | Atlantic               |
 |				             | io:AtlanticPassAPCDHWComponent                                          | Atlantic               |
 |				             | io:DomesticHotWaterTankComponent                                        |                        |
+|				             | modbuslink:AtlanticDomesticHotWaterProductionMBLComponent               |                        |
 | Wifi       	             | internal:WifiComponent                                                  |                        |
 | Window       	             | io:WindowOpenerVeluxIOComponent                                         | Velux                  |
