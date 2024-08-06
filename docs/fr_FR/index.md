@@ -3,7 +3,7 @@
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
 _Applicable version 1.1.3_<br>
-_Updated 2024 0731_
+_Updated 2024 0806_
 
 
 ## Presentation
@@ -186,6 +186,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | io:AtlanticPassAPCZoneControlZoneComponent                              | Atlantic               |
 |				             | ogp:HvacZone                                                            | Daikin                 |
 | HumiditySensor		     | netatmo:HumidityComponent                                               | Legrand Netatmo        |
+|				             | zigbee:RelativeHumidityComponent                                        |                        |
 | Light         		     | hue:ColorTemperatureLightBulbHUEComponent                               | Philps Hue             |
 |				             | hue:ExtendedColorLightCandleHUEComponent                                | Philps Hue             |
 |				             | hue:GenericColorTemperatureLightHUEComponent                            | Philps Hue             |
@@ -223,6 +224,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | io:AtlanticPassAPCZoneTemperatureSensor                                 | Atlantic               |
 |				             | io:TemperatureInCelciusIOSystemDeviceSensor                             |                        |
 |				             | io:TemperatureIOSystemSensor                                            |                        |
+|				             | zigbee:TemperatureSensorComponent                                       |                        |
 | WaterHeatingSystem      	 | io:AtlanticDomesticHotWaterProductionV2_CETHI_V4_IOComponent            | Atlantic               |
 |				             | io:AtlanticPassAPCDHWComponent                                          | Atlantic               |
 |				             | io:DomesticHotWaterTankComponent                                        |                        |
