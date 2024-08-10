@@ -3,7 +3,7 @@
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
 _Applicable version 1.1.3_<br>
-_Updated 2024 0806_
+_Updated 2024 0810_
 
 
 ## Presentation
@@ -176,6 +176,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 | ExteriorScreen		     | io:VerticalExteriorAwningIOComponent                                    |                        |
 | GarageDoor		         | io:DiscreteGarageOpenerIOComponent                                      |                        |
 |				             | io:GarageOpenerIOComponent                                              |                        |
+|				             | ogp:GarageDoor                                                          |                        |
 | Gate		                 | io:SlidingDiscreteFullyPedestriableGateOpenerIOComponent                |                        |
 |				             | rts:SlidingGateOpenerRTSComponent                                       |                        |
 | HeatingSystem		         | io:AtlanticElectricalHeaterIOComponent                                  | Atlantic               |
@@ -194,6 +195,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | hue:GenericExtendedColorLightHUEComponent                               | Philps Hue             |
 |				             | io:DimmableLightIOComponent                                             |                        |
 |				             | io:OnOffLightIOComponent                                                |                        |
+|				             | ogp:Light                                                               |                        |
 |				             | rts:LightRTSComponent                                                   |                        |
 | LightSensor         	     | io:LightIOSystemSensor                                                  |                        |
 | MusicPlayer         	     | ogp:AudioPlayer                                                         |                        |
@@ -208,6 +210,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | hue:BridgeHUEV2Component                                                | Philps Hue             |
 |				             | io:StackComponent                                                       |                        |
 |				             | ogp:Bridge                                                              |                        |
+|				             | ogp:Gateway                                                             |                        |
 |				             | zigbee:StackV3Component                                                 |                        |
 |				             | zigbee:TransceiverV3_0Component                                         |                        |
 | RemoteController       	 | io:KeygoController                                                      |                        |
