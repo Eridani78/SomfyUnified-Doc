@@ -3,7 +3,7 @@
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
 _Applicable version 1.1.3_<br>
-_Updated 2024 0810_
+_Updated 2024 0812_
 
 
 ## Presentation
@@ -220,6 +220,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | io:RollerShutterWithBatterySomfyIOComponent                             |                        |
 |				             | io:RollerShutterWithLowSpeedManagementIOComponent                       | Somfy                  |
 | Screen          	         | io:VerticalInteriorBlindVeluxIOComponent                                |                        |
+| Shutter          	         | ogp:Shutter                                                             |                        |
 | SmokeSensor       	     | io:SomfySmokeIOSystemSensor                                             | Somfy                  |
 | SwingingShutter       	 | rts:SwingingShutterRTSComponent                                         |                        |
 | TemperatureSensor      	 | netatmo:TemperatureComponent                                            | Legrand Netatmo        |
