@@ -3,7 +3,7 @@
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
 _Applicable version 1.1.3_<br>
-_Updated 2024 0812_
+_Updated 2024 0813_
 
 
 ## Presentation
@@ -173,6 +173,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | io:OtherElectricalEnergyConsumptionSensor                               |                        |
 |				             | io:PlugsElectricalEnergyConsumptionSensor                               |                        |
 |				             | io:TotalElectricalEnergyConsumptionIOSystemSensor                       |                        |
+|				             | modbuslink:DHWCumulatedElectricalEnergyConsumptionMBLSystemDeviceSensor |                        |
 | ExteriorScreen		     | io:VerticalExteriorAwningIOComponent                                    |                        |
 | GarageDoor		         | io:DiscreteGarageOpenerIOComponent                                      |                        |
 |				             | io:GarageOpenerIOComponent                                              |                        |
@@ -202,9 +203,12 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 | NoiseSensor         	     | netatmo:NoiseComponent                                                  | Legrand Netatmo        |
 | OccupancySensor       	 | io:OccupancyIOSystemDeviceSensor                                        |                        |
 | OnOff       	             | io:OnOffIOComponent                                                     |                        |
+| Pergola      	             | io:SimpleBioclimaticPergolaIOComponent                                  |                        |
 | Pod       	             | internal:PodMiniComponent                                               |                        |
 |				             | internal:PodV2Component                                                 |                        |
 |				             | internal:PodV3Component                                                 |                        |
+|				             | internal:UPodComponent                                                  |                        |
+|				             | internal:UPodNetWorkComponent                                           |                        |
 | ProtocolGateway       	 | enocean:TransceiverEnoceanComponent                                     |                        |
 |				             | homekit:StackComponent                                                  |                        |
 |				             | hue:BridgeHUEV2Component                                                | Philps Hue             |
@@ -229,7 +233,8 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | io:TemperatureInCelciusIOSystemDeviceSensor                             |                        |
 |				             | io:TemperatureIOSystemSensor                                            |                        |
 |				             | zigbee:TemperatureSensorComponent                                       |                        |
-| WaterHeatingSystem      	 | io:AtlanticDomesticHotWaterProductionV2_CETHI_V4_IOComponent            | Atlantic               |
+| WaterHeatingSystem      	 | io:AtlanticDomesticHotWaterProductionV2_AEX_IOComponent                 | Atlantic               |
+|                        	 | io:AtlanticDomesticHotWaterProductionV2_CETHI_V4_IOComponent            | Atlantic               |
 |				             | io:AtlanticPassAPCDHWComponent                                          | Atlantic               |
 |				             | io:DomesticHotWaterTankComponent                                        |                        |
 |				             | modbuslink:AtlanticDomesticHotWaterProductionMBLComponent               |                        |
