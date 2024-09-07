@@ -2,8 +2,8 @@
 <img src="/docs/assets/images/SomfyUnified-Image.png" alt="" style="height: 40%; width:40%;"/>
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
-_Applicable version 1.1.3_<br>
-_Updated 2024 0813_
+_Applicable version 1.2.0_<br>
+_Updated 2024 0907_
 
 
 ## Presentation
@@ -97,7 +97,9 @@ Dans l'état actuel du plugin, les fonctionnalités suivantes sont prévues mais
 
 ## API locale Somfy
 
-L'utilisation du serveur local de votre gateway Somfy nécessite que vous ayez au préalable créé un Token d'authentification à partir de la page du plugin prévue à cet effet.
+L'utilisation du serveur local de votre gateway Somfy nécessite que vous ayez au préalable créé un Token d'authentification à partir de la page du plugin prévue à cet effet.<br>
+La gateway Somfy a la capacité d'enregistrer et de conserver plusieurs tokens.<br>
+Le plugin propose les fonctionalités de gestion des token de votre gateway (création avec label utilisateur, suppression).
 
 
 ## Rafraichissements périodiques
