@@ -6,6 +6,9 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 08/09/2024 - v1.2.0 beta & stable
+- Ajout équipements en BDD
+
 # 07/09/2024 - v1.2.0 beta & stable
 - Somfy local: possibilité de supprimer les token (tous types) dans box Somfy
 - Pure Java Script (no JQuery) (partiel)
