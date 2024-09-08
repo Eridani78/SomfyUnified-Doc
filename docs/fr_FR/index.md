@@ -3,7 +3,7 @@
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
 _Applicable version 1.2.0_<br>
-_Updated 2024 0907_
+_Updated 2024 0908_
 
 
 ## Presentation
@@ -151,6 +151,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | io:AlarmIOComponent                                                     |                        |
 | Awning		             | io:AwningValanceIOComponent                                             |                        |
 |				             | io:HorizontalAwningIOComponent                                          |                        |
+|				             | ogp:Awning                                                              |                        |
 |				             | rts:HorizontalAwningRTSComponent                                        |                        |
 | CarbonDioxideSensor		 | netatmo:CO2Component                                                    | Legrand Netatmo        |
 | ConfigurationComponent     | netatmo:ConfigurationComponent                                          | Legrand Netatmo        |
