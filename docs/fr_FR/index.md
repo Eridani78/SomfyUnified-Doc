@@ -3,7 +3,7 @@
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
 _Applicable version 1.2.0_<br>
-_Updated 2024 0908_
+_Updated 2024 0909_
 
 
 ## Presentation
@@ -12,7 +12,7 @@ Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom 
 - Somfy TaHoma Local
 - Atlantic Cozytouch
 - Thermor Cozytouch
-- Brandt Smart Control
+- ~~Brandt Smart Control~~ (Changement d'API, ce serveur n'est plus supporté)
 - Flexom
 - Hexaom HexaConnect
 - Hitachi Hi Kumo
