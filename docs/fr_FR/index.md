@@ -3,7 +3,7 @@
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
 _Applicable version 1.2.0_<br>
-_Updated 2024 0909_
+_Updated 2024 0910_
 
 
 ## Presentation
