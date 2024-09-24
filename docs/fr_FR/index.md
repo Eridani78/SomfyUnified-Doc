@@ -3,7 +3,7 @@
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
 _Applicable version 1.2.0_<br>
-_Updated 2024 0910_
+_Updated 2024 0924_
 
 
 ## Presentation
@@ -73,11 +73,10 @@ Compte-tenu de l'état d'avancement, l'état de validation des différentes fami
 
 | Equipement                 |  Type API  |  Etat de validation |
 | :------------------------- | :--------: | :-----------------: |
-| Somfy TaHoma Cloud         | cloud      | validé              |
+| Somfy TaHoma Cloud (2)     | cloud      | validé              |
 | Somfy TaHoma Local         | local      | validé              |
-| Cozytouch (2)              | cloud      | validé              |
+| Cozytouch (3)              | cloud      | validé              |
 | BFt (EasyAXS)              | cloud      | à confirmer         |
-| Brandt Smart Control       | cloud      | à confirmer         |
 | Flexom                     | cloud      | à confirmer         |
 | Hexaom HexaConnect         | cloud      | à confirmer         |
 | Hitachi Hi Kumo            | cloud      | à confirmer         |
@@ -85,7 +84,8 @@ Compte-tenu de l'état d'avancement, l'état de validation des différentes fami
 | Simu (LiveIn2)             | cloud      | à confirmer         |
 | Ubiwizz                    | cloud      | à confirmer         |
 
-(2) _Atlantic, Sauter (Gen1), Thermor_
+(2) _Daikin (via Somfy)_<br>
+(3) _Atlantic, Sauter (Gen1), Thermor_
 
 
 ## Feuille de route
@@ -226,6 +226,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | io:RollerShutterVeluxIOComponent                                        |                        |
 |				             | io:RollerShutterWithBatterySomfyIOComponent                             |                        |
 |				             | io:RollerShutterWithLowSpeedManagementIOComponent                       | Somfy                  |
+|				             | rts:RollerShutterRTSComponent                                           | Somfy                  |
 | Screen          	         | io:VerticalInteriorBlindVeluxIOComponent                                |                        |
 | Shutter          	         | ogp:Shutter                                                             |                        |
 | SmokeSensor       	     | io:SomfySmokeIOSystemSensor                                             | Somfy                  |
