@@ -3,7 +3,7 @@
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
 _Applicable version 1.2.0_<br>
-_Updated 2024 0924_
+_Updated 2024 0930_
 
 
 ## Presentation
@@ -84,7 +84,7 @@ Compte-tenu de l'état d'avancement, l'état de validation des différentes fami
 | Simu (LiveIn2)             | cloud      | à confirmer         |
 | Ubiwizz                    | cloud      | à confirmer         |
 
-(2) _Daikin (via Somfy)_<br>
+(2) _Daikin, Velux (via Somfy)_<br>
 (3) _Atlantic, Sauter (Gen1), Thermor_
 
 
@@ -207,6 +207,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 | OccupancySensor       	 | io:OccupancyIOSystemDeviceSensor                                        |                        |
 | OnOff       	             | io:OnOffIOComponent                                                     |                        |
 | Pergola      	             | io:SimpleBioclimaticPergolaIOComponent                                  |                        |
+|				             | ogp:Pergola                                                             |                        |
 | Pod       	             | internal:PodMiniComponent                                               |                        |
 |				             | internal:PodV2Component                                                 |                        |
 |				             | internal:PodV3Component                                                 |                        |
