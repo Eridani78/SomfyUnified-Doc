@@ -3,7 +3,7 @@
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
 _Applicable version 1.2.0_<br>
-_Updated 2024 0930_
+_Updated 2024 1002_
 
 
 ## Presentation
@@ -237,6 +237,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | io:AtlanticPassAPCZoneTemperatureSensor                                 | Atlantic               |
 |				             | io:TemperatureInCelciusIOSystemDeviceSensor                             |                        |
 |				             | io:TemperatureIOSystemSensor                                            |                        |
+|				             | ogp:TemperatureSensor                                                   | Daikin                 |
 |				             | zigbee:TemperatureSensorComponent                                       |                        |
 | WaterHeatingSystem      	 | io:AtlanticDomesticHotWaterProductionV2_AEX_IOComponent                 | Atlantic               |
 |                        	 | io:AtlanticDomesticHotWaterProductionV2_CETHI_V4_IOComponent            | Atlantic               |
