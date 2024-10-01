@@ -6,9 +6,8 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 02/10/2024 - v1.2.0 beta & stable
 # 30/09/2024 - v1.2.0 beta & stable
-- Ajout équipements en BDD
-
 # 24/09/2024 - v1.2.0 beta & stable
 - Ajout équipements en BDD
 
@@ -24,17 +23,9 @@
 - Pure Java Script (no JQuery) (partiel)
 
 # 13/08/2024 - v1.1.3 beta & stable
-- Ajout équipements en BDD
-
 # 12/08/2024 - v1.1.3 beta & stable
-- Ajout équipements en BDD
-
 # 10/08/2024 - v1.1.3 beta & stable
-- Ajout équipements en BDD
-
 # 06/08/2024 - v1.1.3 beta & stable
-- Ajout équipements en BDD
-
 # 31/07/2024 - v1.1.3 beta & stable
 - Ajout équipements en BDD
 
