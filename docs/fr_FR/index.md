@@ -76,6 +76,7 @@ Compte-tenu de l'état d'avancement, l'état de validation des différentes fami
 | Somfy TaHoma Cloud (2)     | cloud      | validé              |
 | Somfy TaHoma Local         | local      | validé              |
 | Cozytouch (3)              | cloud      | validé              |
+| Daikin (2)                 | cloud      | validé              |
 | BFt (EasyAXS)              | cloud      | à confirmer         |
 | Flexom                     | cloud      | à confirmer         |
 | Hexaom HexaConnect         | cloud      | à confirmer         |
