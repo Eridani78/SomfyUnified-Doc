@@ -85,7 +85,7 @@ Compte-tenu de l'état d'avancement, l'état de validation des différentes fami
 | Simu (LiveIn2)             | cloud      | à confirmer         |
 | Ubiwizz                    | cloud      | à confirmer         |
 
-(2) _Daikin, Velux (via Somfy)_<br>
+(2) _Daikin, Velux (via Somfy TaHoma)_<br>
 (3) _Atlantic, Sauter (Gen1), Thermor_
 
 
