@@ -6,6 +6,9 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 02/10/2024 - v1.2.1 beta & stable
+- Correction bug
+  
 # 02/10/2024 - v1.2.0 beta & stable
 # 30/09/2024 - v1.2.0 beta & stable
 # 24/09/2024 - v1.2.0 beta & stable
