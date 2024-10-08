@@ -6,7 +6,13 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-# 02/10/2024 - v1.2.1 beta & stable
+# 09/10/2024 - v1.2.2 beta & stable
+- Correction commandes [setHeatingLevel], [setHeatingLevelForTrigger], [setHeatingLevelWithTimer] dans equipement io:AtlanticElectricalHeaterIOComponent
+- Ajout Sauter & Thermor serveurs (alias pour Atlantic CozyTouch)
+- Correction pour supprimer affichage du 'userPassword' dans les Logs
+- Correction bug creation token pour serveur local (lorsque Gateway vierge de token)
+
+# 06/10/2024 - v1.2.1 beta & stable
 - Correction bug
   
 # 02/10/2024 - v1.2.0 beta & stable
