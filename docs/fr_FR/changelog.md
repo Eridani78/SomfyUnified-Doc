@@ -6,6 +6,9 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 12/10/2024 - v1.2.3 beta & stable
+- Ajout équipements en BDD
+
 # 10/10/2024 - v1.2.3 beta & stable
 - Correction bug valeur Veriy SSL
 
