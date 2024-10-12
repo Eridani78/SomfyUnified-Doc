@@ -3,7 +3,7 @@
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
 _Applicable version 1.2.3_<br>
-_Updated 2024 1002_
+_Updated 2024 1012_
 
 
 ## Presentation
@@ -186,6 +186,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | rts:SlidingGateOpenerRTSComponent                                       |                        |
 | HeatingSystem		         | io:AtlanticElectricalHeaterIOComponent                                  | Atlantic               |
 |				             | io:AtlanticElectricalHeaterWithAdjustableTemperatureSetpointIOComponent | Atlantic               |
+|				             | io:AtlanticElectricalTowelDryerIOComponent                              | Atlantic               |
 |				             | io:AtlanticPassAPCBoilerMainComponent                                   | Atlantic               |
 |				             | io:AtlanticPassAPCHeatingZoneComponent                                  | Atlantic               |
 |				             | io:AtlanticPassAPCZoneControlMainComponent                              | Atlantic               |
@@ -202,7 +203,8 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | io:OnOffLightIOComponent                                                |                        |
 |				             | ogp:Light                                                               |                        |
 |				             | rts:LightRTSComponent                                                   |                        |
-| LightSensor         	     | io:LightIOSystemSensor                                                  |                        |
+| LightSensor                | io:LightIOSystemDeviceSensor                                            |                        |
+|                            | io:LightIOSystemSensor                                                  |                        |
 | MusicPlayer         	     | ogp:AudioPlayer                                                         |                        |
 | NoiseSensor         	     | netatmo:NoiseComponent                                                  | Legrand Netatmo        |
 | OccupancySensor       	 | io:OccupancyIOSystemDeviceSensor                                        |                        |
