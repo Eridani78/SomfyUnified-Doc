@@ -3,7 +3,7 @@
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
 _Applicable version 1.2.3_<br>
-_Updated 2024 1012_
+_Updated 2024 1015_
 
 
 ## Presentation
@@ -20,6 +20,10 @@ Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom 
 - ~~Rexel Energeasy Connect~~ (Changement d'API, ce serveur n'est plus supporté)
 - Simu (LiveIn2)
 - Ubiwizz
+
+**Notice**<br>
+Le plugin nécessite une Box/Gateway pour se connecter aux serveurs.<br>
+Le plugin dans sa version actuelle ne prend pas en charge les générations d'équipements avec connections via NaviClim, Navilink, et via WiFi Direct.
 
 
 ## Caractéristiques
