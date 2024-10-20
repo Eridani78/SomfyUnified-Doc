@@ -3,7 +3,7 @@
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
 _Applicable version 1.2.3_<br>
-_Updated 2024 1015_
+_Updated 2024 1020_
 
 
 ## Presentation
@@ -183,20 +183,24 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | io:TotalElectricalEnergyConsumptionIOSystemSensor                       |                        |
 |				             | modbuslink:DHWCumulatedElectricalEnergyConsumptionMBLSystemDeviceSensor |                        |
 | ExteriorScreen		     | io:VerticalExteriorAwningIOComponent                                    |                        |
+| ExteriorVenetianBlind	     | io:ExteriorVenetianBlindIOComponent                                     |                        |
 | GarageDoor		         | io:DiscreteGarageOpenerIOComponent                                      |                        |
 |				             | io:GarageOpenerIOComponent                                              |                        |
 |				             | ogp:GarageDoor                                                          |                        |
 | Gate		                 | io:SlidingDiscreteFullyPedestriableGateOpenerIOComponent                |                        |
+|				             | io:SlidingDiscreteGateOpenerIOComponent                                 |                        |
 |				             | rts:SlidingGateOpenerRTSComponent                                       |                        |
 | HeatingSystem		         | io:AtlanticElectricalHeaterIOComponent                                  | Atlantic               |
 |				             | io:AtlanticElectricalHeaterWithAdjustableTemperatureSetpointIOComponent | Atlantic               |
 |				             | io:AtlanticElectricalTowelDryerIOComponent                              | Atlantic               |
+|				             | io:AtlanticElectricalTowelDryer_IC3_IOComponent                         | Atlantic               |
 |				             | io:AtlanticPassAPCBoilerMainComponent                                   | Atlantic               |
 |				             | io:AtlanticPassAPCHeatingZoneComponent                                  | Atlantic               |
 |				             | io:AtlanticPassAPCZoneControlMainComponent                              | Atlantic               |
 |				             | io:AtlanticPassAPCZoneControlZoneComponent                              | Atlantic               |
 |				             | ogp:HvacZone                                                            | Daikin                 |
-| HumiditySensor		     | netatmo:HumidityComponent                                               | Legrand Netatmo        |
+| HumiditySensor		     | io:RelativeHumidityIOSystemDeviceSensor                                 |                        |
+|                		     | netatmo:HumidityComponent                                               | Legrand Netatmo        |
 |				             | zigbee:RelativeHumidityComponent                                        |                        |
 | Light         		     | hue:ColorTemperatureLightBulbHUEComponent                               | Philps Hue             |
 |				             | hue:ExtendedColorLightCandleHUEComponent                                | Philps Hue             |
@@ -251,5 +255,6 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | io:AtlanticPassAPCDHWComponent                                          | Atlantic               |
 |				             | io:DomesticHotWaterTankComponent                                        |                        |
 |				             | modbuslink:AtlanticDomesticHotWaterProductionMBLComponent               |                        |
+| WeatherSensor              | core:WeatherSystemSensor                                                |                        |
 | Wifi       	             | internal:WifiComponent                                                  |                        |
 | Window       	             | io:WindowOpenerVeluxIOComponent                                         | Velux                  |
