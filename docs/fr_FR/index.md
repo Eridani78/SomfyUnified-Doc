@@ -2,8 +2,8 @@
 <img src="/docs/assets/images/SomfyUnified-Image.png" alt="" style="height: 40%; width:40%;"/>
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
-_Applicable version 1.2.3_<br>
-_Updated 2024 1020_
+_Applicable version 1.3.0_<br>
+_Updated 2024 1023_
 
 
 ## Presentation
@@ -174,13 +174,16 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | io:CumulatedElectricalEnergyConsumptionIOSystemDeviceSensor             |                        |
 |				             | io:DHWCumulatedElectricalEnergyConsumptionIOSystemDeviceSensor          |                        |
 |				             | io:DHWElectricalEnergyConsumptionSensor                                 |                        |
+|				             | io:DHWRelatedElectricalEnergyConsumptionSensor                          |                        |
 |				             | io:ElectricityMeterComponent                                            |                        |
 |				             | io:EnergyConsumptionSensorsConfigurationComponent                       |                        |
 |				             | io:EnergyConsumptionSensorsHeatPumpComponent                            |                        |
 |				             | io:HeatingElectricalEnergyConsumptionSensor                             |                        |
+|				             | io:HeatingRelatedElectricalEnergyConsumptionSensor                      |                        |
 |				             | io:OtherElectricalEnergyConsumptionSensor                               |                        |
 |				             | io:PlugsElectricalEnergyConsumptionSensor                               |                        |
 |				             | io:TotalElectricalEnergyConsumptionIOSystemSensor                       |                        |
+|				             | io:TotalElectricalEnergyConsumptionSensor                       |                        |
 |				             | modbuslink:DHWCumulatedElectricalEnergyConsumptionMBLSystemDeviceSensor |                        |
 | ExteriorScreen		     | io:VerticalExteriorAwningIOComponent                                    |                        |
 | ExteriorVenetianBlind	     | io:ExteriorVenetianBlindIOComponent                                     |                        |
@@ -195,7 +198,9 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | io:AtlanticElectricalTowelDryerIOComponent                              | Atlantic               |
 |				             | io:AtlanticElectricalTowelDryer_IC3_IOComponent                         | Atlantic               |
 |				             | io:AtlanticPassAPCBoilerMainComponent                                   | Atlantic               |
+|				             | io:AtlanticPassAPCHeatingAndCoolingZoneComponent                        | Atlantic               |
 |				             | io:AtlanticPassAPCHeatingZoneComponent                                  | Atlantic               |
+|				             | io:AtlanticPassAPCHeatPumpMainComponent                                 | Atlantic               |
 |				             | io:AtlanticPassAPCZoneControlMainComponent                              | Atlantic               |
 |				             | io:AtlanticPassAPCZoneControlZoneComponent                              | Atlantic               |
 |				             | ogp:HvacZone                                                            | Daikin                 |
@@ -232,7 +237,8 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | ogp:Gateway                                                             |                        |
 |				             | zigbee:StackV3Component                                                 |                        |
 |				             | zigbee:TransceiverV3_0Component                                         |                        |
-| RemoteController       	 | io:KeygoController                                                      |                        |
+| RemoteController       	 | io:IzymoController                                                      |                        |
+|                       	 | io:KeygoController                                                      |                        |
 |				             | rtds:RTDSRemoteControllerComponent                                      |                        |
 | RollerShutter       	     | io:RollerShutterGenericIOComponent                                      |                        |
 |				             | io:RollerShutterVeluxIOComponent                                        |                        |
