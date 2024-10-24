@@ -192,6 +192,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | ogp:GarageDoor                                                          |                   |           |           |
 | Gate		                 | io:SlidingDiscreteFullyPedestriableGateOpenerIOComponent                |                   |           |           |
 |				             | io:SlidingDiscreteGateOpenerIOComponent                                 |                   |           |           |
+|				             | ogp:Gate                                                                |                   | 4         | 14        |
 |				             | rts:SlidingGateOpenerRTSComponent                                       |                   |           |           |
 | HeatingSystem		         | io:AtlanticElectricalHeaterIOComponent                                  | Atlantic          |           |           |
 |				             | io:AtlanticElectricalHeaterWithAdjustableTemperatureSetpointIOComponent | Atlantic          |           |           |
