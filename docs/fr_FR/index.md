@@ -3,7 +3,7 @@
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
 _Applicable version 1.3.0_<br>
-_Updated 2024 1023_
+_Updated 2024 1024_
 
 
 ## Presentation
@@ -150,117 +150,117 @@ Comme le plugin **SomfyUnified** assure la gestion de tous les serveurs enregist
 
 A cette date, l'inclusion des équipements suivant a été effectuée:
 
-| Type Equipement            |  Identifiant Equipement                                                 | Constructeur           |
-| :------------------------- | :---------------------------------------------------------------------- | :--------------------- |
-| Alarm                      | internal:TSKAlarmComponent                                              | Somfy                  |
-|				             | io:AlarmIOComponent                                                     |                        |
-| Awning		             | io:AwningValanceIOComponent                                             |                        |
-|				             | io:HorizontalAwningIOComponent                                          |                        |
-|				             | ogp:Awning                                                              |                        |
-|				             | rts:HorizontalAwningRTSComponent                                        |                        |
-| CarbonDioxideSensor		 | netatmo:CO2Component                                                    | Legrand Netatmo        |
-| ConfigurationComponent     | netatmo:ConfigurationComponent                                          | Legrand Netatmo        |
-|				             | netatmo:HomeController                                                  | Legrand Netatmo        |
-|				             | netatmo:WeatherStationConfigurationComponent                            | Legrand Netatmo        |
-| ConsumptionSensor          | io:DHWRelatedFossilEnergyConsumptionSensor                              |                        |
-|				             | io:HeatingRelatedFossilEnergyConsumptionSensor                          |                        |
-|				             | io:TotalFossilEnergyConsumptionSensor                                   |                        |
-| ContactSensor		         | io:ContactIOSystemDeviceSensor                                          |                        |
-|				             | io:SomfyContactIOSystemSensor                                           |                        |
-|				             | rtds:RTDSContactSensor                                                  |                        |
-|				             | zigbee:DoorSensorComponent                                              |                        |
-| Dock		                 | internal:TSKDockComponent                                               |                        |
-| ElectricitySensor		     | io:AirConditioningElectricalEnergyConsumptionSensor                     |                        |
-|				             | io:CumulatedElectricalEnergyConsumptionIOSystemDeviceSensor             |                        |
-|				             | io:DHWCumulatedElectricalEnergyConsumptionIOSystemDeviceSensor          |                        |
-|				             | io:DHWElectricalEnergyConsumptionSensor                                 |                        |
-|				             | io:DHWRelatedElectricalEnergyConsumptionSensor                          |                        |
-|				             | io:ElectricityMeterComponent                                            |                        |
-|				             | io:EnergyConsumptionSensorsConfigurationComponent                       |                        |
-|				             | io:EnergyConsumptionSensorsHeatPumpComponent                            |                        |
-|				             | io:HeatingElectricalEnergyConsumptionSensor                             |                        |
-|				             | io:HeatingRelatedElectricalEnergyConsumptionSensor                      |                        |
-|				             | io:OtherElectricalEnergyConsumptionSensor                               |                        |
-|				             | io:PlugsElectricalEnergyConsumptionSensor                               |                        |
-|				             | io:TotalElectricalEnergyConsumptionIOSystemSensor                       |                        |
-|				             | io:TotalElectricalEnergyConsumptionSensor                       |                        |
-|				             | modbuslink:DHWCumulatedElectricalEnergyConsumptionMBLSystemDeviceSensor |                        |
-| ExteriorScreen		     | io:VerticalExteriorAwningIOComponent                                    |                        |
-| ExteriorVenetianBlind	     | io:ExteriorVenetianBlindIOComponent                                     |                        |
-| GarageDoor		         | io:DiscreteGarageOpenerIOComponent                                      |                        |
-|				             | io:GarageOpenerIOComponent                                              |                        |
-|				             | ogp:GarageDoor                                                          |                        |
-| Gate		                 | io:SlidingDiscreteFullyPedestriableGateOpenerIOComponent                |                        |
-|				             | io:SlidingDiscreteGateOpenerIOComponent                                 |                        |
-|				             | rts:SlidingGateOpenerRTSComponent                                       |                        |
-| HeatingSystem		         | io:AtlanticElectricalHeaterIOComponent                                  | Atlantic               |
-|				             | io:AtlanticElectricalHeaterWithAdjustableTemperatureSetpointIOComponent | Atlantic               |
-|				             | io:AtlanticElectricalTowelDryerIOComponent                              | Atlantic               |
-|				             | io:AtlanticElectricalTowelDryer_IC3_IOComponent                         | Atlantic               |
-|				             | io:AtlanticPassAPCBoilerMainComponent                                   | Atlantic               |
-|				             | io:AtlanticPassAPCHeatingAndCoolingZoneComponent                        | Atlantic               |
-|				             | io:AtlanticPassAPCHeatingZoneComponent                                  | Atlantic               |
-|				             | io:AtlanticPassAPCHeatPumpMainComponent                                 | Atlantic               |
-|				             | io:AtlanticPassAPCZoneControlMainComponent                              | Atlantic               |
-|				             | io:AtlanticPassAPCZoneControlZoneComponent                              | Atlantic               |
-|				             | ogp:HvacZone                                                            | Daikin                 |
-| HumiditySensor		     | io:RelativeHumidityIOSystemDeviceSensor                                 |                        |
-|                		     | netatmo:HumidityComponent                                               | Legrand Netatmo        |
-|				             | zigbee:RelativeHumidityComponent                                        |                        |
-| Light         		     | hue:ColorTemperatureLightBulbHUEComponent                               | Philps Hue             |
-|				             | hue:ExtendedColorLightCandleHUEComponent                                | Philps Hue             |
-|				             | hue:GenericColorTemperatureLightHUEComponent                            | Philps Hue             |
-|				             | hue:GenericDimmableLightHUEComponent                                    | Philps Hue             |
-|				             | hue:GenericExtendedColorLightHUEComponent                               | Philps Hue             |
-|				             | io:DimmableLightIOComponent                                             |                        |
-|				             | io:OnOffLightIOComponent                                                |                        |
-|				             | ogp:Light                                                               |                        |
-|				             | rts:LightRTSComponent                                                   |                        |
-| LightSensor                | io:LightIOSystemDeviceSensor                                            |                        |
-|                            | io:LightIOSystemSensor                                                  |                        |
-| MusicPlayer         	     | ogp:AudioPlayer                                                         |                        |
-| NoiseSensor         	     | netatmo:NoiseComponent                                                  | Legrand Netatmo        |
-| OccupancySensor       	 | io:OccupancyIOSystemDeviceSensor                                        |                        |
-| OnOff       	             | io:OnOffIOComponent                                                     |                        |
-| Pergola      	             | io:SimpleBioclimaticPergolaIOComponent                                  |                        |
-|				             | ogp:Pergola                                                             |                        |
-| Pod       	             | internal:PodMiniComponent                                               |                        |
-|				             | internal:PodV2Component                                                 |                        |
-|				             | internal:PodV3Component                                                 |                        |
-|				             | internal:UPodComponent                                                  |                        |
-|				             | internal:UPodNetWorkComponent                                           |                        |
-| ProtocolGateway       	 | enocean:TransceiverEnoceanComponent                                     |                        |
-|				             | homekit:StackComponent                                                  |                        |
-|				             | hue:BridgeHUEV2Component                                                | Philps Hue             |
-|				             | io:StackComponent                                                       |                        |
-|				             | ogp:Bridge                                                              |                        |
-|				             | ogp:Gateway                                                             |                        |
-|				             | zigbee:StackV3Component                                                 |                        |
-|				             | zigbee:TransceiverV3_0Component                                         |                        |
-| RemoteController       	 | io:IzymoController                                                      |                        |
-|                       	 | io:KeygoController                                                      |                        |
-|				             | rtds:RTDSRemoteControllerComponent                                      |                        |
-| RollerShutter       	     | io:RollerShutterGenericIOComponent                                      |                        |
-|				             | io:RollerShutterVeluxIOComponent                                        |                        |
-|				             | io:RollerShutterWithBatterySomfyIOComponent                             |                        |
-|				             | io:RollerShutterWithLowSpeedManagementIOComponent                       | Somfy                  |
-|				             | rts:RollerShutterRTSComponent                                           | Somfy                  |
-| Screen          	         | io:VerticalInteriorBlindVeluxIOComponent                                |                        |
-| Shutter          	         | ogp:Shutter                                                             |                        |
-| SmokeSensor       	     | io:SomfySmokeIOSystemSensor                                             | Somfy                  |
-| SwingingShutter       	 | rts:SwingingShutterRTSComponent                                         |                        |
-| TemperatureSensor      	 | netatmo:TemperatureComponent                                            | Legrand Netatmo        |
-|				             | io:AtlanticPassAPCOutsideTemperatureSensor                              | Atlantic               |
-|				             | io:AtlanticPassAPCZoneTemperatureSensor                                 | Atlantic               |
-|				             | io:TemperatureInCelciusIOSystemDeviceSensor                             |                        |
-|				             | io:TemperatureIOSystemSensor                                            |                        |
-|				             | ogp:TemperatureSensor                                                   | Daikin                 |
-|				             | zigbee:TemperatureSensorComponent                                       |                        |
-| WaterHeatingSystem      	 | io:AtlanticDomesticHotWaterProductionV2_AEX_IOComponent                 | Atlantic               |
-|                        	 | io:AtlanticDomesticHotWaterProductionV2_CETHI_V4_IOComponent            | Atlantic               |
-|				             | io:AtlanticPassAPCDHWComponent                                          | Atlantic               |
-|				             | io:DomesticHotWaterTankComponent                                        |                        |
-|				             | modbuslink:AtlanticDomesticHotWaterProductionMBLComponent               |                        |
-| WeatherSensor              | core:WeatherSystemSensor                                                |                        |
-| Wifi       	             | internal:WifiComponent                                                  |                        |
-| Window       	             | io:WindowOpenerVeluxIOComponent                                         | Velux                  |
+| Type Equipement            |  Identifiant Equipement                                                 | Constructeur      | Commandes | Infos     |
+| :------------------------- | :---------------------------------------------------------------------- | :---------------- | :-------- | :-------- |
+| Alarm                      | internal:TSKAlarmComponent                                              | Somfy             | 14        | 9         |
+|				             | io:AlarmIOComponent                                                     |                   |           |           |
+| Awning		             | io:AwningValanceIOComponent                                             |                   |           |           |
+|				             | io:HorizontalAwningIOComponent                                          |                   |           |           |
+|				             | ogp:Awning                                                              |                   |           |           |
+|				             | rts:HorizontalAwningRTSComponent                                        |                   |           |           |
+| CarbonDioxideSensor		 | netatmo:CO2Component                                                    | Legrand Netatmo   |           |           |
+| ConfigurationComponent     | netatmo:ConfigurationComponent                                          | Legrand Netatmo   |           |           |
+|				             | netatmo:HomeController                                                  | Legrand Netatmo   |           |           |
+|				             | netatmo:WeatherStationConfigurationComponent                            | Legrand Netatmo   |           |           |
+| ConsumptionSensor          | io:DHWRelatedFossilEnergyConsumptionSensor                              |                   |           |           |
+|				             | io:HeatingRelatedFossilEnergyConsumptionSensor                          |                   |           |           |
+|				             | io:TotalFossilEnergyConsumptionSensor                                   |                   |           |           |
+| ContactSensor		         | io:ContactIOSystemDeviceSensor                                          |                   |           |           |
+|				             | io:SomfyContactIOSystemSensor                                           |                   |           |           |
+|				             | rtds:RTDSContactSensor                                                  |                   |           |           |
+|				             | zigbee:DoorSensorComponent                                              |                   |           |           |
+| Dock		                 | internal:TSKDockComponent                                               |                   |           |           |
+| ElectricitySensor		     | io:AirConditioningElectricalEnergyConsumptionSensor                     |                   |           |           |
+|				             | io:CumulatedElectricalEnergyConsumptionIOSystemDeviceSensor             |                   |           |           |
+|				             | io:DHWCumulatedElectricalEnergyConsumptionIOSystemDeviceSensor          |                   |           |           |
+|				             | io:DHWElectricalEnergyConsumptionSensor                                 |                   |           |           |
+|				             | io:DHWRelatedElectricalEnergyConsumptionSensor                          |                   |           |           |
+|				             | io:ElectricityMeterComponent                                            |                   |           |           |
+|				             | io:EnergyConsumptionSensorsConfigurationComponent                       |                   |           |           |
+|				             | io:EnergyConsumptionSensorsHeatPumpComponent                            |                   |           |           |
+|				             | io:HeatingElectricalEnergyConsumptionSensor                             |                   |           |           |
+|				             | io:HeatingRelatedElectricalEnergyConsumptionSensor                      |                   |           |           |
+|				             | io:OtherElectricalEnergyConsumptionSensor                               |                   |           |           |
+|				             | io:PlugsElectricalEnergyConsumptionSensor                               |                   |           |           |
+|				             | io:TotalElectricalEnergyConsumptionIOSystemSensor                       |                   |           |           |
+|				             | io:TotalElectricalEnergyConsumptionSensor                               |                   |           |           |
+|				             | modbuslink:DHWCumulatedElectricalEnergyConsumptionMBLSystemDeviceSensor |                   |           |           |
+| ExteriorScreen		     | io:VerticalExteriorAwningIOComponent                                    |                   |           |           |
+| ExteriorVenetianBlind	     | io:ExteriorVenetianBlindIOComponent                                     |                   |           |           |
+| GarageDoor		         | io:DiscreteGarageOpenerIOComponent                                      |                   |           |           |
+|				             | io:GarageOpenerIOComponent                                              |                   |           |           |
+|				             | ogp:GarageDoor                                                          |                   |           |           |
+| Gate		                 | io:SlidingDiscreteFullyPedestriableGateOpenerIOComponent                |                   |           |           |
+|				             | io:SlidingDiscreteGateOpenerIOComponent                                 |                   |           |           |
+|				             | rts:SlidingGateOpenerRTSComponent                                       |                   |           |           |
+| HeatingSystem		         | io:AtlanticElectricalHeaterIOComponent                                  | Atlantic          |           |           |
+|				             | io:AtlanticElectricalHeaterWithAdjustableTemperatureSetpointIOComponent | Atlantic          |           |           |
+|				             | io:AtlanticElectricalTowelDryerIOComponent                              | Atlantic          |           |           |
+|				             | io:AtlanticElectricalTowelDryer_IC3_IOComponent                         | Atlantic          |           |           |
+|				             | io:AtlanticPassAPCBoilerMainComponent                                   | Atlantic          |           |           |
+|				             | io:AtlanticPassAPCHeatingAndCoolingZoneComponent                        | Atlantic          |           |           |
+|				             | io:AtlanticPassAPCHeatingZoneComponent                                  | Atlantic          |           |           |
+|				             | io:AtlanticPassAPCHeatPumpMainComponent                                 | Atlantic          |           |           |
+|				             | io:AtlanticPassAPCZoneControlMainComponent                              | Atlantic          |           |           |
+|				             | io:AtlanticPassAPCZoneControlZoneComponent                              | Atlantic          | 32        | 30        |
+|				             | ogp:HvacZone                                                            | Daikin            |           |           |
+| HumiditySensor		     | io:RelativeHumidityIOSystemDeviceSensor                                 |                   |           |           |
+|                		     | netatmo:HumidityComponent                                               | Legrand Netatmo   |           |           |
+|				             | zigbee:RelativeHumidityComponent                                        |                   |           |           |
+| Light         		     | hue:ColorTemperatureLightBulbHUEComponent                               | Philps Hue        |           |           |
+|				             | hue:ExtendedColorLightCandleHUEComponent                                | Philps Hue        |           |           |
+|				             | hue:GenericColorTemperatureLightHUEComponent                            | Philps Hue        |           |           |
+|				             | hue:GenericDimmableLightHUEComponent                                    | Philps Hue        |           |           |
+|				             | hue:GenericExtendedColorLightHUEComponent                               | Philps Hue        |           |           |
+|				             | io:DimmableLightIOComponent                                             |                   |           |           |
+|				             | io:OnOffLightIOComponent                                                |                   |           |           |
+|				             | ogp:Light                                                               |                   |           |           |
+|				             | rts:LightRTSComponent                                                   |                   |           |           |
+| LightSensor                | io:LightIOSystemDeviceSensor                                            |                   |           |           |
+|                            | io:LightIOSystemSensor                                                  |                   |           |           |
+| MusicPlayer         	     | ogp:AudioPlayer                                                         |                   |           |           |
+| NoiseSensor         	     | netatmo:NoiseComponent                                                  | Legrand Netatmo   |           |           |
+| OccupancySensor       	 | io:OccupancyIOSystemDeviceSensor                                        |                   |           |           |
+| OnOff       	             | io:OnOffIOComponent                                                     |                   |           |           |
+| Pergola      	             | io:SimpleBioclimaticPergolaIOComponent                                  |                   |           |           |
+|				             | ogp:Pergola                                                             |                   |           |           |
+| Pod       	             | internal:PodMiniComponent                                               |                   |           |           |
+|				             | internal:PodV2Component                                                 |                   |           |           |
+|				             | internal:PodV3Component                                                 |                   |           |           |
+|				             | internal:UPodComponent                                                  |                   |           |           |
+|				             | internal:UPodNetWorkComponent                                           |                   |           |           |
+| ProtocolGateway       	 | enocean:TransceiverEnoceanComponent                                     |                   |           |           |
+|				             | homekit:StackComponent                                                  |                   |           |           |
+|				             | hue:BridgeHUEV2Component                                                | Philps Hue        |           |           |
+|				             | io:StackComponent                                                       |                   |           |           |
+|				             | ogp:Bridge                                                              |                   |           |           |
+|				             | ogp:Gateway                                                             |                   |           |           |
+|				             | zigbee:StackV3Component                                                 |                   |           |           |
+|				             | zigbee:TransceiverV3_0Component                                         |                   |           |           |
+| RemoteController       	 | io:IzymoController                                                      |                   |           |           |
+|                       	 | io:KeygoController                                                      |                   |           |           |
+|				             | rtds:RTDSRemoteControllerComponent                                      |                   |           |           |
+| RollerShutter       	     | io:RollerShutterGenericIOComponent                                      |                   |           |           |
+|				             | io:RollerShutterVeluxIOComponent                                        |                   |           |           |
+|				             | io:RollerShutterWithBatterySomfyIOComponent                             |                   |           |           |
+|				             | io:RollerShutterWithLowSpeedManagementIOComponent                       | Somfy             |           |           |
+|				             | rts:RollerShutterRTSComponent                                           | Somfy             |           |           |
+| Screen          	         | io:VerticalInteriorBlindVeluxIOComponent                                |                   |           |           |
+| Shutter          	         | ogp:Shutter                                                             |                   |           |           |
+| SmokeSensor       	     | io:SomfySmokeIOSystemSensor                                             | Somfy             |           |           |
+| SwingingShutter       	 | rts:SwingingShutterRTSComponent                                         |                   |           |           |
+| TemperatureSensor      	 | netatmo:TemperatureComponent                                            | Legrand Netatmo   |           |           |
+|				             | io:AtlanticPassAPCOutsideTemperatureSensor                              | Atlantic          |           |           |
+|				             | io:AtlanticPassAPCZoneTemperatureSensor                                 | Atlantic          |           |           |
+|				             | io:TemperatureInCelciusIOSystemDeviceSensor                             |                   |           |           |
+|				             | io:TemperatureIOSystemSensor                                            |                   |           |           |
+|				             | ogp:TemperatureSensor                                                   | Daikin            |           |           |
+|				             | zigbee:TemperatureSensorComponent                                       |                   |           |           |
+| WaterHeatingSystem      	 | io:AtlanticDomesticHotWaterProductionV2_AEX_IOComponent                 | Atlantic          |           |           |
+|                        	 | io:AtlanticDomesticHotWaterProductionV2_CETHI_V4_IOComponent            | Atlantic          |           |           |
+|				             | io:AtlanticPassAPCDHWComponent                                          | Atlantic          |           |           |
+|				             | io:DomesticHotWaterTankComponent                                        |                   |           |           |
+|				             | modbuslink:AtlanticDomesticHotWaterProductionMBLComponent               |                   |           |           |
+| WeatherSensor              | core:WeatherSystemSensor                                                |                   |           |           |
+| Wifi       	             | internal:WifiComponent                                                  |                   |           |           |
+| Window       	             | io:WindowOpenerVeluxIOComponent                                         | Velux             |           |           |
