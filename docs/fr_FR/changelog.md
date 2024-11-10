@@ -6,6 +6,9 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 10/11/2024 - v2.0.3 beta
+- Gestion des equipements Cozytouch WiFi Direct
+
 # 04/11/2024 - v2.0.1 beta & stable
 - Gestion des Cozytouch WiFi devices (beta: partiel)
 - Update équipement en BDD
