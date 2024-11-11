@@ -2,8 +2,8 @@
 <img src="/docs/assets/images/SomfyUnified-Image.png" alt="" style="height: 40%; width:40%;"/>
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
-_Applicable version 1.3.0_<br>
-_Updated 2024 1024_
+_Applicable version 2.0.4_<br>
+_Updated 2024 1111_
 
 
 ## Presentation
@@ -21,9 +21,10 @@ Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom 
 - Simu (LiveIn2)
 - Ubiwizz
 
+A partir de la version 2.0 et par extension, il prend également en charge les équipements pilotables par **WiFi Direct** et qui ne nécessitent pas une Box/Gateway pour se connecter au serveur.<br>
+
 **Notice**<br>
-Le plugin nécessite une Box/Gateway pour se connecter aux serveurs.<br>
-Le plugin dans sa version actuelle ne prend pas en charge les générations d'équipements avec connections via NaviClim, Navilink, et via WiFi Direct.
+La connection des équipements avec connections via NaviClim, Navilink reste à être validée par de futurs utilisateurs.
 
 
 ## Caractéristiques
@@ -47,7 +48,7 @@ Si la commande info `serverScenarioTimestamp` contient une date valide (au forma
 
 La liste des scénarios est mise à jour en même temps que les données Info des équipements (synchronisé par le cron Cloud).
 
-Notes<br>
+**Notes**<br>
 TaHoma Cloud: seuls les scénarios de type **Manuel** sont remontés par l'API.<br>
 TaHoma Local: la gestion des scénarios n'est pas supportée par l'API locale (serveur Local).
 
@@ -108,6 +109,7 @@ Le plugin propose les fonctionalités de gestion des token de votre gateway (cr�
 
 
 ## Rafraichissements périodiques
+
 Le rafraichissement de l'ensemble des données équipement s'effectue toutes les 1 mn pour un serveur LOCAL et 30 mn pour un serveur CLOUD.
 
 
@@ -146,7 +148,17 @@ Une configuration classique pourrait être: Somfy TaHoma CLOUD + Somfy TaHoma LO
 Comme le plugin **SomfyUnified** assure la gestion de tous les serveurs enregistrés, il est possible de gérer ses équipements Somfy TaHoma en local pour profiter de l'avantages mode Cloudless et d'avoir accès également via le serveur CLOUD aux autres équipements non reconnus par votre box TaHoma en local.<br>
 
 
-## Liste des équipements en BdD du plugin
+## Liste des équipements en BdD du plugin (Cozytouch WiFi Direct)
+
+A cette date, l'inclusion des équipements suivant a été effectuée:
+
+| Type Equipement            |  Identifiant Equipement                                                 | Constructeur      |
+| :------------------------- | :---------------------------------------------------------------------- | :---------------- |
+| Water Heater               | Phazy                                                                   | Sauter            |
+|                            | Calypso                                                                 | Atlantic          |
+
+
+## Liste des équipements en BdD du plugin (API Overkiz)
 
 A cette date, l'inclusion des équipements suivant a été effectuée:
 
