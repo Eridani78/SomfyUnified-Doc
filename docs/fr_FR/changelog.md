@@ -13,11 +13,11 @@
 - Gestion des equipements Cozytouch WiFi Direct
 
 # 04/11/2024 - v2.0.1 beta & stable
-- Gestion des Cozytouch WiFi devices (beta: partiel)
+- Gestion des equipements Cozytouch WiFi Direct (beta: partiel)
 - Update équipement en BDD
 
 # 25/10/2024 - v2.0.0 beta
-- Gestion des Cozytouch WiFi devices (partiel)
+- Gestion des equipements Cozytouch WiFi Direct (partiel)
 
 # 24/10/2024 - v1.3.0 beta & stable
 - Ajout équipements en BDD
