@@ -3,7 +3,7 @@
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
 _Applicable version 2.0.4_<br>
-_Updated 2024 1111_
+_Updated 2024 1112_
 
 
 ## Presentation
@@ -226,7 +226,9 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | hue:GenericDimmableLightHUEComponent                                    | Philps Hue        |           |           |
 |				             | hue:GenericExtendedColorLightHUEComponent                               | Philps Hue        |           |           |
 |				             | io:DimmableLightIOComponent                                             |                   |           |           |
-|				             | io:OnOffLightIOComponent                                                |                   |           |           |
+|				             | io:DimmableLightIOComponent                                             |                   |           |           |
+|				             | io:DimmableRGBLightIOComponent                                          |                   |           |           |
+|				             | io:LightMicroModuleSomfyIOComponent                                     |                   |           |           |
 |				             | ogp:Light                                                               |                   |           |           |
 |				             | rts:LightRTSComponent                                                   |                   |           |           |
 | LightSensor                | io:LightIOSystemDeviceSensor                                            |                   |           |           |
