@@ -2,8 +2,8 @@
 <img src="/docs/assets/images/SomfyUnified-Image.png" alt="" style="height: 40%; width:40%;"/>
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
-_Applicable version 2.0.5_<br>
-_Updated 2024 1117_
+_Applicable version 2.0.7_<br>
+_Updated 2024 1124_
 
 
 ## Presentation
@@ -154,7 +154,8 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 
 | Type Equipement            |  Identifiant Equipement                                                 | Constructeur      |
 | :------------------------- | :---------------------------------------------------------------------- | :---------------- |
-| Water Heater               | Calypso Connecté                                                        | Atlantic          |
+| Water Heater               | Calypso Split                                                           | Atlantic          |
+|                            | Calypso Split Trineo                                                    | Atlantic          |
 |                            | Phazy                                                                   | Sauter            |
 |                            | Duralis Connect                                                         | Thermor           |
 
