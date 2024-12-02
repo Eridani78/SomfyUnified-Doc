@@ -2,8 +2,8 @@
 <img src="/docs/assets/images/SomfyUnified-Image.png" alt="" style="height: 40%; width:40%;"/>
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
-_Applicable version 2.0.7_<br>
-_Updated 2024 1124_
+_Applicable version 2.0.8_<br>
+_Updated 2024 1203_
 
 
 ## Presentation
@@ -205,9 +205,11 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 | GarageDoor		         | io:DiscreteGarageOpenerIOComponent                                      |                   |           |           |
 |				             | io:GarageOpenerIOComponent                                              |                   |           |           |
 |				             | ogp:GarageDoor                                                          |                   |           |           |
+|				             | rts:GarageDoorWithVentilationPositionRTSComponent                       |                   | 10        |           |
 | Gate		                 | io:SlidingDiscreteFullyPedestriableGateOpenerIOComponent                |                   |           |           |
 |				             | io:SlidingDiscreteGateOpenerIOComponent                                 |                   |           |           |
 |				             | ogp:Gate                                                                |                   | 4         | 14        |
+|				             | rts:GateOpenerRTSComponent                                              |                   | 9         |           |
 |				             | rts:SlidingGateOpenerRTSComponent                                       |                   |           |           |
 | HeatingSystem		         | io:AtlanticElectricalHeaterIOComponent                                  | Atlantic          |           |           |
 |				             | io:AtlanticElectricalHeaterWithAdjustableTemperatureSetpointIOComponent | Atlantic          |           |           |
@@ -228,6 +230,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | hue:GenericColorTemperatureLightHUEComponent                            | Philps Hue        |           |           |
 |				             | hue:GenericDimmableLightHUEComponent                                    | Philps Hue        |           |           |
 |				             | hue:GenericExtendedColorLightHUEComponent                               | Philps Hue        |           |           |
+|				             | io:AtlanticDimmableLightIOComponent                                     | Atlantic          | 19        | 8         |
 |				             | io:DimmableLightIOComponent                                             |                   |           |           |
 |				             | io:DimmableLightIOComponent                                             |                   |           |           |
 |				             | io:DimmableRGBLightIOComponent                                          |                   |           |           |
