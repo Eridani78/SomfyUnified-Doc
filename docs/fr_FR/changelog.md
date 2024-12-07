@@ -8,8 +8,8 @@
 
 # 07/12/2024 - v2.0.8 beta & stable
 - Ajout équipements en BDD
-RollerShutter/ 2024 1207 zigbeeProfaluxGenericComponent.toml
-RollerShutter/ 2024 1207 zigbeeRollerShutterGenericComponent.toml
+  - RollerShutter/ 2024 1207 zigbeeProfaluxGenericComponent.toml
+  - RollerShutter/ 2024 1207 zigbeeRollerShutterGenericComponent.toml
 
 # 03/12/2024 - v2.0.8 beta & stable
 - Gestion des equipements Cozytouch WiFi Direct
