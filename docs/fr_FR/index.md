@@ -2,8 +2,8 @@
 <img src="/docs/assets/images/SomfyUnified-Image.png" alt="" style="height: 40%; width:40%;"/>
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
-_Applicable version 2.0.8_<br>
-_Updated 2024 1207_
+_Applicable version 2.0.9_<br>
+_Updated 2024 1209_
 
 
 ## Presentation
@@ -221,6 +221,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | io:AtlanticPassAPCHeatPumpMainComponent                                 | Atlantic          |           |           |
 |				             | io:AtlanticPassAPCZoneControlMainComponent                              | Atlantic          |           |           |
 |				             | io:AtlanticPassAPCZoneControlZoneComponent                              | Atlantic          | 32        | 30        |
+|				             | netatmo:NetatmoRoomController                                           | Legrand Netatmo   | 6         | 20        |
 |				             | ogp:HvacZone                                                            | Daikin            |           |           |
 | HumiditySensor		     | io:RelativeHumidityIOSystemDeviceSensor                                 |                   |           |           |
 |                		     | netatmo:HumidityComponent                                               | Legrand Netatmo   |           |           |
@@ -277,6 +278,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | io:AtlanticPassAPCZoneTemperatureSensor                                 | Atlantic          |           |           |
 |				             | io:TemperatureInCelciusIOSystemDeviceSensor                             |                   |           |           |
 |				             | io:TemperatureIOSystemSensor                                            |                   |           |           |
+|				             | netatmo:NetatmoThermostatTemperatureSensor                              | Legrand Netatmo   | 0         | 8         |
 |				             | ogp:TemperatureSensor                                                   | Daikin            |           |           |
 |				             | zigbee:TemperatureSensorComponent                                       |                   |           |           |
 | WaterHeatingSystem      	 | io:AtlanticDomesticHotWaterProductionV2_AEX_IOComponent                 | Atlantic          |           |           |
