@@ -6,6 +6,11 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 09/12/2024 - v2.0.9 beta & stable
+- Ajout équipements en BDD
+    - HeatingSystem/ 2024 1209 netatmoNetatmoRoomController.toml
+    - TemperatureSensor/ 2024 1209 netatmoNetatmoThermostatTemperatureSensor.toml
+
 # 07/12/2024 - v2.0.8 beta & stable
 - Ajout équipements en BDD
   - RollerShutter/ 2024 1207 zigbeeProfaluxGenericComponent.toml
