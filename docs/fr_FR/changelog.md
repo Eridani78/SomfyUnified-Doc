@@ -6,6 +6,9 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 12/12/2024 - v2.1.0 beta & stable
+- Gestion des equipements Cozytouch WiFi Direct (stable)
+
 # 09/12/2024 - v2.0.9 beta & stable
 - Ajout équipements en BDD
     - HeatingSystem/ 2024 1209 netatmoNetatmoRoomController.toml
@@ -17,25 +20,25 @@
   - RollerShutter/ 2024 1207 zigbeeRollerShutterGenericComponent.toml
 
 # 03/12/2024 - v2.0.8 beta & stable
-- Gestion des equipements Cozytouch WiFi Direct
+- Gestion des equipements Cozytouch WiFi Direct (beta)
 - Ajout équipements en BDD
 
 # 17/11/2024 - v2.0.5 beta & stable
-- Gestion des equipements Cozytouch WiFi Direct
+- Gestion des equipements Cozytouch WiFi Direct (beta)
 - Gestion améliorée des erreurs et indisponibilités serveurs
 
 # 12/11/2024 - v2.0.4 beta
-- Gestion des equipements Cozytouch WiFi Direct
+- Gestion des equipements Cozytouch WiFi Direct (beta)
 
 # 10/11/2024 - v2.0.3 beta
-- Gestion des equipements Cozytouch WiFi Direct
+- Gestion des equipements Cozytouch WiFi Direct (beta)
 
 # 04/11/2024 - v2.0.1 beta & stable
-- Gestion des equipements Cozytouch WiFi Direct (beta: partiel)
+- Gestion des equipements Cozytouch WiFi Direct (beta)
 - Update équipement en BDD
 
 # 25/10/2024 - v2.0.0 beta
-- Gestion des equipements Cozytouch WiFi Direct (partiel)
+- Gestion des equipements Cozytouch WiFi Direct (beta: partiel)
 
 # 24/10/2024 - v1.3.0 beta & stable
 - Ajout équipements en BDD
