@@ -2,8 +2,8 @@
 <img src="/docs/assets/images/SomfyUnified-Image.png" alt="" style="height: 40%; width:40%;"/>
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
-_Applicable version 2.0.9_<br>
-_Updated 2024 1209_
+_Applicable version 2.1.0_<br>
+_Updated 2024 1212_
 
 
 ## Presentation
@@ -97,7 +97,7 @@ Compte-tenu de l'état d'avancement, l'état de validation des différentes fami
 ## Feuille de route
 
 Dans l'état actuel du plugin, les fonctionnalités suivantes sont prévues mais non encore opérationnelles:
-1. Le plugin est en langue EN, la version FR sera bientôt disponible
+1. Le plugin est en langue EN, la version FR sera disponible dans une version future
 2. Pas de widgets spécifiques associés aux commandes. Les widgets du core Jeedom s'appliquent.
 
 
