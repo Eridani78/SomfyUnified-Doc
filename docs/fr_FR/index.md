@@ -66,7 +66,7 @@ La liste des équipements dont le fichier de configuration est intégré au plug
 
 ### Compatibilité
 
-Le plugin **SomfyUnified** est compatible des systèmes fonctionnant sous Debian 10, 11 & 12.
+Le plugin **SomfyUnified** est compatible des systèmes fonctionnant sous Debian 11 & 12.
 
 
 ## Statut de validation du plugin
