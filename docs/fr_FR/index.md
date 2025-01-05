@@ -2,8 +2,8 @@
 <img src="/docs/assets/images/SomfyUnified-Image.png" alt="" style="height: 40%; width:40%;"/>
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
-_Applicable version 2.1.2_<br>
-_Updated 2024 1221_
+_Applicable version 2.1.4_<br>
+_Updated 2025 0105_
 
 
 ## Presentation
@@ -107,6 +107,12 @@ L'utilisation du serveur local de votre gateway Somfy nécessite que vous ayez a
 La gateway Somfy a la capacité d'enregistrer et de conserver plusieurs tokens.<br>
 Le plugin propose les fonctionalités de gestion des token de votre gateway (création avec label utilisateur, suppression).
 
+## API locale en mode IP
+
+Le mode IP est à utiliser lorsqu'un système DNS dans votre configuration ne résoud pas les hostnames de type '.local'.<br>
+C'est le cas en particulier lorsque vous utilisez une box Jeedom Atlas.<br>
+Le mode IP peut être activé lors de la création ou mise à jour du serveur de type 'Local'.<br>
+Lorsque le Mode IP est activé, la vérification SSL est obligatoirement et automatiquement désactivée (verifySSL = No).<br>
 
 ## Rafraichissements périodiques
 
