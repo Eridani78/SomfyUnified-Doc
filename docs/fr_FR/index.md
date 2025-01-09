@@ -2,25 +2,29 @@
 <img src="/docs/assets/images/SomfyUnified-Image.png" alt="" style="height: 40%; width:40%;"/>
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
-_Applicable version 2.1.4_<br>
-_Updated 2025 0105_
+_Applicable version 2.1.5_<br>
+_Updated 2025 0110_
 
 
 ## Presentation
 Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom et les équipements de l'écosystème Somfy connectés via les API OverKiz et appartenant aux familles listées ci-dessous:
-- Somfy TaHoma Cloud
-- Somfy TaHoma Local
-- Atlantic Cozytouch
-- Thermor Cozytouch
-- ~~Brandt Smart Control~~ (Changement d'API, ce serveur n'est plus supporté)
-- Flexom
-- Hexaom HexaConnect
-- Hitachi Hi Kumo
-- Nexity Eugénie
-- ~~Rexel Energeasy Connect~~ (Changement d'API, ce serveur n'est plus supporté)
-- Simu (LiveIn2)
-- Ubiwizz
 
+>- **Somfy TaHoma Cloud**
+>- **Somfy TaHoma Local**
+>- **Atlantic Cozytouch**
+>- **Thermor Cozytouch**
+>- **Daikin**
+>- ~~Brandt Smart Control~~ (Changement d'API, ce serveur n'est plus supporté)
+>- **Flexom**
+>- **Hexaom HexaConnect**
+>- **Hitachi Hi Kumo**
+>- **Nexity Eugénie**
+>- ~~Rexel Energeasy Connect~~ (Changement d'API, ce serveur n'est plus supporté)
+>- **Simu (LiveIn2)**
+>- **Ubiwizz**
+
+
+### WiFi Direct
 A partir de la version 2.0 et par extension, il prend également en charge les équipements pilotables par **WiFi Direct** et qui ne nécessitent pas une Box/Gateway pour se connecter au serveur.<br>
 
 **Notice**<br>
@@ -35,7 +39,8 @@ Basé sur une gestion multi-serveurs, le plugin **SomfyUnified** remonte, crée 
 ### Retour d'état instantané
 En fonctionnement opérationnel, la prise en compte d'une commande reçue par l'équipement sera suivie par une **mise à jour instantanée** de l'état/info correspondant (1).<br>
 Ce retour d'état instantané assure à l'utilisateur un réel confort d'utilisation et de programmation de ses équipements.<br>
-Le retour d'état est opérationnel quelque soit le type de serveur, cloud et local.
+Le retour d'état est opérationnel avec les serveurs de type cloud et local.<br>
+Le retour d'état instantané n'est pas disponible sur les serveurs de type wifi.
 
 (1) _Sauf si l'information n'était pas mise à disposition par le serveur_
 
@@ -89,6 +94,7 @@ Compte-tenu de l'état d'avancement, l'état de validation des différentes fami
 | Nexity Eugénie             | cloud      | à confirmer         |
 | Simu (LiveIn2)             | cloud      | à confirmer         |
 | Ubiwizz                    | cloud      | à confirmer         |
+| Velux (2)                  | cloud      | validé              |
 
 (2) _Daikin, Velux (via Somfy TaHoma)_<br>
 (3) _Atlantic, Sauter (Gen1), Thermor_
@@ -97,8 +103,8 @@ Compte-tenu de l'état d'avancement, l'état de validation des différentes fami
 ## Feuille de route
 
 Dans l'état actuel du plugin, les fonctionnalités suivantes sont prévues mais non encore opérationnelles:
-1. Le plugin est en langue EN, la version FR sera disponible dans une version future
-2. Pas de widgets spécifiques associés aux commandes. Les widgets du core Jeedom s'appliquent.
+1. Le plugin est en langue EN, la version FR sera disponible dans une version ultérieure.
+2. D'une façon générale, pas de widgets spécifiques associés aux commandes. Dans certains cas, des widgets dédiés sont appliqués sinon les widgets du core Jeedom s'appliquent.
 
 
 ## API locale Somfy
@@ -109,14 +115,17 @@ Le plugin propose les fonctionalités de gestion des token de votre gateway (cr�
 
 ## API locale en mode IP
 
-Le mode IP est à utiliser lorsqu'un système DNS dans votre configuration ne résoud pas les hostnames de type '.local'.<br>
+Le mode IP est à utiliser lorsqu'un système DNS dans votre configuration ne résoud pas les hostnames de type **.local**.<br>
 C'est le cas en particulier lorsque vous utilisez une box Jeedom Atlas.<br>
-Le mode IP peut être activé lors de la création ou mise à jour du serveur de type 'Local'.<br>
+Le mode IP peut être activé lors de la création ou mise à jour d'un serveur de type **Local**.<br>
 Lorsque le Mode IP est activé, la vérification SSL est obligatoirement et automatiquement désactivée (verifySSL = No).<br>
 
 ## Rafraichissements périodiques
 
-Le rafraichissement de l'ensemble des données équipement s'effectue toutes les 1 mn pour un serveur LOCAL et 30 mn pour un serveur CLOUD.
+En complément du retour d'état instantané qui s'effectue après l'envoi d'une commande, un rafraichissement périodique de l'ensemble des données équipement s'effectue toutes les:
+- 30 mn pour un serveur CLOUD
+- 1 mn pour un serveur LOCAL
+- 1 mn pour un serveur WIFI
 
 
 ## Utilisation des Logs
