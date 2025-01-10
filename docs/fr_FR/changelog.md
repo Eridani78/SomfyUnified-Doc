@@ -6,6 +6,9 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 10/01/2025 - v2.1.5 beta & stable
+- Améliorations mineures
+
 # 05/01/2025 - v2.1.4 beta & stable
 - Ajout Mode IP
 
