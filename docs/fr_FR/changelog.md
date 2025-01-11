@@ -6,6 +6,16 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 11/01/2025 - v2.1.6 beta & stable
+- Ajout équipements en BDD
+    - ElectricitySensor/ 2025 0111 modbusYutakiV2SpaceHeatingElectricalEnergyConsumptionComponent.toml
+    - Generic/ 2025 0111 ovpModbusMainController.toml
+    - HeatingSystem/ 2025 0111 modbusYutakiRoomThermostatZone1Component.toml
+    - HeatingSystem/ 2025 0111 modbusYutakiRoomThermostatZone2Component.toml
+    - HitachiHeatingSystem/ 2025 0111 modbusYutakiMainComponent.toml
+    - HitachiHeatingSystem/ 2025 0111 modbusYutakiV2Zone1Component.toml
+    - HitachiHeatingSystem/ 2025 0111 modbusYutakiV2Zone2Component.toml
+
 # 10/01/2025 - v2.1.5 beta & stable
 - Améliorations mineures
 
