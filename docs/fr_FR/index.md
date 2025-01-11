@@ -2,8 +2,8 @@
 <img src="/docs/assets/images/SomfyUnified-Image.png" alt="" style="height: 40%; width:40%;"/>
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
-_Applicable version 2.1.5_<br>
-_Updated 2025 0110_
+_Applicable version 2.1.6_<br>
+_Updated 2025 0111_
 
 
 ## Presentation
@@ -87,14 +87,14 @@ Compte-tenu de l'état d'avancement, l'état de validation des différentes fami
 | Somfy TaHoma Local         | local      | validé              |
 | Cozytouch (3)              | cloud      | validé              |
 | Daikin (2)                 | cloud      | validé              |
+| Hitachi Hi Kumo            | cloud      | validé              |
+| Velux (2)                  | cloud      | validé              |
 | BFt (EasyAXS)              | cloud      | à confirmer         |
 | Flexom                     | cloud      | à confirmer         |
 | Hexaom HexaConnect         | cloud      | à confirmer         |
-| Hitachi Hi Kumo            | cloud      | à confirmer         |
 | Nexity Eugénie             | cloud      | à confirmer         |
 | Simu (LiveIn2)             | cloud      | à confirmer         |
 | Ubiwizz                    | cloud      | à confirmer         |
-| Velux (2)                  | cloud      | validé              |
 
 (2) _Daikin, Velux (via Somfy TaHoma)_<br>
 (3) _Atlantic, Sauter (Gen1), Thermor_
@@ -215,6 +215,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | io:TotalElectricalEnergyConsumptionIOSystemSensor                       |                   |           |           |
 |				             | io:TotalElectricalEnergyConsumptionSensor                               |                   |           |           |
 |				             | modbuslink:DHWCumulatedElectricalEnergyConsumptionMBLSystemDeviceSensor |                   |           |           |
+|				             | modbus:YutakiV2SpaceHeatingElectricalEnergyConsumptionComponent         | Hitachi           |           |           |
 | ExteriorScreen		     | io:VerticalExteriorAwningIOComponent                                    |                   |           |           |
 | ExteriorVenetianBlind	     | io:ExteriorVenetianBlindIOComponent                                     |                   |           |           |
 | GarageDoor		         | io:DiscreteGarageOpenerIOComponent                                      |                   |           |           |
@@ -226,6 +227,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | ogp:Gate                                                                |                   | 4         | 14        |
 |				             | rts:GateOpenerRTSComponent                                              |                   | 9         |           |
 |				             | rts:SlidingGateOpenerRTSComponent                                       |                   |           |           |
+| Generic		             | ovp:ModbusMainController                                                | Hitachi           |           |           |
 | HeatingSystem		         | io:AtlanticElectricalHeaterIOComponent                                  | Atlantic          |           |           |
 |				             | io:AtlanticElectricalHeaterWithAdjustableTemperatureSetpointIOComponent | Atlantic          |           |           |
 |				             | io:AtlanticElectricalTowelDryerIOComponent                              | Atlantic          |           |           |
@@ -236,12 +238,17 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | io:AtlanticPassAPCHeatPumpMainComponent                                 | Atlantic          |           |           |
 |				             | io:AtlanticPassAPCZoneControlMainComponent                              | Atlantic          |           |           |
 |				             | io:AtlanticPassAPCZoneControlZoneComponent                              | Atlantic          | 32        | 30        |
+|				             | modbus:YutakiRoomThermostatZone1Component                               | Hitachi           |           |           |
+|				             | modbus:YutakiRoomThermostatZone2Component                               | Hitachi           |           |           |
 |				             | netatmo:NetatmoRoomController                                           | Legrand Netatmo   | 6         | 20        |
 |				             | ogp:HvacZone                                                            | Daikin            |           |           |
-| HumiditySensor		     | io:RelativeHumidityIOSystemDeviceSensor                                 |                   |           |           |
-|                		     | netatmo:HumidityComponent                                               | Legrand Netatmo   |           |           |
-|				             | zigbee:RelativeHumidityComponent                                        |                   |           |           |
-| Light         		     | hue:ColorTemperatureLightBulbHUEComponent                               | Philps Hue        |           |           |
+| HitachiHeatingSystem       | modbus:YutakiMainComponent                                              | Hitachi           |           |           |
+|                            | modbus:YutakiV2Zone1Component                                           | Hitachi           |           |           |
+|                            | modbus:YutakiV2Zone2Component                                           | Hitachi           |           |           |
+| HumiditySensor             | io:RelativeHumidityIOSystemDeviceSensor                                 |                   |           |           |
+|                            | netatmo:HumidityComponent                                               | Legrand Netatmo   |           |           |
+|                            | zigbee:RelativeHumidityComponent                                        |                   |           |           |
+| Light                      | hue:ColorTemperatureLightBulbHUEComponent                               | Philps Hue        |           |           |
 |				             | hue:ExtendedColorLightCandleHUEComponent                                | Philps Hue        |           |           |
 |				             | hue:GenericColorTemperatureLightHUEComponent                            | Philps Hue        |           |           |
 |				             | hue:GenericDimmableLightHUEComponent                                    | Philps Hue        |           |           |
