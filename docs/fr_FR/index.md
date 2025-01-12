@@ -215,7 +215,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | io:TotalElectricalEnergyConsumptionIOSystemSensor                       |                   |           |           |
 |				             | io:TotalElectricalEnergyConsumptionSensor                               |                   |           |           |
 |				             | modbuslink:DHWCumulatedElectricalEnergyConsumptionMBLSystemDeviceSensor |                   |           |           |
-|				             | modbus:YutakiV2SpaceHeatingElectricalEnergyConsumptionComponent         | Hitachi           |           |           |
+|				             | modbus:YutakiV2SpaceHeatingElectricalEnergyConsumptionComponent         | Hitachi           |           | 8         |
 | ExteriorScreen		     | io:VerticalExteriorAwningIOComponent                                    |                   |           |           |
 | ExteriorVenetianBlind	     | io:ExteriorVenetianBlindIOComponent                                     |                   |           |           |
 | GarageDoor		         | io:DiscreteGarageOpenerIOComponent                                      |                   |           |           |
@@ -227,7 +227,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | ogp:Gate                                                                |                   | 4         | 14        |
 |				             | rts:GateOpenerRTSComponent                                              |                   | 9         |           |
 |				             | rts:SlidingGateOpenerRTSComponent                                       |                   |           |           |
-| Generic		             | ovp:ModbusMainController                                                | Hitachi           |           |           |
+| Generic		             | ovp:ModbusMainController                                                | Hitachi           | 3         | 8         |
 | HeatingSystem		         | io:AtlanticElectricalHeaterIOComponent                                  | Atlantic          |           |           |
 |				             | io:AtlanticElectricalHeaterWithAdjustableTemperatureSetpointIOComponent | Atlantic          |           |           |
 |				             | io:AtlanticElectricalTowelDryerIOComponent                              | Atlantic          |           |           |
@@ -238,13 +238,13 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | io:AtlanticPassAPCHeatPumpMainComponent                                 | Atlantic          |           |           |
 |				             | io:AtlanticPassAPCZoneControlMainComponent                              | Atlantic          |           |           |
 |				             | io:AtlanticPassAPCZoneControlZoneComponent                              | Atlantic          | 32        | 30        |
-|				             | modbus:YutakiRoomThermostatZone1Component                               | Hitachi           |           |           |
-|				             | modbus:YutakiRoomThermostatZone2Component                               | Hitachi           |           |           |
+|				             | modbus:YutakiRoomThermostatZone1Component                               | Hitachi           |           | 7         |
+|				             | modbus:YutakiRoomThermostatZone2Component                               | Hitachi           |           | 7         |
 |				             | netatmo:NetatmoRoomController                                           | Legrand Netatmo   | 6         | 20        |
 |				             | ogp:HvacZone                                                            | Daikin            |           |           |
-| HitachiHeatingSystem       | modbus:YutakiMainComponent                                              | Hitachi           |           |           |
-|                            | modbus:YutakiV2Zone1Component                                           | Hitachi           |           |           |
-|                            | modbus:YutakiV2Zone2Component                                           | Hitachi           |           |           |
+| HitachiHeatingSystem       | modbus:YutakiMainComponent                                              | Hitachi           | 41        | 73        |
+|                            | modbus:YutakiV2Zone1Component                                           | Hitachi           | 26        | 25        |
+|                            | modbus:YutakiV2Zone2Component                                           | Hitachi           | 26        | 25        |
 | HumiditySensor             | io:RelativeHumidityIOSystemDeviceSensor                                 |                   |           |           |
 |                            | netatmo:HumidityComponent                                               | Legrand Netatmo   |           |           |
 |                            | zigbee:RelativeHumidityComponent                                        |                   |           |           |
