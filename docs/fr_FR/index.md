@@ -24,6 +24,8 @@ Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom 
 >- **Ubiwizz**
 
 
+Voir liste détaillée des équipements en fin de documentation.
+
 ### WiFi Direct
 A partir de la version 2.0 et par extension, il prend également en charge les équipements pilotables par **WiFi Direct** et qui ne nécessitent pas une Box/Gateway pour se connecter au serveur.<br>
 
@@ -303,11 +305,11 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | netatmo:NetatmoThermostatTemperatureSensor                              | Legrand Netatmo   | 0         | 8         |
 |				             | ogp:TemperatureSensor                                                   | Daikin            |           |           |
 |				             | zigbee:TemperatureSensorComponent                                       |                   |           |           |
-| WaterHeatingSystem      	 | io:AtlanticDomesticHotWaterProductionV2_AEX_IOComponent                 | Atlantic          |           |           |
-|                        	 | io:AtlanticDomesticHotWaterProductionV2_CETHI_V4_IOComponent            | Atlantic          |           |           |
-|				             | io:AtlanticPassAPCDHWComponent                                          | Atlantic          |           |           |
-|				             | io:DomesticHotWaterTankComponent                                        |                   |           |           |
-|				             | modbuslink:AtlanticDomesticHotWaterProductionMBLComponent               |                   |           |           |
+| WaterHeatingSystem      	 | io:AtlanticDomesticHotWaterProductionV2_AEX_IOComponent                 | Atlantic          | 54        | 55        |
+|                        	 | io:AtlanticDomesticHotWaterProductionV2_CETHI_V4_IOComponent            | Atlantic          | 54        | 56        |
+|				             | io:AtlanticPassAPCDHWComponent                                          | Atlantic          | 17        | 17        |
+|				             | io:DomesticHotWaterTankComponent                                        |                   | 2         | 9         |
+|				             | modbuslink:AtlanticDomesticHotWaterProductionMBLComponent               |                   | 51        | 49        |
 | WeatherSensor              | core:WeatherSystemSensor                                                |                   |           |           |
 | Wifi       	             | internal:WifiComponent                                                  |                   |           |           |
 | Window       	             | io:WindowOpenerVeluxIOComponent                                         | Velux             |           |           |
