@@ -24,7 +24,7 @@ Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom 
 >- **Ubiwizz**
 
 
-Voir liste détaillée des équipements en fin de documentation.
+Voir liste détaillée des équipements déja inclus dans la base de configuration en fin de documentation.
 
 ### WiFi Direct
 A partir de la version 2.0 et par extension, il prend également en charge les équipements pilotables par **WiFi Direct** et qui ne nécessitent pas une Box/Gateway pour se connecter au serveur.<br>
