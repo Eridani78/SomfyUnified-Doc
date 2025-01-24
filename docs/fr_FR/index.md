@@ -3,7 +3,7 @@
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
 _Applicable version 2.1.6_<br>
-_Updated 2025 0111_
+_Updated 2025 0124_
 
 
 ## Presentation
@@ -294,6 +294,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | zigbee:ProfaluxGenericComponent                                         | Profalux          | 14        | 17        |
 |				             | zigbee:RollerShutterGenericComponent                                    | Profalux          | 15        | 27        |
 | Screen          	         | io:VerticalInteriorBlindVeluxIOComponent                                |                   |           |           |
+|				             | ogp:Blind                                                               | Somfy             | 8         | 25        |
 | Shutter          	         | ogp:Shutter                                                             |                   |           |           |
 | SmokeSensor       	     | io:SomfySmokeIOSystemSensor                                             | Somfy             |           |           |
 | SwingingShutter       	 | rts:SwingingShutterRTSComponent                                         |                   |           |           |
