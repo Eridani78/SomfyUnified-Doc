@@ -2,8 +2,8 @@
 <img src="/docs/assets/images/SomfyUnified-Image.png" alt="" style="height: 40%; width:40%;"/>
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
-_Applicable version 2.1.6_<br>
-_Updated 2025 0124_
+_Applicable version 2.2.0_<br>
+_Updated 2025 0128_
 
 
 ## Presentation
