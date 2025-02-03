@@ -6,6 +6,10 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 03/02/2025 - v2.2.1 beta & stable
+- Ajout fonction: image equipement personnalisée
+- Correction regression sur traitement events
+
 # 28/01/2025 - v2.2.0 beta
 - Ajout fonction: image equipement personnalisée
 
