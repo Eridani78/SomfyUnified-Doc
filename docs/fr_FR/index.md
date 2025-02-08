@@ -2,8 +2,8 @@
 <img src="/docs/assets/images/SomfyUnified-Image.png" alt="" style="height: 40%; width:40%;"/>
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
-_Applicable version 2.2.1_<br>
-_Updated 2025 0203_
+_Applicable version 2.2.2_<br>
+_Updated 2025 0208_
 
 
 ## Presentation
@@ -218,19 +218,21 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | io:TotalElectricalEnergyConsumptionSensor                               |                   |           |           |
 |				             | modbuslink:DHWCumulatedElectricalEnergyConsumptionMBLSystemDeviceSensor |                   |           |           |
 |				             | modbus:YutakiV2SpaceHeatingElectricalEnergyConsumptionComponent         | Hitachi           |           | 8         |
-| ExteriorScreen		     | io:VerticalExteriorAwningIOComponent                                    |                   |           |           |
-| ExteriorVenetianBlind	     | io:ExteriorVenetianBlindIOComponent                                     |                   |           |           |
-| GarageDoor		         | io:DiscreteGarageOpenerIOComponent                                      |                   |           |           |
-|				             | io:GarageOpenerIOComponent                                              |                   |           |           |
-|				             | ogp:GarageDoor                                                          |                   |           |           |
-|				             | rts:GarageDoorWithVentilationPositionRTSComponent                       |                   | 10        |           |
-| Gate		                 | io:SlidingDiscreteFullyPedestriableGateOpenerIOComponent                |                   |           |           |
-|				             | io:SlidingDiscreteGateOpenerIOComponent                                 |                   |           |           |
-|				             | ogp:Gate                                                                |                   | 4         | 14        |
-|				             | rts:GateOpenerRTSComponent                                              |                   | 9         |           |
-|				             | rts:SlidingGateOpenerRTSComponent                                       |                   |           |           |
-| Generic		             | ovp:ModbusMainController                                                | Hitachi           | 3         | 8         |
-| HeatingSystem		         | io:AtlanticElectricalHeaterIOComponent                                  | Atlantic          |           |           |
+| ExteriorScreen             | io:VerticalExteriorAwningIOComponent                                    |                   |           |           |
+| ExteriorVenetianBlind      | io:ExteriorVenetianBlindIOComponent                                     |                   |           |           |
+| GarageDoor                 | io:DiscreteGarageOpenerIOComponent                                      |                   |           |           |
+|                            | io:GarageOpenerIOComponent                                              |                   |           |           |
+|                            | ogp:GarageDoor                                                          |                   |           |           |
+|                            | rts:GarageDoorWithVentilationPositionRTSComponent                       |                   | 10        |           |
+|                            | rts:GarageDoor4TRTSComponent                                            |                   | 3         | 6         |
+| Gate                       | io:SlidingDiscreteFullyPedestriableGateOpenerIOComponent                |                   |           |           |
+|                            | io:SlidingDiscreteGateOpenerIOComponent                                 |                   |           |           |
+|                            | ogp:Gate                                                                |                   | 4         | 14        |
+|                            | rts:GateOpenerRTSComponent                                              |                   | 9         |           |
+|                            | rts:GateOpenerRTS4TComponent                                            |                   | 3         | 6         |
+|                            | rts:SlidingGateOpenerRTSComponent                                       |                   |           |           |
+| Generic                    | ovp:ModbusMainController                                                | Hitachi           | 3         | 8         |
+| HeatingSystem              | io:AtlanticElectricalHeaterIOComponent                                  | Atlantic          |           |           |
 |				             | io:AtlanticElectricalHeaterWithAdjustableTemperatureSetpointIOComponent | Atlantic          |           |           |
 |				             | io:AtlanticElectricalTowelDryerIOComponent                              | Atlantic          |           |           |
 |				             | io:AtlanticElectricalTowelDryer_IC3_IOComponent                         | Atlantic          |           |           |
@@ -251,17 +253,18 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | netatmo:HumidityComponent                                               | Legrand Netatmo   |           |           |
 |                            | zigbee:RelativeHumidityComponent                                        |                   |           |           |
 | Light                      | hue:ColorTemperatureLightBulbHUEComponent                               | Philps Hue        |           |           |
-|				             | hue:ExtendedColorLightCandleHUEComponent                                | Philps Hue        |           |           |
-|				             | hue:GenericColorTemperatureLightHUEComponent                            | Philps Hue        |           |           |
-|				             | hue:GenericDimmableLightHUEComponent                                    | Philps Hue        |           |           |
-|				             | hue:GenericExtendedColorLightHUEComponent                               | Philps Hue        |           |           |
-|				             | io:AtlanticDimmableLightIOComponent                                     | Atlantic          | 19        | 8         |
-|				             | io:DimmableLightIOComponent                                             |                   |           |           |
-|				             | io:DimmableLightIOComponent                                             |                   |           |           |
-|				             | io:DimmableRGBLightIOComponent                                          |                   |           |           |
-|				             | io:LightMicroModuleSomfyIOComponent                                     |                   |           |           |
-|				             | ogp:Light                                                               |                   |           |           |
-|				             | rts:LightRTSComponent                                                   |                   |           |           |
+|                            | hue:ExtendedColorLightCandleHUEComponent                                | Philps Hue        |           |           |
+|                            | hue:GenericColorTemperatureLightHUEComponent                            | Philps Hue        |           |           |
+|                            | hue:GenericDimmableLightHUEComponent                                    | Philps Hue        |           |           |
+|                            | hue:GenericExtendedColorLightHUEComponent                               | Philps Hue        |           |           |
+|                            | io:AtlanticDimmableLightIOComponent                                     | Atlantic          | 19        | 8         |
+|                            | io:DimmableLightIOComponent                                             |                   |           |           |
+|                            | io:DimmableLightIOComponent                                             |                   |           |           |
+|                            | io:DimmableLightMicroModuleSomfyIOComponent                             | Somfy             | 35        | 22        |
+|                            | io:DimmableRGBLightIOComponent                                          |                   |           |           |
+|                            | io:LightMicroModuleSomfyIOComponent                                     |                   |           |           |
+|                            | ogp:Light                                                               |                   |           |           |
+|                            | rts:LightRTSComponent                                                   |                   |           |           |
 | LightSensor                | io:LightIOSystemDeviceSensor                                            |                   |           |           |
 |                            | io:LightIOSystemSensor                                                  |                   |           |           |
 | MusicPlayer         	     | ogp:AudioPlayer                                                         |                   |           |           |
@@ -286,7 +289,8 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 | RemoteController       	 | io:IzymoController                                                      |                   |           |           |
 |                       	 | io:KeygoController                                                      |                   |           |           |
 |				             | rtds:RTDSRemoteControllerComponent                                      |                   |           |           |
-| RollerShutter       	     | io:RollerShutterGenericIOComponent                                      |                   |           |           |
+| RollerShutter       	     | io:MicroModuleRollerShutterSomfyIOComponent                             | Somfy             | 34        | 24        |
+|                      	     | io:RollerShutterGenericIOComponent                                      |                   |           |           |
 |				             | io:RollerShutterVeluxIOComponent                                        |                   |           |           |
 |				             | io:RollerShutterWithBatterySomfyIOComponent                             |                   |           |           |
 |				             | io:RollerShutterWithLowSpeedManagementIOComponent                       | Somfy             |           |           |
