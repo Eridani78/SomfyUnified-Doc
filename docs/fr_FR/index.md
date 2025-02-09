@@ -3,7 +3,7 @@
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
 _Applicable version 2.2.2_<br>
-_Updated 2025 0208_
+_Updated 2025 0209_
 
 
 ## Presentation
@@ -182,139 +182,140 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 
 A cette date, l'inclusion des équipements suivant a été effectuée:
 
-| Type Equipement            |  Identifiant Equipement                                                 | Constructeur      | Commandes | Infos     |
-| :------------------------- | :---------------------------------------------------------------------- | :---------------- | :-------- | :-------- |
-| Alarm                      | internal:TSKAlarmComponent                                              | Somfy             | 14        | 9         |
-|				             | io:AlarmIOComponent                                                     |                   |           |           |
-| Awning		             | io:AwningValanceIOComponent                                             |                   |           |           |
-|				             | io:HorizontalAwningIOComponent                                          |                   |           |           |
-|				             | ogp:Awning                                                              |                   |           |           |
-|				             | rts:HorizontalAwningRTSComponent                                        |                   |           |           |
-| CarbonDioxideSensor		 | netatmo:CO2Component                                                    | Legrand Netatmo   |           |           |
-| ConfigurationComponent     | netatmo:ConfigurationComponent                                          | Legrand Netatmo   |           |           |
-|				             | netatmo:HomeController                                                  | Legrand Netatmo   |           |           |
-|				             | netatmo:WeatherStationConfigurationComponent                            | Legrand Netatmo   |           |           |
-| ConsumptionSensor          | io:DHWRelatedFossilEnergyConsumptionSensor                              |                   |           |           |
-|				             | io:HeatingRelatedFossilEnergyConsumptionSensor                          |                   |           |           |
-|				             | io:TotalFossilEnergyConsumptionSensor                                   |                   |           |           |
-| ContactSensor		         | io:ContactIOSystemDeviceSensor                                          |                   |           |           |
-|				             | io:SomfyContactIOSystemSensor                                           |                   |           |           |
-|				             | rtds:RTDSContactSensor                                                  |                   |           |           |
-|				             | zigbee:DoorSensorComponent                                              |                   |           |           |
-| Dock		                 | internal:TSKDockComponent                                               |                   |           |           |
-| ElectricitySensor		     | io:AirConditioningElectricalEnergyConsumptionSensor                     |                   |           |           |
-|				             | io:CumulatedElectricalEnergyConsumptionIOSystemDeviceSensor             |                   |           |           |
-|				             | io:DHWCumulatedElectricalEnergyConsumptionIOSystemDeviceSensor          |                   |           |           |
-|				             | io:DHWElectricalEnergyConsumptionSensor                                 |                   |           |           |
-|				             | io:DHWRelatedElectricalEnergyConsumptionSensor                          |                   |           |           |
-|				             | io:ElectricityMeterComponent                                            |                   |           |           |
-|				             | io:EnergyConsumptionSensorsConfigurationComponent                       |                   |           |           |
-|				             | io:EnergyConsumptionSensorsHeatPumpComponent                            |                   |           |           |
-|				             | io:HeatingElectricalEnergyConsumptionSensor                             |                   |           |           |
-|				             | io:HeatingRelatedElectricalEnergyConsumptionSensor                      |                   |           |           |
-|				             | io:OtherElectricalEnergyConsumptionSensor                               |                   |           |           |
-|				             | io:PlugsElectricalEnergyConsumptionSensor                               |                   |           |           |
-|				             | io:TotalElectricalEnergyConsumptionIOSystemSensor                       |                   |           |           |
-|				             | io:TotalElectricalEnergyConsumptionSensor                               |                   |           |           |
-|				             | modbuslink:DHWCumulatedElectricalEnergyConsumptionMBLSystemDeviceSensor |                   |           |           |
-|				             | modbus:YutakiV2SpaceHeatingElectricalEnergyConsumptionComponent         | Hitachi           |           | 8         |
-| ExteriorScreen             | io:VerticalExteriorAwningIOComponent                                    |                   |           |           |
-| ExteriorVenetianBlind      | io:ExteriorVenetianBlindIOComponent                                     |                   |           |           |
-| GarageDoor                 | io:DiscreteGarageOpenerIOComponent                                      |                   |           |           |
-|                            | io:GarageOpenerIOComponent                                              |                   |           |           |
-|                            | ogp:GarageDoor                                                          |                   |           |           |
-|                            | rts:GarageDoorWithVentilationPositionRTSComponent                       |                   | 10        |           |
-|                            | rts:GarageDoor4TRTSComponent                                            |                   | 3         | 6         |
-| Gate                       | io:SlidingDiscreteFullyPedestriableGateOpenerIOComponent                |                   |           |           |
-|                            | io:SlidingDiscreteGateOpenerIOComponent                                 |                   |           |           |
-|                            | ogp:Gate                                                                |                   | 4         | 14        |
-|                            | rts:GateOpenerRTSComponent                                              |                   | 9         |           |
-|                            | rts:GateOpenerRTS4TComponent                                            |                   | 3         | 6         |
-|                            | rts:SlidingGateOpenerRTSComponent                                       |                   |           |           |
-| Generic                    | ovp:ModbusMainController                                                | Hitachi           | 3         | 8         |
-| HeatingSystem              | io:AtlanticElectricalHeaterIOComponent                                  | Atlantic          |           |           |
-|				             | io:AtlanticElectricalHeaterWithAdjustableTemperatureSetpointIOComponent | Atlantic          |           |           |
-|				             | io:AtlanticElectricalTowelDryerIOComponent                              | Atlantic          |           |           |
-|				             | io:AtlanticElectricalTowelDryer_IC3_IOComponent                         | Atlantic          |           |           |
-|				             | io:AtlanticPassAPCBoilerMainComponent                                   | Atlantic          |           |           |
-|				             | io:AtlanticPassAPCHeatingAndCoolingZoneComponent                        | Atlantic          |           |           |
-|				             | io:AtlanticPassAPCHeatingZoneComponent                                  | Atlantic          |           |           |
-|				             | io:AtlanticPassAPCHeatPumpMainComponent                                 | Atlantic          |           |           |
-|				             | io:AtlanticPassAPCZoneControlMainComponent                              | Atlantic          |           |           |
-|				             | io:AtlanticPassAPCZoneControlZoneComponent                              | Atlantic          | 32        | 30        |
-|				             | modbus:YutakiRoomThermostatZone1Component                               | Hitachi           |           | 7         |
-|				             | modbus:YutakiRoomThermostatZone2Component                               | Hitachi           |           | 7         |
-|				             | netatmo:NetatmoRoomController                                           | Legrand Netatmo   | 6         | 20        |
-|				             | ogp:HvacZone                                                            | Daikin            |           |           |
-| HitachiHeatingSystem       | modbus:YutakiMainComponent                                              | Hitachi           | 41        | 73        |
-|                            | modbus:YutakiV2Zone1Component                                           | Hitachi           | 26        | 25        |
-|                            | modbus:YutakiV2Zone2Component                                           | Hitachi           | 26        | 25        |
-| HumiditySensor             | io:RelativeHumidityIOSystemDeviceSensor                                 |                   |           |           |
-|                            | netatmo:HumidityComponent                                               | Legrand Netatmo   |           |           |
-|                            | zigbee:RelativeHumidityComponent                                        |                   |           |           |
-| Light                      | hue:ColorTemperatureLightBulbHUEComponent                               | Philps Hue        |           |           |
-|                            | hue:ExtendedColorLightCandleHUEComponent                                | Philps Hue        |           |           |
-|                            | hue:GenericColorTemperatureLightHUEComponent                            | Philps Hue        |           |           |
-|                            | hue:GenericDimmableLightHUEComponent                                    | Philps Hue        |           |           |
-|                            | hue:GenericExtendedColorLightHUEComponent                               | Philps Hue        |           |           |
-|                            | io:AtlanticDimmableLightIOComponent                                     | Atlantic          | 19        | 8         |
-|                            | io:DimmableLightIOComponent                                             |                   |           |           |
-|                            | io:DimmableLightIOComponent                                             |                   |           |           |
-|                            | io:DimmableLightMicroModuleSomfyIOComponent                             | Somfy             | 35        | 22        |
-|                            | io:DimmableRGBLightIOComponent                                          |                   |           |           |
-|                            | io:LightMicroModuleSomfyIOComponent                                     |                   |           |           |
-|                            | ogp:Light                                                               |                   |           |           |
-|                            | rts:LightRTSComponent                                                   |                   |           |           |
-| LightSensor                | io:LightIOSystemDeviceSensor                                            |                   |           |           |
-|                            | io:LightIOSystemSensor                                                  |                   |           |           |
-| MusicPlayer         	     | ogp:AudioPlayer                                                         |                   |           |           |
-| NoiseSensor         	     | netatmo:NoiseComponent                                                  | Legrand Netatmo   |           |           |
-| OccupancySensor       	 | io:OccupancyIOSystemDeviceSensor                                        |                   |           |           |
-| OnOff       	             | io:OnOffIOComponent                                                     |                   |           |           |
-| Pergola      	             | io:SimpleBioclimaticPergolaIOComponent                                  |                   |           |           |
-|				             | ogp:Pergola                                                             |                   |           |           |
-| Pod       	             | internal:PodMiniComponent                                               |                   |           |           |
-|				             | internal:PodV2Component                                                 |                   |           |           |
-|				             | internal:PodV3Component                                                 |                   |           |           |
-|				             | internal:UPodComponent                                                  |                   |           |           |
-|				             | internal:UPodNetWorkComponent                                           |                   |           |           |
-| ProtocolGateway       	 | enocean:TransceiverEnoceanComponent                                     |                   |           |           |
-|				             | homekit:StackComponent                                                  |                   |           |           |
-|				             | hue:BridgeHUEV2Component                                                | Philps Hue        |           |           |
-|				             | io:StackComponent                                                       |                   |           |           |
-|				             | ogp:Bridge                                                              |                   |           |           |
-|				             | ogp:Gateway                                                             |                   |           |           |
-|				             | zigbee:StackV3Component                                                 |                   |           |           |
-|				             | zigbee:TransceiverV3_0Component                                         |                   |           |           |
-| RemoteController       	 | io:IzymoController                                                      |                   |           |           |
-|                       	 | io:KeygoController                                                      |                   |           |           |
-|				             | rtds:RTDSRemoteControllerComponent                                      |                   |           |           |
-| RollerShutter       	     | io:MicroModuleRollerShutterSomfyIOComponent                             | Somfy             | 34        | 24        |
-|                      	     | io:RollerShutterGenericIOComponent                                      |                   |           |           |
-|				             | io:RollerShutterVeluxIOComponent                                        |                   |           |           |
-|				             | io:RollerShutterWithBatterySomfyIOComponent                             |                   |           |           |
-|				             | io:RollerShutterWithLowSpeedManagementIOComponent                       | Somfy             |           |           |
-|				             | rts:RollerShutterRTSComponent                                           | Somfy             |           |           |
-|				             | zigbee:ProfaluxGenericComponent                                         | Profalux          | 14        | 17        |
-|				             | zigbee:RollerShutterGenericComponent                                    | Profalux          | 15        | 27        |
-| Screen          	         | io:VerticalInteriorBlindVeluxIOComponent                                |                   |           |           |
-|				             | ogp:Blind                                                               | Somfy             | 8         | 25        |
-| Shutter          	         | ogp:Shutter                                                             |                   |           |           |
-| SmokeSensor       	     | io:SomfySmokeIOSystemSensor                                             | Somfy             |           |           |
-| SwingingShutter       	 | rts:SwingingShutterRTSComponent                                         |                   |           |           |
-| TemperatureSensor      	 | netatmo:TemperatureComponent                                            | Legrand Netatmo   |           |           |
-|				             | io:AtlanticPassAPCOutsideTemperatureSensor                              | Atlantic          |           |           |
-|				             | io:AtlanticPassAPCZoneTemperatureSensor                                 | Atlantic          |           |           |
-|				             | io:TemperatureInCelciusIOSystemDeviceSensor                             |                   |           |           |
-|				             | io:TemperatureIOSystemSensor                                            |                   |           |           |
-|				             | netatmo:NetatmoThermostatTemperatureSensor                              | Legrand Netatmo   | 0         | 8         |
-|				             | ogp:TemperatureSensor                                                   | Daikin            |           |           |
-|				             | zigbee:TemperatureSensorComponent                                       |                   |           |           |
-| WaterHeatingSystem      	 | io:AtlanticDomesticHotWaterProductionV2_AEX_IOComponent                 | Atlantic          | 54        | 55        |
-|                        	 | io:AtlanticDomesticHotWaterProductionV2_CETHI_V4_IOComponent            | Atlantic          | 54        | 56        |
-|				             | io:AtlanticPassAPCDHWComponent                                          | Atlantic          | 17        | 17        |
-|				             | io:DomesticHotWaterTankComponent                                        |                   | 2         | 9         |
-|				             | modbuslink:AtlanticDomesticHotWaterProductionMBLComponent               |                   | 51        | 49        |
-| WeatherSensor              | core:WeatherSystemSensor                                                |                   |           |           |
-| Wifi       	             | internal:WifiComponent                                                  |                   |           |           |
-| Window       	             | io:WindowOpenerVeluxIOComponent                                         | Velux             |           |           |
+| Type Equipement            |  Identifiant Equipement                                                 | Constructeur      | Action | Info   |
+| :------------------------- | :---------------------------------------------------------------------- | :---------------- | :----- | :----- |
+| Alarm                      | internal:TSKAlarmComponent                                              | Somfy             | 14     | 9      |
+|                            | io:AlarmIOComponent                                                     |                   |        |        |
+| Awning                     | io:AwningValanceIOComponent                                             |                   |        |        |
+|                            | io:HorizontalAwningIOComponent                                          |                   |        |        |
+|                            | ogp:Awning                                                              |                   |        |        |
+|                            | rts:HorizontalAwningRTSComponent                                        |                   |        |        |
+| CarbonDioxideSensor        | netatmo:CO2Component                                                    | Legrand Netatmo   |        |        |
+| ConfigurationComponent     | netatmo:ConfigurationComponent                                          | Legrand Netatmo   |        |        |
+|                            | netatmo:HomeController                                                  | Legrand Netatmo   |        |        |
+|                            | netatmo:WeatherStationConfigurationComponent                            | Legrand Netatmo   |        |        |
+| ConsumptionSensor          | io:DHWRelatedFossilEnergyConsumptionSensor                              |                   |        |        |
+|                            | io:HeatingRelatedFossilEnergyConsumptionSensor                          |                   |        |        |
+|                            | io:TotalFossilEnergyConsumptionSensor                                   |                   |        |        |
+| ContactSensor              | io:ContactIOSystemDeviceSensor                                          |                   |        |        |
+|                            | io:SomfyContactIOSystemSensor                                           |                   |        |        |
+|                            | rtds:RTDSContactSensor                                                  |                   |        |        |
+|                            | zigbee:DoorSensorComponent                                              |                   |        |        |
+| Dock                       | internal:TSKDockComponent                                               |                   |        |        |
+| ElectricitySensor          | io:AirConditioningElectricalEnergyConsumptionSensor                     |                   |        |        |
+|                            | io:CumulatedElectricalEnergyConsumptionIOSystemDeviceSensor             |                   |        |        |
+|                            | io:DHWCumulatedElectricalEnergyConsumptionIOSystemDeviceSensor          |                   |        |        |
+|                            | io:DHWElectricalEnergyConsumptionSensor                                 |                   |        |        |
+|                            | io:DHWRelatedElectricalEnergyConsumptionSensor                          |                   |        |        |
+|                            | io:ElectricityMeterComponent                                            |                   |        |        |
+|                            | io:EnergyConsumptionSensorsConfigurationComponent                       |                   |        |        |
+|                            | io:EnergyConsumptionSensorsHeatPumpComponent                            |                   |        |        |
+|                            | io:HeatingElectricalEnergyConsumptionSensor                             |                   |        |        |
+|                            | io:HeatingRelatedElectricalEnergyConsumptionSensor                      |                   |        |        |
+|                            | io:OtherElectricalEnergyConsumptionSensor                               |                   |        |        |
+|                            | io:PlugsElectricalEnergyConsumptionSensor                               |                   |        |        |
+|                            | io:TotalElectricalEnergyConsumptionIOSystemSensor                       |                   |        |        |
+|                            | io:TotalElectricalEnergyConsumptionSensor                               |                   |        |        |
+|                            | modbuslink:DHWCumulatedElectricalEnergyConsumptionMBLSystemDeviceSensor |                   |        |        |
+|                            | modbus:YutakiV2SpaceHeatingElectricalEnergyConsumptionComponent         | Hitachi           |        | 8      |
+| ExteriorScreen             | io:VerticalExteriorAwningIOComponent                                    |                   |        |        |
+| ExteriorVenetianBlind      | io:ExteriorVenetianBlindIOComponent                                     |                   |        |        |
+| GarageDoor                 | io:DiscreteGarageOpenerIOComponent                                      |                   |        |        |
+|                            | io:DiscreteGarageOpenerWithPartialPositionIOComponent                   | Somfy             | 29     | 20     |
+|                            | io:GarageOpenerIOComponent                                              |                   |        |        |
+|                            | ogp:GarageDoor                                                          |                   |        |        |
+|                            | rts:GarageDoorWithVentilationPositionRTSComponent                       |                   | 10     |        |
+|                            | rts:GarageDoor4TRTSComponent                                            |                   | 3      | 6      |
+| Gate                       | io:SlidingDiscreteFullyPedestriableGateOpenerIOComponent                |                   |        |        |
+|                            | io:SlidingDiscreteGateOpenerIOComponent                                 |                   |        |        |
+|                            | ogp:Gate                                                                |                   | 4      | 14     |
+|                            | rts:GateOpenerRTSComponent                                              |                   | 9      |        |
+|                            | rts:GateOpenerRTS4TComponent                                            |                   | 3      | 6      |
+|                            | rts:SlidingGateOpenerRTSComponent                                       |                   |        |        |
+| Generic                    | ovp:ModbusMainController                                                | Hitachi           | 3      | 8      |
+| HeatingSystem              | io:AtlanticElectricalHeaterIOComponent                                  | Atlantic          |        |        |
+|				             | io:AtlanticElectricalHeaterWithAdjustableTemperatureSetpointIOComponent | Atlantic          |        |        |
+|				             | io:AtlanticElectricalTowelDryerIOComponent                              | Atlantic          |        |        |
+|				             | io:AtlanticElectricalTowelDryer_IC3_IOComponent                         | Atlantic          |        |        |
+|				             | io:AtlanticPassAPCBoilerMainComponent                                   | Atlantic          |        |        |
+|				             | io:AtlanticPassAPCHeatingAndCoolingZoneComponent                        | Atlantic          |        |        |
+|				             | io:AtlanticPassAPCHeatingZoneComponent                                  | Atlantic          |        |        |
+|				             | io:AtlanticPassAPCHeatPumpMainComponent                                 | Atlantic          |        |        |
+|				             | io:AtlanticPassAPCZoneControlMainComponent                              | Atlantic          |        |        |
+|				             | io:AtlanticPassAPCZoneControlZoneComponent                              | Atlantic          | 32     | 30     |
+|				             | modbus:YutakiRoomThermostatZone1Component                               | Hitachi           |        | 7      |
+|				             | modbus:YutakiRoomThermostatZone2Component                               | Hitachi           |        | 7      |
+|				             | netatmo:NetatmoRoomController                                           | Legrand Netatmo   | 6      | 20     |
+|				             | ogp:HvacZone                                                            | Daikin            |        |        |
+| HitachiHeatingSystem       | modbus:YutakiMainComponent                                              | Hitachi           | 41     | 73     |
+|                            | modbus:YutakiV2Zone1Component                                           | Hitachi           | 26     | 25     |
+|                            | modbus:YutakiV2Zone2Component                                           | Hitachi           | 26     | 25     |
+| HumiditySensor             | io:RelativeHumidityIOSystemDeviceSensor                                 |                   |        |        |
+|                            | netatmo:HumidityComponent                                               | Legrand Netatmo   |        |        |
+|                            | zigbee:RelativeHumidityComponent                                        |                   |        |        |
+| Light                      | hue:ColorTemperatureLightBulbHUEComponent                               | Philps Hue        |        |        |
+|                            | hue:ExtendedColorLightCandleHUEComponent                                | Philps Hue        |        |        |
+|                            | hue:GenericColorTemperatureLightHUEComponent                            | Philps Hue        |        |        |
+|                            | hue:GenericDimmableLightHUEComponent                                    | Philps Hue        |        |        |
+|                            | hue:GenericExtendedColorLightHUEComponent                               | Philps Hue        |        |        |
+|                            | io:AtlanticDimmableLightIOComponent                                     | Atlantic          | 19     | 8      |
+|                            | io:DimmableLightIOComponent                                             |                   |        |        |
+|                            | io:DimmableLightIOComponent                                             |                   |        |        |
+|                            | io:DimmableLightMicroModuleSomfyIOComponent                             | Somfy             | 35     | 22     |
+|                            | io:DimmableRGBLightIOComponent                                          |                   |        |        |
+|                            | io:LightMicroModuleSomfyIOComponent                                     |                   |        |        |
+|                            | ogp:Light                                                               |                   |        |        |
+|                            | rts:LightRTSComponent                                                   |                   |        |        |
+| LightSensor                | io:LightIOSystemDeviceSensor                                            |                   |        |        |
+|                            | io:LightIOSystemSensor                                                  |                   |        |        |
+| MusicPlayer         	     | ogp:AudioPlayer                                                         |                   |        |        |
+| NoiseSensor         	     | netatmo:NoiseComponent                                                  | Legrand Netatmo   |        |        |
+| OccupancySensor       	 | io:OccupancyIOSystemDeviceSensor                                        |                   |        |        |
+| OnOff       	             | io:OnOffIOComponent                                                     |                   |        |        |
+| Pergola      	             | io:SimpleBioclimaticPergolaIOComponent                                  |                   |        |        |
+|				             | ogp:Pergola                                                             |                   |        |        |
+| Pod       	             | internal:PodMiniComponent                                               |                   |        |        |
+|				             | internal:PodV2Component                                                 |                   |        |        |
+|				             | internal:PodV3Component                                                 |                   |        |        |
+|				             | internal:UPodComponent                                                  |                   |        |        |
+|				             | internal:UPodNetWorkComponent                                           |                   |        |        |
+| ProtocolGateway       	 | enocean:TransceiverEnoceanComponent                                     |                   |        |        |
+|				             | homekit:StackComponent                                                  |                   |        |        |
+|				             | hue:BridgeHUEV2Component                                                | Philps Hue        |        |        |
+|				             | io:StackComponent                                                       |                   |        |        |
+|				             | ogp:Bridge                                                              |                   |        |        |
+|				             | ogp:Gateway                                                             |                   |        |        |
+|				             | zigbee:StackV3Component                                                 |                   |        |        |
+|				             | zigbee:TransceiverV3_0Component                                         |                   |        |        |
+| RemoteController       	 | io:IzymoController                                                      |                   |        |        |
+|                       	 | io:KeygoController                                                      |                   |        |        |
+|				             | rtds:RTDSRemoteControllerComponent                                      |                   |        |        |
+| RollerShutter       	     | io:MicroModuleRollerShutterSomfyIOComponent                             | Somfy             | 34     | 24     |
+|                      	     | io:RollerShutterGenericIOComponent                                      |                   |        |        |
+|				             | io:RollerShutterVeluxIOComponent                                        |                   |        |        |
+|				             | io:RollerShutterWithBatterySomfyIOComponent                             |                   |        |        |
+|				             | io:RollerShutterWithLowSpeedManagementIOComponent                       | Somfy             |        |        |
+|				             | rts:RollerShutterRTSComponent                                           | Somfy             |        |        |
+|				             | zigbee:ProfaluxGenericComponent                                         | Profalux          | 14     | 17     |
+|				             | zigbee:RollerShutterGenericComponent                                    | Profalux          | 15     | 27     |
+| Screen          	         | io:VerticalInteriorBlindVeluxIOComponent                                |                   |        |        |
+|				             | ogp:Blind                                                               | Somfy             | 8      | 25     |
+| Shutter          	         | ogp:Shutter                                                             |                   |        |        |
+| SmokeSensor       	     | io:SomfySmokeIOSystemSensor                                             | Somfy             |        |        |
+| SwingingShutter       	 | rts:SwingingShutterRTSComponent                                         |                   |        |        |
+| TemperatureSensor      	 | netatmo:TemperatureComponent                                            | Legrand Netatmo   |        |        |
+|				             | io:AtlanticPassAPCOutsideTemperatureSensor                              | Atlantic          |        |        |
+|				             | io:AtlanticPassAPCZoneTemperatureSensor                                 | Atlantic          |        |        |
+|				             | io:TemperatureInCelciusIOSystemDeviceSensor                             |                   |        |        |
+|				             | io:TemperatureIOSystemSensor                                            |                   |        |        |
+|				             | netatmo:NetatmoThermostatTemperatureSensor                              | Legrand Netatmo   | 0      | 8      |
+|				             | ogp:TemperatureSensor                                                   | Daikin            |        |        |
+|				             | zigbee:TemperatureSensorComponent                                       |                   |        |        |
+| WaterHeatingSystem      	 | io:AtlanticDomesticHotWaterProductionV2_AEX_IOComponent                 | Atlantic          | 54     | 55     |
+|                        	 | io:AtlanticDomesticHotWaterProductionV2_CETHI_V4_IOComponent            | Atlantic          | 54     | 56     |
+|				             | io:AtlanticPassAPCDHWComponent                                          | Atlantic          | 17     | 17     |
+|				             | io:DomesticHotWaterTankComponent                                        |                   | 2      | 9      |
+|				             | modbuslink:AtlanticDomesticHotWaterProductionMBLComponent               |                   | 51     | 49     |
+| WeatherSensor              | core:WeatherSystemSensor                                                |                   |        |        |
+| Wifi       	             | internal:WifiComponent                                                  |                   |        |        |
+| Window       	             | io:WindowOpenerVeluxIOComponent                                         | Velux             |        |        |
