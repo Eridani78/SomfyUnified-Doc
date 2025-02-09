@@ -6,9 +6,10 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-# 08/02/2025 - v2.2.2 beta & stable
+# 09/02/2025 - v2.2.2 beta & stable
 - Améliorations code
 - Ajout équipements en BDD
+    - GarageDoor/ 2025 0209 ioDiscreteGarageOpenerWithPartialPositionIOComponent.toml
     - GarageDoor/ 2025 0207 rtsGarageDoor4TRTSComponent.toml
     - Gate/ 2025 0207 rtsGateOpenerRTS4TComponent.toml
     - Light/ 2025 0207 ioMicroModuleRollerShutterSomfyIOComponent.toml
