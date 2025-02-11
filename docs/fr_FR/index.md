@@ -3,7 +3,7 @@
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
 _Applicable version 2.2.2_<br>
-_Updated 2025 0209_
+_Updated 2025 0211_
 
 
 ## Presentation
@@ -220,9 +220,9 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | modbus:YutakiV2SpaceHeatingElectricalEnergyConsumptionComponent         | Hitachi           |        | 8      |
 | ExteriorScreen             | io:VerticalExteriorAwningIOComponent                                    |                   |        |        |
 | ExteriorVenetianBlind      | io:ExteriorVenetianBlindIOComponent                                     |                   |        |        |
-| GarageDoor                 | io:DiscreteGarageOpenerIOComponent                                      |                   |        |        |
+| GarageDoor                 | io:DiscreteGarageOpenerIOComponent                                      |                   | 24     | 20     |
 |                            | io:DiscreteGarageOpenerWithPartialPositionIOComponent                   | Somfy             | 29     | 20     |
-|                            | io:GarageOpenerIOComponent                                              |                   |        |        |
+|                            | io:GarageOpenerIOComponent                                              |                   | 25     | 21     |
 |                            | ogp:GarageDoor                                                          |                   |        |        |
 |                            | rts:GarageDoorWithVentilationPositionRTSComponent                       |                   | 10     |        |
 |                            | rts:GarageDoor4TRTSComponent                                            |                   | 3      | 6      |
