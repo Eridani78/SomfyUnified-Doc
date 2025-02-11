@@ -6,6 +6,12 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 11/02/2025 - v2.2.2 beta & stable
+- Ajout équipements en BDD
+    - GarageDoor/ 2025 0209 ioDiscreteGarageOpenerIOComponent.toml (update)
+    - GarageDoor/ 2025 0209 ioDiscreteGarageOpenerWithPartialPositionIOComponent.toml (update)
+    - GarageDoor/ 2025 0209 ioDiscreteGarageOpenerWithPartialPositionIOComponent.toml (update)
+
 # 09/02/2025 - v2.2.2 beta & stable
 - Améliorations code
 - Ajout équipements en BDD
