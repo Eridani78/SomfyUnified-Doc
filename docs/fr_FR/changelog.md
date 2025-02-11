@@ -8,9 +8,10 @@
 
 # 11/02/2025 - v2.2.2 beta & stable
 - Ajout équipements en BDD
-    - GarageDoor/ 2025 0209 ioDiscreteGarageOpenerIOComponent.toml (update)
-    - GarageDoor/ 2025 0209 ioDiscreteGarageOpenerWithPartialPositionIOComponent.toml (update)
-    - GarageDoor/ 2025 0209 ioDiscreteGarageOpenerWithPartialPositionIOComponent.toml (update)
+    - GarageDoor/ 2025 0211 ioDiscreteGarageOpenerIOComponent.toml (update)
+    - GarageDoor/ 2025 0211 ioDiscreteGarageOpenerWithPartialPositionIOComponent.toml (update)
+    - GarageDoor/ 2025 0211 ioDiscreteGarageOpenerWithPartialPositionIOComponent.toml (update)
+    - RollerShutter/ 2025 0211 ioDiscreteGarageOpenerWithPartialPositionIOComponent.toml (update)
 
 # 09/02/2025 - v2.2.2 beta & stable
 - Améliorations code
