@@ -2,8 +2,8 @@
 <img src="/docs/assets/images/SomfyUnified-Image.png" alt="" style="height: 40%; width:40%;"/>
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
-_Applicable version 2.2.3_<br>
-_Updated 2025 0211_
+_Applicable version 2.2.4_<br>
+_Updated 2025 0215_
 
 
 ## Presentation
@@ -216,7 +216,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | io:PlugsElectricalEnergyConsumptionSensor                               |                   |        |        |
 |                            | io:TotalElectricalEnergyConsumptionIOSystemSensor                       |                   |        |        |
 |                            | io:TotalElectricalEnergyConsumptionSensor                               |                   |        |        |
-|                            | modbuslink:DHWCumulatedElectricalEnergyConsumptionMBLSystemDeviceSensor |                   |        |        |
+|                            | modbuslink:DHWCumulatedElectricalEnergyConsumptionMBLSystemDeviceSensor | Atlantic, Thermor | 1      | 18     |
 |                            | modbus:YutakiV2SpaceHeatingElectricalEnergyConsumptionComponent         | Hitachi           |        | 8      |
 | ExteriorScreen             | io:VerticalExteriorAwningIOComponent                                    |                   |        |        |
 | ExteriorVenetianBlind      | io:ExteriorVenetianBlindIOComponent                                     |                   |        |        |
@@ -315,7 +315,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                        	 | io:AtlanticDomesticHotWaterProductionV2_CETHI_V4_IOComponent            | Atlantic          | 54     | 56     |
 |				             | io:AtlanticPassAPCDHWComponent                                          | Atlantic          | 17     | 17     |
 |				             | io:DomesticHotWaterTankComponent                                        |                   | 2      | 9      |
-|				             | modbuslink:AtlanticDomesticHotWaterProductionMBLComponent               |                   | 51     | 49     |
+|				             | modbuslink:AtlanticDomesticHotWaterProductionMBLComponent               | Atlantic, Thermor | 51     | 49     |
 | WeatherSensor              | core:WeatherSystemSensor                                                |                   |        |        |
 | Wifi       	             | internal:WifiComponent                                                  |                   |        |        |
 | Window       	             | io:WindowOpenerVeluxIOComponent                                         | Velux             |        |        |
