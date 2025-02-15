@@ -171,10 +171,11 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 
 | Type Equipement            |  Identifiant Equipement                                                 | Constructeur      |
 | :------------------------- | :---------------------------------------------------------------------- | :---------------- |
-| Water Heater               | Calypso Split                                                           | Atlantic          |
-|                            | Calypso Split Trineo                                                    | Atlantic          |
-|                            | Phazy                                                                   | Sauter            |
-|                            | Duralis Connect                                                         | Thermor           |
+| Towel Rack                 | KELUD                                                                   | Sauter            |
+| Water Heater               | CALYPSO Split                                                           | Atlantic          |
+|                            | CALYPSO Trineo                                                          | Atlantic          |
+|                            | PHASY                                                                   | Sauter            |
+|                            | DURALIS Connect                                                         | Thermor           |
 
 
 
