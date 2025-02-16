@@ -3,7 +3,7 @@
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
 _Applicable version 2.2.4_<br>
-_Updated 2025 0215_
+_Updated 2025 0216_
 
 
 ## Presentation
@@ -314,6 +314,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | zigbee:TemperatureSensorComponent                                       |                   |        |        |
 | WaterHeatingSystem      	 | io:AtlanticDomesticHotWaterProductionV2_AEX_IOComponent                 | Atlantic          | 54     | 55     |
 |                        	 | io:AtlanticDomesticHotWaterProductionV2_CETHI_V4_IOComponent            | Atlantic          | 54     | 56     |
+|                        	 | io:AtlanticDomesticHotWaterProductionV2_CV4E_IOComponent                | Atlantic          | 54     | 56     |
 |				             | io:AtlanticPassAPCDHWComponent                                          | Atlantic          | 17     | 17     |
 |				             | io:DomesticHotWaterTankComponent                                        |                   | 2      | 9      |
 |				             | modbuslink:AtlanticDomesticHotWaterProductionMBLComponent               | Atlantic, Thermor | 51     | 49     |
