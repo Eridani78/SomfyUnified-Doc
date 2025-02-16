@@ -6,13 +6,14 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-# 15/02/2025 - v2.2.4 beta & stable
+# 16/02/2025 - v2.2.4 beta & stable
 - Améliorations code
 - Ajout équipements en BDD
-    - WaterHeatingSystem/ 2025 0215 ioAtlanticDomesticHotWaterProductionV2_AEX_IOComponent.toml (update)
-    - WaterHeatingSystem/ 2025 0215 ioAtlanticDomesticHotWaterProductionV2_CETHI_V4_IOComponent.toml (update)
+    - WaterHeatingSystem/ 2025 0216 ioAtlanticDomesticHotWaterProductionV2_AEX_IOComponent.toml (update)
+    - WaterHeatingSystem/ 2025 0216 ioAtlanticDomesticHotWaterProductionV2_CETHI_V4_IOComponent.toml (update)
     - WaterHeatingSystem/ 2025 0215 ioAtlanticPassAPCDHWComponent.toml (update)
-    - WaterHeatingSystem/ 2025 0215 modbuslinkAtlanticDomesticHotWaterProductionMBLComponent.toml (update)
+    - WaterHeatingSystem/ 2025 0216 modbuslinkAtlanticDomesticHotWaterProductionMBLComponent.toml (update)
+    - WaterHeatingSystem/ 2025 0216 ioAtlanticDomesticHotWaterProductionV2_CV4E_IOComponent.toml
 
 # 11/02/2025 - v2.2.3 beta & stable
 - Ajout équipements en BDD
