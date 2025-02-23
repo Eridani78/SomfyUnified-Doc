@@ -6,6 +6,13 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 23/02/2025 - v2.2.5 beta & stable
+- Ajout interaction avec plugin SomfyUnifiedExt1
+- Ajout équipements en BDD
+    - HeatingSystem/ 2025 0223 ioAtlanticElectricalHeaterWithAdjustableTemperatureSetpointIOComponent.toml (update)
+    - Pod/ 2025 0223 internalUPodNetWorkComponent.toml (update)
+    - WaterHeatingSystem/ 2025 0223 modbuslinkAtlanticDomesticHotWaterProductionMBLComponent.toml (update)
+
 # 16/02/2025 - v2.2.4 beta & stable
 - Améliorations code
 - Ajout équipements en BDD
