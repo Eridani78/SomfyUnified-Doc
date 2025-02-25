@@ -3,7 +3,7 @@
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
 _Applicable version 2.2.5_<br>
-_Updated 2025 0223_
+_Updated 2025 0225_
 
 
 ## Presentation
@@ -46,7 +46,7 @@ Le retour d'état instantané n'est pas disponible sur les serveurs de type wifi
 
 (1) _Sauf si l'information n'était pas mise à disposition par le serveur_
 
-### Gestion des Scénarios (App)
+### Gestion des Scénarios (crées dans l'App)
 
 Si des scénarios ont été programmés au niveau de l'app  constructeur, le plugin permet de les exécuter.
 Pour chaque serveur, la liste des scénarios se trouve dans l'équipement `serverScenarios_server` et sous forme d'une liste dans la commande `serverScenarioList`.
@@ -109,20 +109,27 @@ Dans l'état actuel du plugin, les fonctionnalités suivantes sont prévues mais
 2. D'une façon générale, pas de widgets spécifiques associés aux commandes. Dans certains cas, des widgets dédiés sont appliqués sinon les widgets du core Jeedom s'appliquent.
 
 
-## API locale Somfy
+## Evolution des politiques Somfy et partenaires tiers
+L'entité Jeedom ainsi que le concepteur du plugin **SomfyUnified** et ses extensions ne pourront, en aucun cas et d'aucune manière, être tenus responsables d'une évolution des politiques Somfy et partenaires tiers qui conduirait à :
+- une évolution significative des APIs rendant le plugin inopérant, ou
+- à la suppression de l'accès, par Somfy et/ou partenaires tiers, aux APIs telles qu'elles étaient définies lors de la conception du plugin et de ses extensions.
+
+
+## Utilisation
+### API locale Somfy
 
 L'utilisation du serveur local de votre gateway Somfy nécessite que vous ayez au préalable créé un Token d'authentification à partir de la page du plugin prévue à cet effet.<br>
 La gateway Somfy a la capacité d'enregistrer et de conserver plusieurs tokens.<br>
 Le plugin propose les fonctionalités de gestion des token de votre gateway (création avec label utilisateur, suppression).
 
-## API locale en mode IP
+### API locale en mode IP
 
 Le mode IP est à utiliser lorsqu'un système DNS dans votre configuration ne résoud pas les hostnames de type **.local**.<br>
 C'est le cas en particulier lorsque vous utilisez une box Jeedom Atlas.<br>
 Le mode IP peut être activé lors de la création ou mise à jour d'un serveur de type **Local**.<br>
 Lorsque le Mode IP est activé, la vérification SSL est obligatoirement et automatiquement désactivée (verifySSL = No).<br>
 
-## Rafraichissements périodiques
+### Rafraichissements périodiques
 
 En complément du retour d'état instantané qui s'effectue après l'envoi d'une commande, un rafraichissement périodique de l'ensemble des données équipement s'effectue toutes les:
 - 30 mn pour un serveur CLOUD
@@ -130,20 +137,26 @@ En complément du retour d'état instantané qui s'effectue après l'envoi d'une
 - 1 mn pour un serveur WIFI
 
 
-## Utilisation des Logs
+### Utilisation des Logs
 
 Attention, les Logs `Debug` et `Info` génèrent beaucoup d'informations. Ces modes ne sont à utiliser que pour entrer en analyse du plugin et pendant des courtes périodes.<br>
 Lors du fonctionnement normal, positionner les Logs en mode `Defaut`.
 
 
-## Crons
+### Crons
 
 En fonctionnement normal, les Crons `cron` et `cron30` doivent être cochés.
 
 
-## Utilisation des commandes user
+### Utilisation des commandes user
 
 ...
+
+### Suppression d'un serveur
+
+La suppression d'un serveur (onglet Manage Servers) supprime le serveur de la configuration du plugin mais ne SUPPRIME PAS les équipements qui auraient déja été créés sur ce serveur.<br>
+En effet, la suppression d'un équipement peut avoir de nombreuses répercutions sur une configuration utilisateur.<br>
+C'est pour cela que, dans le plugin SomfyUnified, le suppression d'un équipement est laissée uniquement à l'initiative d'une opération réalisée par l'utilisateur.
 
 
 ## FAQ
