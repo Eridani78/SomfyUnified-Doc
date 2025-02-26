@@ -2,8 +2,8 @@
 <img src="/docs/assets/images/SomfyUnified-Image.png" alt="" style="height: 40%; width:40%;"/>
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
-_Applicable version 2.2.5_<br>
-_Updated 2025 0225_
+_Applicable version 2.2.6_<br>
+_Updated 2025 0226_
 
 
 ## Presentation
@@ -156,7 +156,7 @@ En fonctionnement normal, les Crons `cron` et `cron30` doivent être cochés.
 
 La suppression d'un serveur (onglet Manage Servers) supprime le serveur de la configuration du plugin mais ne SUPPRIME PAS les équipements qui auraient déja été créés sur ce serveur.<br>
 En effet, la suppression d'un équipement peut avoir de nombreuses répercutions sur une configuration utilisateur.<br>
-C'est pour cela que, dans le plugin SomfyUnified, le suppression d'un équipement est laissée uniquement à l'initiative d'une opération réalisée par l'utilisateur.
+C'est pour cela que, dans le plugin SomfyUnified, le suppression d'un équipement est laissée uniquement à l'initiative d'une opération réalisée manuellement par l'utilisateur.
 
 
 ## FAQ
@@ -328,6 +328,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 | WaterHeatingSystem      	 | io:AtlanticDomesticHotWaterProductionV2_AEX_IOComponent                 | Atlantic          | 54     | 55     |
 |                        	 | io:AtlanticDomesticHotWaterProductionV2_CETHI_V4_IOComponent            | Atlantic          | 54     | 56     |
 |                        	 | io:AtlanticDomesticHotWaterProductionV2_CV4E_IOComponent                | Atlantic          | 54     | 56     |
+|                        	 | io:AtlanticDomesticHotWaterProductionV2_SPLIT_IOComponent               | Atlantic          | 54     | 55     |
 |				             | io:AtlanticPassAPCDHWComponent                                          | Atlantic          | 17     | 17     |
 |				             | io:DomesticHotWaterTankComponent                                        |                   | 2      | 9      |
 |				             | modbuslink:AtlanticDomesticHotWaterProductionMBLComponent               | Atlantic, Thermor | 51     | 49     |
