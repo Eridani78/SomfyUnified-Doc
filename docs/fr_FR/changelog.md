@@ -8,8 +8,8 @@
 
 # 26/02/2025 - v2.2.6 beta & stable
 - Ajout équipements en BDD
-    - WaterHeatingSystem/ 2025 0226 ioAtlanticDomesticHotWaterProductionV2_CV4E_IOComponent.toml (update)
-    - WaterHeatingSystem/ 2025 0226 ioAtlanticDomesticHotWaterProductionV2_SPLIT_IOComponent.toml
+    - WaterHeatingSystem/ 2025 0227 ioAtlanticDomesticHotWaterProductionV2_CV4E_IOComponent.toml (update)
+    - WaterHeatingSystem/ 2025 0227 ioAtlanticDomesticHotWaterProductionV2_SPLIT_IOComponent.toml
 
 # 23/02/2025 - v2.2.5 beta & stable
 - Ajout interaction avec plugin SomfyUnifiedExt1
