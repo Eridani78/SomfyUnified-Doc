@@ -2,8 +2,8 @@
 <img src="/docs/assets/images/SomfyUnified-Image.png" alt="" style="height: 40%; width:40%;"/>
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
-_Applicable version 2.2.7_<br>
-_Updated 2025 0228_
+_Applicable version 2.2.8_<br>
+_Updated 2025 0304_
 
 
 ## Presentation
@@ -26,11 +26,22 @@ Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom 
 
 Voir liste détaillée des équipements déja inclus dans la base de configuration en fin de documentation.
 
+
 ### WiFi Direct
 A partir de la version 2.0 et par extension, il prend également en charge les équipements pilotables par **WiFi Direct** et qui ne nécessitent pas une Box/Gateway pour se connecter au serveur.<br>
 
 **Notice**<br>
 La connection des équipements avec connections via NaviClim, Navilink reste à être validée par de futurs utilisateurs.
+
+
+### SOMFY: liste des matériels compatibles TaHoma
+Pour accompagner la sortie de son dernier firmware(*) en date du 28.01.2025, Somfy a éditer une longue liste des matériels compatibles TaHoma dont je vous joins ici le lien:
+
+https://assets3.keepeek.com/medias/domain7918/_permalinks/SEO/media75513/somfy-solution-connectee-box-liste-compatibilites-tahoma.pdf
+
+Après avoir été appairés via l’App TaHoma Somfy, ces matériels deviennent donc potentiellement pilotables via le plugin plugin SomfyUnified.
+
+Pour les utilisateurs ou futurs utilisateurs du plugin , je vous invite à vérifier si vos matériels peuvent être ainsi pilotés par Jeedom.
 
 
 ## Caractéristiques
