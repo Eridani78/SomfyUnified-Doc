@@ -39,7 +39,7 @@ Pour accompagner la sortie de son dernier firmware en date du 28.01.2025, Somfy 
 
 [Somfy TaHoma](https://assets3.keepeek.com/medias/domain7918/_permalinks/SEO/media75513/somfy-solution-connectee-box-liste-compatibilites-tahoma.pdf)
 
-Après avoir été appairés via l’App TaHoma Somfy, ces matériels deviennent donc potentiellement pilotables via le plugin plugin SomfyUnified.
+Après avoir été appairés via l’App TaHoma Somfy, ces matériels deviennent donc potentiellement pilotables via le plugin plugin **SomfyUnified**.
 
 Pour les utilisateurs ou futurs utilisateurs du plugin , je vous invite à vérifier si vos matériels peuvent être ainsi pilotés par Jeedom.
 
