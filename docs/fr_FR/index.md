@@ -37,7 +37,7 @@ La connection des équipements avec connections via NaviClim, Navilink reste à 
 ### SOMFY: liste des matériels compatibles TaHoma
 Pour accompagner la sortie de son dernier firmware en date du 28.01.2025, Somfy a éditer une longue liste des matériels compatibles TaHoma dont je vous joins ici le lien:
 
-https://assets3.keepeek.com/medias/domain7918/_permalinks/SEO/media75513/somfy-solution-connectee-box-liste-compatibilites-tahoma.pdf
+[](https://assets3.keepeek.com/medias/domain7918/_permalinks/SEO/media75513/somfy-solution-connectee-box-liste-compatibilites-tahoma.pdf)
 
 Après avoir été appairés via l’App TaHoma Somfy, ces matériels deviennent donc potentiellement pilotables via le plugin plugin SomfyUnified.
 
