@@ -2,8 +2,8 @@
 <img src="/docs/assets/images/SomfyUnified-Image.png" alt="" style="height: 40%; width:40%;"/>
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
-_Applicable version 2.2.8_<br>
-_Updated 2025 0304_
+_Applicable version 2.2.10_<br>
+_Updated 2025 0323_
 
 
 ## Presentation
@@ -311,10 +311,11 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | ogp:Bridge                                                              |                   |        |        |
 |				             | ogp:Gateway                                                             |                   |        |        |
 |				             | zigbee:StackV3Component                                                 |                   |        |        |
-|				             | zigbee:TransceiverV3_0Component                                         |                   |        |        |
-| RemoteController       	 | io:IzymoController                                                      |                   |        |        |
-|                       	 | io:KeygoController                                                      |                   |        |        |
-|				             | rtds:RTDSRemoteControllerComponent                                      |                   |        |        |
+|                            | zigbee:TransceiverV3_0Component                                         |                   |        |        |
+| RainSensor                 | netatmo:RainComponent                                                   | Legrand Netatmo   | 0      | 8      |
+| RemoteController           | io:IzymoController                                                      |                   |        |        |
+|                            | io:KeygoController                                                      |                   |        |        |
+|                            | rtds:RTDSRemoteControllerComponent                                      |                   |        |        |
 | RollerShutter       	     | io:MicroModuleRollerShutterSomfyIOComponent                             | Somfy             | 34     | 24     |
 |                      	     | io:RollerShutterGenericIOComponent                                      |                   |        |        |
 |				             | io:RollerShutterVeluxIOComponent                                        |                   |        |        |
@@ -344,5 +345,6 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | io:DomesticHotWaterTankComponent                                        |                   | 2      | 9      |
 |				             | modbuslink:AtlanticDomesticHotWaterProductionMBLComponent               | Atlantic, Thermor | 51     | 49     |
 | WeatherSensor              | core:WeatherSystemSensor                                                |                   |        |        |
-| Wifi       	             | internal:WifiComponent                                                  |                   |        |        |
+| Wifi                       | internal:WifiComponent                                                  |                   |        |        |
+| WindSensor                 | netatmo:WindComponent                                                   | Legrand Netatmo   | 0      | 9      |
 | Window       	             | io:WindowOpenerVeluxIOComponent                                         | Velux             |        |        |
