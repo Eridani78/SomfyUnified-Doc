@@ -245,6 +245,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | modbus:YutakiV2SpaceHeatingElectricalEnergyConsumptionComponent         | Hitachi           |        | 8      |
 | ExteriorScreen             | io:VerticalExteriorAwningIOComponent                                    |                   |        |        |
 | ExteriorVenetianBlind      | io:ExteriorVenetianBlindIOComponent                                     |                   |        |        |
+|                            | rts:ExteriorVenetianBlindRTSComponent                                   |                   | 13     | 7      |
 | GarageDoor                 | io:DiscreteGarageOpenerIOComponent                                      |                   | 24     | 20     |
 |                            | io:DiscreteGarageOpenerWithPartialPositionIOComponent                   | Somfy             | 29     | 20     |
 |                            | io:GarageOpenerIOComponent                                              |                   | 25     | 21     |
@@ -316,16 +317,17 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 | RemoteController           | io:IzymoController                                                      |                   |        |        |
 |                            | io:KeygoController                                                      |                   |        |        |
 |                            | rtds:RTDSRemoteControllerComponent                                      |                   |        |        |
-| RollerShutter       	     | io:MicroModuleRollerShutterSomfyIOComponent                             | Somfy             | 34     | 24     |
-|                      	     | io:RollerShutterGenericIOComponent                                      |                   |        |        |
-|				             | io:RollerShutterVeluxIOComponent                                        |                   |        |        |
-|				             | io:RollerShutterWithBatterySomfyIOComponent                             |                   |        |        |
-|				             | io:RollerShutterWithLowSpeedManagementIOComponent                       | Somfy             |        |        |
-|				             | rts:RollerShutterRTSComponent                                           | Somfy             |        |        |
-|				             | zigbee:ProfaluxGenericComponent                                         | Profalux          | 14     | 17     |
-|				             | zigbee:RollerShutterGenericComponent                                    | Profalux          | 15     | 27     |
-| Screen          	         | io:VerticalInteriorBlindVeluxIOComponent                                |                   |        |        |
-|				             | ogp:Blind                                                               | Somfy             | 8      | 25     |
+| RollerShutter              | io:MicroModuleRollerShutterSomfyIOComponent                             | Somfy             | 34     | 24     |
+|                            | io:RollerShutterGenericIOComponent                                      |                   |        |        |
+|                            | io:RollerShutterVeluxIOComponent                                        |                   |        |        |
+|                            | io:RollerShutterWithBatterySomfyIOComponent                             |                   |        |        |
+|                            | io:RollerShutterWithLowSpeedManagementIOComponent                       | Somfy             |        |        |
+|                            | profalux868:Profalux868RollerShutter                                    | Profalux          | 7      | 6      |
+|                            | rts:RollerShutterRTSComponent                                           | Somfy             |        |        |
+|                            | zigbee:ProfaluxGenericComponent                                         | Profalux          | 14     | 17     |
+|                            | zigbee:RollerShutterGenericComponent                                    | Profalux          | 15     | 27     |
+| Screen                     | io:VerticalInteriorBlindVeluxIOComponent                                |                   |        |        |
+|                            | ogp:Blind                                                               | Somfy             | 8      | 25     |
 | Shutter          	         | ogp:Shutter                                                             |                   |        |        |
 | SmokeSensor       	     | io:SomfySmokeIOSystemSensor                                             | Somfy             |        |        |
 | SwingingShutter       	 | rts:SwingingShutterRTSComponent                                         |                   |        |        |
