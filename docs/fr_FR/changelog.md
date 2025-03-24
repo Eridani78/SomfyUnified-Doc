@@ -8,6 +8,9 @@
 
 # 24/03/2025 - SomfyUnified - v2.2.11 beta & stable
 - Correction d'un bug du à l'utilisation d'une fonction du Jeedom Core v4.5 non présente précédement en Debian 11
+- Ajout équipements en BDD
+    - ExteriorVenetianBlind/ 2025 0324 rtsExteriorVenetianBlindRTSComponent.toml
+    - RollerShutter/ 2025 0324 profalux868Profalux868RollerShutter.toml
 
 # 23/03/2025 - SomfyUnified - v2.2.10 beta & stable
 - Ajout interaction avec plugin extension SomfyUnifiedExt1
