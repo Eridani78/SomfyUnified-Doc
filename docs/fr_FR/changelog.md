@@ -6,6 +6,9 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 24/03/2025 - SomfyUnified - v2.2.11 beta & stable
+- Correction d'un bug du à l'utilisation d'une fonction du Jeedom Core v4.5 non présente précédement en Debian 11
+
 # 23/03/2025 - SomfyUnified - v2.2.10 beta & stable
 - Ajout interaction avec plugin extension SomfyUnifiedExt1
 - Ajout équipements en BDD
