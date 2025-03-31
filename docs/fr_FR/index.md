@@ -3,7 +3,7 @@
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
 _Applicable version 2.2.11_<br>
-_Updated 2025 0324_
+_Updated 2025 0331_
 
 
 ## Presentation
@@ -139,13 +139,6 @@ Le mode IP est à utiliser lorsqu'un système DNS dans votre configuration ne r�
 C'est le cas en particulier lorsque vous utilisez une box Jeedom Atlas.<br>
 Le mode IP peut être activé lors de la création ou mise à jour d'un serveur de type **Local**.<br>
 Lorsque le Mode IP est activé, la vérification SSL est obligatoirement et automatiquement désactivée (verifySSL = No).<br>
-
-### Rafraichissements périodiques
-
-En complément du retour d'état instantané qui s'effectue après l'envoi d'une commande, un rafraichissement périodique de l'ensemble des données équipement s'effectue toutes les:
-- 30 mn pour un serveur CLOUD
-- 1 mn pour un serveur LOCAL
-- 1 mn pour un serveur WIFI
 
 
 ### Utilisation des Logs
