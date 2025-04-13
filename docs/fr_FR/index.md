@@ -1,13 +1,11 @@
-# Plugin **SomfyUnified - SomfyUnifiedExt1**
-<img src="/docs/assets/images/SomfyUnified-Image.png" alt="" style="height: 20%; width:20%;"/>
-<img src="/docs/assets/images/SomfyUnifiedExt1-Image.png" alt="" style="height: 20%; width:20%;"/>
-<img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
+# Plugins **SomfyUnified - SomfyUnifiedExt1**
+<img src="/docs/assets/images/SomfyUnified-Image.png" alt="" style="height: 20%; width:20%;"/> &nbsp; &nbsp; <img src="/docs/assets/images/SomfyUnifiedExt1-Image.png" alt="" style="height: 20%; width:20%;"/> <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
 _Applicable version 2.2.11_<br>
 _Updated 2025 0412_
 
 
-## Presentation
+## Presentation SomfyUnified
 Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom et les équipements de l'écosystème Somfy connectés via les API OverKiz et appartenant aux familles listées ci-dessous:
 
 >- **Somfy TaHoma Cloud**
@@ -27,6 +25,9 @@ Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom 
 
 Voir liste détaillée des équipements déja inclus dans la base de configuration en fin de documentation.
 
+## Presentation SomfyUnifiedExt1
+Le plugin **SomfyUnifiedExt1** est une extension du plugin **SomfyUnified** qui fournit des widgets et/ou panels spécifiques pour une amélioration de l'interface utilisateur.<br>
+Le plugin SomfyUnifiedExt1 est dédié uniquement aux équipements appartenant aux familles **HeatingSystem** et **WaterHeatingSystem**.
 
 ### WiFi Direct
 A partir de la version 2.0 et par extension, il prend également en charge les équipements pilotables par **WiFi Direct** et qui ne nécessitent pas une Box/Gateway pour se connecter au serveur.<br>
