@@ -1,12 +1,17 @@
 # Plugins **SomfyUnified - SomfyUnifiedExt1**
 <img src="/docs/assets/images/SomfyUnified-Image.png" alt="" style="height: 20%; width:20%;"/> &nbsp; &nbsp; <img src="/docs/assets/images/SomfyUnifiedExt1-Image.png" alt="" style="height: 20%; width:20%;"/> <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
-_Applicable version 2.2.11_<br>
+| Plugin             | Version applicable |
+| :----------------: | :----------------: |
+| _SomfyUnified_     | _2.2.11_           |
+| _SomfyUnifiedExt1_ | _1.0.0_            |
+
 _Updated 2025 0412_
 
 
 ## Presentation SomfyUnified
-Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom et les équipements de l'écosystème Somfy connectés via les API OverKiz et appartenant aux familles listées ci-dessous:
+Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom et les équipements de l'écosystème Somfy connectés via les API OverKiz.<br>
+Les serveurs accesibles sont listés ci-dessous:
 
 >- **Somfy TaHoma Cloud**
 >- **Somfy TaHoma Local**
@@ -22,6 +27,14 @@ Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom 
 >- **Simu (LiveIn2)**
 >- **Ubiwizz**
 
+### SOMFY: liste des matériels compatibles TaHoma
+Pour accompagner la sortie de son dernier firmware en date du 28.01.2025, Somfy a éditer une longue liste des matériels compatibles TaHoma dont je vous joins ici le lien:
+
+[Equipements compatibles Somfy TaHoma](https://assets3.keepeek.com/medias/domain7918/_permalinks/SEO/media75513/somfy-solution-connectee-box-liste-compatibilites-tahoma.pdf)
+
+Après avoir été appairés via l’App TaHoma Somfy, ces matériels deviennent donc potentiellement pilotables via le plugin plugin SomfyUnified.
+
+Pour les utilisateurs ou futurs utilisateurs du plugin , je vous invite à vérifier si vos matériels peuvent être ainsi pilotés par Jeedom.
 
 Voir liste détaillée des équipements déja inclus dans la base de configuration en fin de documentation.
 
@@ -34,17 +47,6 @@ A partir de la version 2.0 et par extension, il prend également en charge les �
 
 **Notice**<br>
 La connection des équipements avec connections via NaviClim, Navilink reste à être validée par de futurs utilisateurs.
-
-
-### SOMFY: liste des matériels compatibles TaHoma
-Pour accompagner la sortie de son dernier firmware en date du 28.01.2025, Somfy a éditer une longue liste des matériels compatibles TaHoma dont je vous joins ici le lien:
-
-[Equipements compatibles Somfy TaHoma](https://assets3.keepeek.com/medias/domain7918/_permalinks/SEO/media75513/somfy-solution-connectee-box-liste-compatibilites-tahoma.pdf)
-
-Après avoir été appairés via l’App TaHoma Somfy, ces matériels deviennent donc potentiellement pilotables via le plugin plugin SomfyUnified.
-
-Pour les utilisateurs ou futurs utilisateurs du plugin , je vous invite à vérifier si vos matériels peuvent être ainsi pilotés par Jeedom.
-
 
 ## Caractéristiques
 ### Gestion multi-serveurs
@@ -84,7 +86,7 @@ Afin de s'adapter à une telle diversité de commandes ou données potentielles,
 
 La liste des équipements dont le fichier de configuration est intégré au plugin est donnée en fin de ce document.
 
-### Compatibilité
+### Compatibilité Debian
 
 Le plugin **SomfyUnified** est compatible des systèmes fonctionnant sous Debian 11 & 12.
 
@@ -119,7 +121,7 @@ Compte-tenu de l'état d'avancement, l'état de validation des différentes fami
 
 Dans l'état actuel du plugin, les fonctionnalités suivantes sont prévues mais non encore opérationnelles:
 1. Le plugin est en langue EN, la version FR sera disponible dans une version ultérieure.
-2. D'une façon générale, pas de widgets spécifiques associés aux commandes. Dans certains cas, des widgets dédiés sont appliqués sinon les widgets du core Jeedom s'appliquent.
+2. D'une façon générale avec le plugin SomfyUnified, pas de widgets spécifiques associés aux commandes. Dans certains cas, des widgets dédiés sont appliqués sinon les widgets du core Jeedom s'appliquent.
 
 
 ## Evolution des politiques Somfy et partenaires tiers
