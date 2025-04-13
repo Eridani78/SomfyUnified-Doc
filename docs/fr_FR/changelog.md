@@ -1,10 +1,14 @@
 # Plugin SomfyUnified
+# Plugin SomfyUnifiedExt1
 # Changelog
 
 
 >**IMPORTANT**
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
+
+# 12/04/2025 - SomfyUnifiedExt1 - v1.0.0 beta & stable
+- Edition initiale
 
 # 24/03/2025 - SomfyUnified - v2.2.11 beta & stable
 - Correction d'un bug du à l'utilisation d'une fonction du Jeedom Core v4.5 non présente précédement en Debian 11
