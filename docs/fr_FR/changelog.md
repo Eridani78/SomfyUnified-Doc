@@ -1,5 +1,4 @@
-# Plugin SomfyUnified
-# Plugin SomfyUnifiedExt1
+# Plugins SomfyUnified - SomfyUnifiedExt1
 # Changelog
 
 
