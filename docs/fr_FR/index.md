@@ -1,5 +1,6 @@
 # Plugin **SomfyUnified - SomfyUnifiedExt1**
 <img src="/docs/assets/images/SomfyUnified-Image.png" alt="" style="height: 20%; width:20%;"/>
+<img src="/docs/assets/images/SomfyUnifiedExt1-Image.png" alt="" style="height: 20%; width:20%;"/>
 <img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 40%; width:40%;"/>
 
 _Applicable version 2.2.11_<br>
