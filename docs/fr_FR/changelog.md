@@ -6,6 +6,28 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 28/04/2025 - SomfyUnified - v2.3.0 beta & stable
+- Ajout interaction avec plugin extension SomfyUnifiedExt1
+- Update équipements en BDD
+    - ElectricitySensor/ 2025 0428 ioCumulatedElectricalEnergyConsumptionIOSystemDeviceSensor.toml (update)
+    - ElectricitySensor/ 2025 0428 ioDHWCumulatedElectricalEnergyConsumptionIOSystemDeviceSensor.toml (update)
+    - ElectricitySensor/ 2025 0428 modbusYutakiV2DHWElectricalEnergyConsumptionComponent.toml
+    - ElectricitySensor/ 2025 0428 modbusYutakiV2SpaceHeatingElectricalEnergyConsumptionComponent.toml (update)
+    - Generic/ 2025 0428 ovpModbusMainController.toml (update)
+    - HeatingSystem/ 2025 0428 modbusYutakiRoomThermostatZone1Component.toml (update)
+    - HeatingSystem/ 2025 0428 modbusYutakiRoomThermostatZone2Component.toml (update)
+    - HitachiHeatingSystem/2025 0428 modbusYutakiMainComponent.toml (update)
+    - HitachiHeatingSystem/2025 0428 modbusYutakiV2DHWTComponent.toml
+    - HitachiHeatingSystem/2025 0428 modbusYutakiV2Zone1Component.toml (update)
+    - HitachiHeatingSystem/2025 0428 modbusYutakiV2Zone2Component.toml (update)
+    - WaterHeatingSystem/ 2025 0428 ioAtlanticDomesticHotWaterProductionV2_AEX_IOComponent.toml (update)
+    - WaterHeatingSystem/ 2025 0428 ioAtlanticDomesticHotWaterProductionV2_CETHI_V4_IOComponent.toml (update)
+    - WaterHeatingSystem/ 2025 0428 ioAtlanticDomesticHotWaterProductionV2_CV4E_IOComponent.toml (update)
+    - WaterHeatingSystem/ 2025 0428 ioAtlanticDomesticHotWaterProductionV2_SPLIT_IOComponent.toml (update)
+    - WaterHeatingSystem/ 2025 0428 ioAtlanticPassAPCDHWComponent.toml (update)
+    - WaterHeatingSystem/ 2025 0428 ioDomesticHotWaterTankComponent.toml (update)
+    - WaterHeatingSystem/ 2025 0428 modbuslinkAtlanticDomesticHotWaterProductionMBLComponent.toml (update)
+
 # 12/04/2025 - SomfyUnifiedExt1 - v1.0.0 beta & stable
 - Edition initiale
 
