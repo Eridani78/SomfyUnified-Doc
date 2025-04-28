@@ -3,10 +3,10 @@
 
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
-| _SomfyUnified_     | _2.2.11_           |
+| _SomfyUnified_     | _2.3.0_           |
 | _SomfyUnifiedExt1_ | _1.0.0_            |
 
-_Updated 2025 0412_
+_Updated 2025 0428_
 
 
 ## Presentation SomfyUnified
@@ -239,6 +239,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | io:TotalElectricalEnergyConsumptionIOSystemSensor                       |                   |        |        |
 |                            | io:TotalElectricalEnergyConsumptionSensor                               |                   |        |        |
 |                            | modbuslink:DHWCumulatedElectricalEnergyConsumptionMBLSystemDeviceSensor | Atlantic, Thermor | 1      | 18     |
+|                            | modbus:YutakiV2DHWElectricalEnergyConsumptionComponent                  | Hitachi           |        | 8      |
 |                            | modbus:YutakiV2SpaceHeatingElectricalEnergyConsumptionComponent         | Hitachi           |        | 8      |
 | ExteriorScreen             | io:VerticalExteriorAwningIOComponent                                    |                   |        |        |
 | ExteriorVenetianBlind      | io:ExteriorVenetianBlindIOComponent                                     |                   |        |        |
@@ -271,6 +272,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | netatmo:NetatmoRoomController                                           | Legrand Netatmo   | 6      | 20     |
 |				             | ogp:HvacZone                                                            | Daikin            |        |        |
 | HitachiHeatingSystem       | modbus:YutakiMainComponent                                              | Hitachi           | 41     | 73     |
+|                            | modbus:YutakiV2DHWTComponent                                            | Hitachi           | 18     | 21     |
 |                            | modbus:YutakiV2Zone1Component                                           | Hitachi           | 26     | 25     |
 |                            | modbus:YutakiV2Zone2Component                                           | Hitachi           | 26     | 25     |
 | HumiditySensor             | io:RelativeHumidityIOSystemDeviceSensor                                 |                   |        |        |
