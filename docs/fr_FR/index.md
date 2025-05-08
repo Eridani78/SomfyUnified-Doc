@@ -6,7 +6,7 @@
 | _SomfyUnified_     | _2.3.1_           |
 | _SomfyUnifiedExt1_ | _1.0.0_            |
 
-_Updated 2025 0506_
+_Updated 2025 0508_
 
 
 ## Presentation SomfyUnified
@@ -312,7 +312,8 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | ogp:Gateway                                                             |                   |        |        |
 |				             | zigbee:StackV3Component                                                 |                   |        |        |
 |                            | zigbee:TransceiverV3_0Component                                         |                   |        |        |
-| RainSensor                 | netatmo:RainComponent                                                   | Legrand Netatmo   | 0      | 8      |
+| RainSensor                 | io:SomfyRainIOSystemSensor                                              | Somfy             | 1      | 14     |
+|                            | netatmo:RainComponent                                                   | Legrand Netatmo   | 0      | 8      |
 | RemoteController           | io:IzymoController                                                      |                   |        |        |
 |                            | io:KeygoController                                                      |                   |        |        |
 |                            | rtds:RTDSRemoteControllerComponent                                      |                   |        |        |
