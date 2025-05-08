@@ -6,6 +6,10 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 08/05/2025 - SomfyUnified - v2.3.1 beta & stable
+- Ajout équipements en BDD
+    - RainSensor/ 2025 0508 ioSomfyRainIOSystemSensor.toml
+
 # 06/05/2025 - SomfyUnified - v2.3.1 beta & stable
 - Ajout interaction avec plugin extension SomfyUnifiedExt1
 - Update équipements en BDD
