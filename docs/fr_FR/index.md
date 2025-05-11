@@ -3,10 +3,10 @@
 
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
-| _SomfyUnified_     | _2.3.1_           |
+| _SomfyUnified_     | _2.3.2_           |
 | _SomfyUnifiedExt1_ | _1.0.0_            |
 
-_Updated 2025 0508_
+_Updated 2025 0511_
 
 
 ## Presentation SomfyUnified
@@ -192,7 +192,8 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 
 | Type Equipement            |  Identifiant Equipement                                                 | Constructeur      |
 | :------------------------- | :---------------------------------------------------------------------- | :---------------- |
-| Towel Rack                 | KELUD                                                                   | Sauter            |
+| Towel Rack                 | ASAMA                                                                   | Sauter            |
+|                            | KELUD                                                                   | Sauter            |
 | Water Heater               | CALYPSO Split                                                           | Atlantic          |
 |                            | CALYPSO Trineo                                                          | Atlantic          |
 |                            | PHASY                                                                   | Sauter            |
