@@ -16,6 +16,8 @@
 
 # 06/05/2025 - SomfyUnified - v2.3.1 beta & stable
 - Ajout interaction avec plugin extension SomfyUnifiedExt1
+- Ajout équipements en BDD
+    - WiFi Device/WATER HEATER/ Thermor DURALIS CONNECT ACI HYB VM 150L 2200M
 - Update équipements en BDD
 
 # 28/04/2025 - SomfyUnified - v2.3.0 beta & stable
