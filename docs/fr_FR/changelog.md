@@ -6,6 +6,10 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 29/05/2025 - SomfyUnified - v2.3.3 beta & stable
+- Ajout équipements en BDD
+    - Window/ ogpWindow.2025 0528.toml
+
 # 11/05/2025 - SomfyUnified - v2.3.2 beta & stable
 - Ajout équipements en BDD
     - WiFi Device/TOWEL RACK/ Sauter ASAMA Connecte II 1750W
