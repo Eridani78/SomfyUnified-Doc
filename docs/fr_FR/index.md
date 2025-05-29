@@ -3,10 +3,10 @@
 
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
-| _SomfyUnified_     | _2.3.2_           |
+| _SomfyUnified_     | _2.3.3_           |
 | _SomfyUnifiedExt1_ | _1.0.0_            |
 
-_Updated 2025 0511_
+_Updated 2025 0529_
 
 
 ## Presentation SomfyUnified
@@ -305,13 +305,13 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | internal:PodV3Component                                                 |                   |        |        |
 |				             | internal:UPodComponent                                                  |                   |        |        |
 |				             | internal:UPodNetWorkComponent                                           |                   |        |        |
-| ProtocolGateway       	 | enocean:TransceiverEnoceanComponent                                     |                   |        |        |
-|				             | homekit:StackComponent                                                  |                   |        |        |
-|				             | hue:BridgeHUEV2Component                                                | Philps Hue        |        |        |
-|				             | io:StackComponent                                                       |                   |        |        |
-|				             | ogp:Bridge                                                              |                   |        |        |
-|				             | ogp:Gateway                                                             |                   |        |        |
-|				             | zigbee:StackV3Component                                                 |                   |        |        |
+| ProtocolGateway            | enocean:TransceiverEnoceanComponent                                     |                   |        |        |
+|                            | homekit:StackComponent                                                  |                   |        |        |
+|                            | hue:BridgeHUEV2Component                                                | Philps Hue        |        |        |
+|                            | io:StackComponent                                                       |                   |        |        |
+|                            | ogp:Bridge                                                              |                   |        |        |
+|                            | ogp:Gateway                                                             |                   |        |        |
+|                            | zigbee:StackV3Component                                                 |                   |        |        |
 |                            | zigbee:TransceiverV3_0Component                                         |                   |        |        |
 | RainSensor                 | io:SomfyRainIOSystemSensor                                              | Somfy             | 1      | 14     |
 |                            | netatmo:RainComponent                                                   | Legrand Netatmo   | 0      | 8      |
@@ -330,24 +330,25 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 | Screen                     | io:VerticalInteriorBlindVeluxIOComponent                                |                   |        |        |
 |                            | ogp:Blind                                                               | Somfy             | 8      | 25     |
 | Shutter          	         | ogp:Shutter                                                             |                   |        |        |
-| SmokeSensor       	     | io:SomfySmokeIOSystemSensor                                             | Somfy             |        |        |
-| SwingingShutter       	 | rts:SwingingShutterRTSComponent                                         |                   |        |        |
-| TemperatureSensor      	 | netatmo:TemperatureComponent                                            | Legrand Netatmo   |        |        |
-|				             | io:AtlanticPassAPCOutsideTemperatureSensor                              | Atlantic          |        |        |
-|				             | io:AtlanticPassAPCZoneTemperatureSensor                                 | Atlantic          |        |        |
-|				             | io:TemperatureInCelciusIOSystemDeviceSensor                             |                   |        |        |
-|				             | io:TemperatureIOSystemSensor                                            |                   |        |        |
-|				             | netatmo:NetatmoThermostatTemperatureSensor                              | Legrand Netatmo   | 0      | 8      |
-|				             | ogp:TemperatureSensor                                                   | Daikin            |        |        |
-|				             | zigbee:TemperatureSensorComponent                                       |                   |        |        |
-| WaterHeatingSystem      	 | io:AtlanticDomesticHotWaterProductionV2_AEX_IOComponent                 | Atlantic          | 54     | 55     |
-|                        	 | io:AtlanticDomesticHotWaterProductionV2_CETHI_V4_IOComponent            | Atlantic          | 54     | 56     |
-|                        	 | io:AtlanticDomesticHotWaterProductionV2_CV4E_IOComponent                | Atlantic          | 54     | 56     |
-|                        	 | io:AtlanticDomesticHotWaterProductionV2_SPLIT_IOComponent               | Atlantic          | 54     | 55     |
-|				             | io:AtlanticPassAPCDHWComponent                                          | Atlantic          | 17     | 17     |
-|				             | io:DomesticHotWaterTankComponent                                        |                   | 2      | 9      |
-|				             | modbuslink:AtlanticDomesticHotWaterProductionMBLComponent               | Atlantic, Thermor | 51     | 49     |
+| SmokeSensor                | io:SomfySmokeIOSystemSensor                                             | Somfy             |        |        |
+| SwingingShutter            | rts:SwingingShutterRTSComponent                                         |                   |        |        |
+| TemperatureSensor          | netatmo:TemperatureComponent                                            | Legrand Netatmo   |        |        |
+|                            | io:AtlanticPassAPCOutsideTemperatureSensor                              | Atlantic          |        |        |
+|                            | io:AtlanticPassAPCZoneTemperatureSensor                                 | Atlantic          |        |        |
+|                            | io:TemperatureInCelciusIOSystemDeviceSensor                             |                   |        |        |
+|                            | io:TemperatureIOSystemSensor                                            |                   |        |        |
+|                            | netatmo:NetatmoThermostatTemperatureSensor                              | Legrand Netatmo   | 0      | 8      |
+|                            | ogp:TemperatureSensor                                                   | Daikin            |        |        |
+|                            | zigbee:TemperatureSensorComponent                                       |                   |        |        |
+| WaterHeatingSystem         | io:AtlanticDomesticHotWaterProductionV2_AEX_IOComponent                 | Atlantic          | 54     | 55     |
+|                            | io:AtlanticDomesticHotWaterProductionV2_CETHI_V4_IOComponent            | Atlantic          | 54     | 56     |
+|                            | io:AtlanticDomesticHotWaterProductionV2_CV4E_IOComponent                | Atlantic          | 54     | 56     |
+|                            | io:AtlanticDomesticHotWaterProductionV2_SPLIT_IOComponent               | Atlantic          | 54     | 55     |
+|                            | io:AtlanticPassAPCDHWComponent                                          | Atlantic          | 17     | 17     |
+|                            | io:DomesticHotWaterTankComponent                                        |                   | 2      | 9      |
+|                            | modbuslink:AtlanticDomesticHotWaterProductionMBLComponent               | Atlantic, Thermor | 51     | 49     |
 | WeatherSensor              | core:WeatherSystemSensor                                                |                   |        |        |
 | Wifi                       | internal:WifiComponent                                                  |                   |        |        |
 | WindSensor                 | netatmo:WindComponent                                                   | Legrand Netatmo   | 0      | 9      |
-| Window       	             | io:WindowOpenerVeluxIOComponent                                         | Velux             |        |        |
+| Window                     | io:WindowOpenerVeluxIOComponent                                         | Velux             |        |        |
+|                            | ogp:Window                                                              | Velux             | 9      | 27     |
