@@ -6,6 +6,22 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 11/06/2025 - SomfyUnified - v2.3.5 beta & stable
+- Update équipements en BDD
+    - WaterHeatingSystem/ ioAtlanticDomesticHotWaterProductionV2_AEX_IOComponent.2025 0611.toml (update)
+    - WaterHeatingSystem/ ioAtlanticDomesticHotWaterProductionV2_CETHI_V4_IOComponent.2025 0611.toml (update)
+    - WaterHeatingSystem/ ioAtlanticDomesticHotWaterProductionV2_CV4E_IOComponent.2025 0611.toml (update)
+    - WaterHeatingSystem/ ioAtlanticDomesticHotWaterProductionV2_SPLIT_IOComponent.2025 0611.toml (update)
+
+# 07/06/2025 - SomfyUnified - v2.3.4 beta & stable
+- Ajout équipements en BDD
+    - WindSpeedAndDirectionSensor.png
+- Update équipements en BDD
+    - HeatingSystem/ ioAtlanticElectricalHeaterWithAdjustableTemperatureSetpointIOComponent.2025 0607.toml (update)
+    - WaterHeatingSystem/ ioDomesticHotWaterTankComponent.2025 0607.toml (update)
+- Amélioration compatibilité avec plugin extension SomfyUnifiedExt1
+
+
 # 29/05/2025 - SomfyUnified - v2.3.3 beta & stable
 - Ajout équipements en BDD
     - Window/ ogpWindow.2025 0528.toml
