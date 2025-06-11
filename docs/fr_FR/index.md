@@ -3,10 +3,10 @@
 
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
-| _SomfyUnified_     | _2.3.4_           |
+| _SomfyUnified_     | _2.3.5_           |
 | _SomfyUnifiedExt1_ | _2.0.0_            |
 
-_Updated 2025 0607_
+_Updated 2025 0611_
 
 
 ## Presentation SomfyUnified
@@ -39,8 +39,8 @@ Pour les utilisateurs ou futurs utilisateurs du plugin , je vous invite à véri
 Voir liste détaillée des équipements déja inclus dans la base de configuration en fin de documentation.
 
 ## Presentation SomfyUnifiedExt1
-Dédié uniquement aux équipements appartenant aux familles **HeatingSystem** et **WaterHeatingSystem**.<br>
-Le plugin **SomfyUnifiedExt1** est une extension du plugin **SomfyUnified** qui fournit des widgets et/ou panels spécifiques pour une amélioration de l'interface utilisateur.
+Dédié uniquement aux équipements appartenant aux familles **HeatingSystem**, **HitachiHeatingSystem** et **WaterHeatingSystem**.<br>
+Le plugin **SomfyUnifiedExt1** est une extension du plugin **SomfyUnified** qui fournit des widgets et/ou panels/consoles spécifiques pour une amélioration de l'interface utilisateur.
 
 ### WiFi Direct
 A partir de la version 2.0 et par extension, il prend également en charge les équipements pilotables par **WiFi Direct** et qui ne nécessitent pas une Box/Gateway pour se connecter au serveur.<br>
