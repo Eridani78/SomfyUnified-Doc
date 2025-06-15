@@ -6,6 +6,12 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 15/06/2025 - SomfyUnified - v2.3.6 beta & stable
+- Ajout équipements en BDD
+    - WiFi Device/ 391 WATER HEATER/ Atlantic AQUEO ACI HYB VM 200L 2200M
+- Update équipements en BDD
+    - WaterHeatingSystem/ modbuslinkAtlanticDomesticHotWaterProductionMBLComponent.2025 0615.toml (update)
+
 # 11/06/2025 - SomfyUnified - v2.3.5 beta & stable
 - Update équipements en BDD
     - WaterHeatingSystem/ ioAtlanticDomesticHotWaterProductionV2_AEX_IOComponent.2025 0611.toml (update)
