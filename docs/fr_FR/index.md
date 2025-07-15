@@ -3,10 +3,10 @@
 
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
-| _SomfyUnified_     | _2.3.6_           |
-| _SomfyUnifiedExt1_ | _2.0.0_            |
+| _SomfyUnified_     | _2.3.7_           |
+| _SomfyUnifiedExt1_ | _2.0.1_            |
 
-_Updated 2025 0615_
+_Updated 2025 0715_
 
 
 ## Presentation SomfyUnified
@@ -273,7 +273,8 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | modbus:YutakiRoomThermostatZone2Component                               | Hitachi           |        | 7      |
 |				             | netatmo:NetatmoRoomController                                           | Legrand Netatmo   | 6      | 20     |
 |				             | ogp:HvacZone                                                            | Daikin            |        |        |
-| HitachiHeatingSystem       | modbus:YutakiMainComponent                                              | Hitachi           | 41     | 73     |
+| HitachiHeatingSystem       | hlrrwifi:HLinkMainController                                            | Hitachi           | 1      | 20     |
+|                            | modbus:YutakiMainComponent                                              | Hitachi           | 41     | 73     |
 |                            | modbus:YutakiV2DHWTComponent                                            | Hitachi           | 18     | 21     |
 |                            | modbus:YutakiV2Zone1Component                                           | Hitachi           | 26     | 25     |
 |                            | modbus:YutakiV2Zone2Component                                           | Hitachi           | 26     | 25     |
@@ -307,6 +308,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |				             | internal:UPodComponent                                                  |                   |        |        |
 |				             | internal:UPodNetWorkComponent                                           |                   |        |        |
 | ProtocolGateway            | enocean:TransceiverEnoceanComponent                                     |                   |        |        |
+|                            | hlrrwifi:HLRRWifiBridge                                                 | Hitachi           | 2      | 8      |
 |                            | homekit:StackComponent                                                  |                   |        |        |
 |                            | hue:BridgeHUEV2Component                                                | Philps Hue        |        |        |
 |                            | io:StackComponent                                                       |                   |        |        |
