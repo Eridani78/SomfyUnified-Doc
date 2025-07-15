@@ -6,6 +6,18 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 15/07/2025 - SomfyUnifiedExt1 - v2.0.1 beta & stable
+- Update fonctions associées au plugin Extensions
+    - SomfyUnifiedExt1/core/class/commandMapper/cmdUIHandlers/ HitachiHeatingSystemHandler.2025 0715 v2.0.1.class.php (update)
+
+# 15/07/2025 - SomfyUnified - v2.3.7 beta & stable
+- Ajout équipements en BDD
+    - HitachiHeatingSystem/ hlrrwifiHLinkMainController.2025 0715.toml
+    - ProtocolGateway/ hlrrwifiHLRRWifiBridge.2025 0715.toml
+
+# 15/06/2025 - SomfyUnifiedExt1 - v2.0.0 beta & stable
+- Developpement
+
 # 15/06/2025 - SomfyUnified - v2.3.6 beta & stable
 - Ajout équipements en BDD
     - WiFi Device/ 391 WATER HEATER/ Atlantic AQUEO ACI HYB VM 200L 2200M
