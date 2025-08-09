@@ -6,6 +6,26 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 09/08/2025 - SomfyUnifiedExt1 - v2.0.2 beta & stable
+- Update fonctions associées au plugin Extensions
+    - SomfyUnifiedExt1/core/class/commandMapper/cmdUIHandlers/ HeatingSystemHandler.2025 0809 v2.0.2.class.php (update)
+    - SomfyUnifiedExt1/core/class/commandMapper/cmdUIHandlers/ HitachiHeatingSystemHandler.2025 0716 v2.0.2.class.php (update)
+    - SomfyUnifiedExt1/core/class/commandMapper/cmdUIHandlers/ TemperatureSensorHandler.2025 0803 v2.0.2.class.php (update)
+    - SomfyUnifiedExt1/core/class/commandMapper/cmdUIHandlers/ WaterHeatingSystemHandler.2025 0809 v2.0.2.class.php (update)
+
+    - core/template/dashboard/ cmd.action.message.SU1_MP01EnterDateTimeToObject.2025 0803.html (update)
+    - core/template/dashboard/ cmd.action.message.SU1_MP07SetScheduledTimeSlots.2025 0809.html (add)
+    - core/template/dashboard/ cmd.action.message.SU1_WH01SetScheduledTimeSlots.2025 0607.html (suppression)
+    - core/template/dashboard/ cmd.action.message.SU1_WH07SetScheduledTimeSlots.2025 0607.html (suppression)
+    - core/template/dashboard/ cmd.action.message.SU1_WH08SetScheduledTimeSlots.2025 0607.html (suppression)
+
+# 09/08/2025 - SomfyUnified - v2.3.8 beta & stable
+- Update équipements en BDD
+    - HeatingSystem/ ioAtlanticPassAPCZoneControlMainComponent.2025 0809.toml (update)
+    - HeatingSystem/ ioAtlanticPassAPCZoneControlZoneComponent.2025 0809.toml (update)
+    - TemperatureSensor/ ioAtlanticPassAPCZoneTemperatureSensor.2025 0809.toml (update)
+- Amélioration compatibilité avec plugin extension SomfyUnifiedExt1
+
 # 15/07/2025 - SomfyUnifiedExt1 - v2.0.1 beta & stable
 - Update fonctions associées au plugin Extensions
     - SomfyUnifiedExt1/core/class/commandMapper/cmdUIHandlers/ HitachiHeatingSystemHandler.2025 0715 v2.0.1.class.php (update)
