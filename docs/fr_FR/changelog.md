@@ -6,6 +6,33 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+
+# 16/08/2025 - SomfyUnifiedExt1 - v2.0.3 beta & stable
+- Update fonctions associées au plugin Extensions
+    - SomfyUnifiedExt1/core/class/commandMapper/ 2025 0816 v2.0.3 CommandMapper.php
+    - SomfyUnifiedExt1/core/class/commandMapper/cmdUIHandlers/ 2025 0816 v2.0.3 CmdMapperInterface.php
+    - SomfyUnifiedExt1/core/class/commandMapper/cmdUIHandlers/ 2025 0816 v2.0.3 ContactSensorHandler.php
+    - SomfyUnifiedExt1/core/class/commandMapper/cmdUIHandlers/ 2025 0816 v2.0.3 ElectricitySensorHandler.php
+    - SomfyUnifiedExt1/core/class/commandMapper/cmdUIHandlers/ 2025 0816 v2.0.3 HeatingSystemHandler.php
+    - SomfyUnifiedExt1/core/class/commandMapper/cmdUIHandlers/ 2025 0816 v2.0.3 HitachiHeatingSystemHandler.php
+    - SomfyUnifiedExt1/core/class/commandMapper/cmdUIHandlers/ 2025 0816 v2.0.3 OccupancySensorHandler.php
+    - SomfyUnifiedExt1/core/class/commandMapper/cmdUIHandlers/ 2025 0816 v2.0.3 TemperatureSensorHandler.php
+    - SomfyUnifiedExt1/core/class/commandMapper/cmdUIHandlers/ 2025 0816 v2.0.3 WaterHeatingSystemHandler.php
+
+    - core/template/dashboard/ cmd.action.message.SU1_MP01_EnterDateTimeToObject.2025 0816.html (update)
+    - core/template/dashboard/ cmd.info.numeric.SU1_MP02_RSSILevelWidget.2025 0816.html (update)
+    - core/template/dashboard/ cmd.action.select.SU1_MP03_ListSelect.2025 0816.html (update)
+    - core/template/dashboard/ cmd.info.string.SU1_MP04_ListDisplay.2025 0816.html (update)
+    - core/template/dashboard/ cmd.info.string.SU1_MP05_JSONListDisplay.2025 0816.html (update)
+    - core/template/dashboard/ cmd.action.select.SU1_MP06_ToggleMode.2025 0816.html (update)
+    - core/template/dashboard/ cmd.action.message.SU1_MP07_SetScheduledTimeSlots.2025 0816.html (update)
+    - core/template/dashboard/ cmd.action.message.SU1_WH02_SetCurrentOperatingMode.2025 0816.html (update)
+    - core/template/dashboard/ cmd.action.slider.SU1_MP08_SliderValue.2025 0816.html (add)
+
+# 16/08/2025 - SomfyUnified - v2.3.9 beta & stable
+- Update équipements en BDD
+    - Window/ ogpWindow.2025 0816.toml (update)
+
 # 09/08/2025 - SomfyUnifiedExt1 - v2.0.2 beta & stable
 - Update fonctions associées au plugin Extensions
     - SomfyUnifiedExt1/core/class/commandMapper/cmdUIHandlers/ HeatingSystemHandler.2025 0809 v2.0.2.class.php (update)
