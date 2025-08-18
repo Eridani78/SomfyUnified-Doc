@@ -6,6 +6,27 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 18/08/2025 - SomfyUnifiedExt1 - v2.0.4 beta & stable
+- Update fonctions associées au plugin Extensions
+    - SomfyUnifiedExt1/core/class/commandMapper/cmdUIHandlers/ 2025 0818 v2.0.4 HitachiHeatingSystemHandler.php
+- Amélioration code
+
+# 18/08/2025 - SomfyUnified - v2.4.0 beta & stable
+- Update équipements en BDD
+    - RollerShutter/ ioMicroModuleRollerShutterSomfyIOComponent.2025 0818.toml (update)
+    - RollerShutter/ ioRollerShutterGenericIOComponent.2025 0818.toml (update)
+    - RollerShutter/ ioRollerShutterVeluxIOComponent.2025 0818.toml (update)
+    - RollerShutter/ ioRollerShutterWithBatterySomfyIOComponent.2025 0818.toml (update)
+    - RollerShutter/ ioRollerShutterWithLowSpeedManagementIOComponent.2025 0818.toml (update)
+    - RollerShutter/ profalux868Profalux868RollerShutter.2025 0818.toml (update)
+    - RollerShutter/ rtsRollerShutterRTSComponent.2025 0818.toml (update)
+    - RollerShutter/ zigbeeProfaluxGenericComponent.2025 0818.toml (update)
+    - RollerShutter/ zigbeeRollerShutterGenericComponent.2025 0818.toml (update)
+    - Shutter/ ogpShutter.2025 0818.toml (update)
+    - Window/ ioWindowOpenerVeluxIOComponent.2025 0818.toml (update)
+    - Window/ ogpWindow.2025 0818.toml (update)
+
+- Amélioration code
 
 # 16/08/2025 - SomfyUnifiedExt1 - v2.0.3 beta & stable
 - Update fonctions associées au plugin Extensions
