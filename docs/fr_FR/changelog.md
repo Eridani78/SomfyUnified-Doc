@@ -6,6 +6,11 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 24/08/2025 - SomfyUnified - v2.4.1 beta & stable
+- Ajout équipements en BDD
+    - WiFi Device/ 386 WATER HEATER/ Sauter PHAZY VS 300L 3000M
+- Amélioration code
+
 # 18/08/2025 - SomfyUnifiedExt1 - v2.0.4 beta & stable
 - Update fonctions associées au plugin Extensions
     - SomfyUnifiedExt1/core/class/commandMapper/cmdUIHandlers/ 2025 0818 v2.0.4 HitachiHeatingSystemHandler.php
