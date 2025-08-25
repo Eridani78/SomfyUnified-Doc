@@ -1,6 +1,8 @@
 # Plugins **SomfyUnified - SomfyUnifiedExt1**
 <img src="/docs/assets/images/SomfyUnified-Image.png" alt="" style="height: 20%; width:20%;"/> &nbsp; &nbsp; <img src="/docs/assets/images/SomfyUnifiedExt1-Image.png" alt="" style="height: 20%; width:20%;"/>
 
+<img src="/SomfyUnified-Doc/assets/images/SomfyUnified-Image.png" alt="TaHomaLocal logo" style="height: 20%; width:20%;"/> &nbsp; &nbsp; <img src="/SomfyUnified-Doc/assets/images/SomfyUnifiedExt1-Image.png" alt="TaHomaLocal logo" style="height: 20%; width:20%;"/>
+
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
 | _SomfyUnified_     | _2.4.1_           |
