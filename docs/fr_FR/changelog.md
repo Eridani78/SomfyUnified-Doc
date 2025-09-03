@@ -6,6 +6,18 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 03/09/2025 - SomfyUnifiedExt1 - v2.0.5 beta & stable
+- Amélioration code
+
+# 03/09/2025 - SomfyUnified - v2.4.2 beta & stable
+- Update équipements en BDD
+    - Awning/ ogpAwning.2025 0903.toml (update)
+    - Light/ ogpLight.2025 0903.toml (update)
+    - ProtocolGateway/ ogpBridge.2025 0903.toml (update)
+    - ProtocolGateway/ ogpGateway.2025 0903.toml (update)
+    - Screen/ ogpBlind.2025 0903.toml (update)
+    - Shutter/ ogpShutter.2025 0903.toml (update)
+
 # 24/08/2025 - SomfyUnified - v2.4.1 beta & stable
 - Ajout équipements en BDD
     - WiFi Device/ 386 WATER HEATER/ Sauter PHAZY VS 300L 3000M
