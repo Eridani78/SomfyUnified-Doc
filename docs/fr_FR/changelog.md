@@ -6,6 +6,11 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 10/09/2025 - SomfyUnified - v2.4.3 beta & stable
+- Ajout équipements en BDD
+    - WiFi Device/ 1372 WATER HEATER/ Thermor Aeromax SPLIT 3 VS 270L
+- Amélioration code
+
 # 03/09/2025 - SomfyUnifiedExt1 - v2.0.5 beta & stable
 - Amélioration code
 
