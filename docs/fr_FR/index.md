@@ -5,10 +5,10 @@
 
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
-| _SomfyUnified_     | _2.4.2_           |
+| _SomfyUnified_     | _2.4.3_           |
 | _SomfyUnifiedExt1_ | _2.0.5_            |
 
-_Updated 2025 0903_
+_Updated 2025 0910_
 
 
 ## Presentation SomfyUnified
@@ -200,6 +200,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | CALYPSO Split                                                           | Atlantic          |
 |                            | CALYPSO Trineo                                                          | Atlantic          |
 |                            | PHASY                                                                   | Sauter            |
+|                            | AEROMAX SPLIT 3                                                         | Thermor           |
 |                            | DURALIS Connect                                                         | Thermor           |
 
 
