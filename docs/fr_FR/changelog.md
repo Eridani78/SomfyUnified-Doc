@@ -6,6 +6,12 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 29/09/2025 - SomfyUnified - v2.4.4 beta & stable
+- Update équipements en BDD
+    - RollerShutter/ ioRollerShutterWithLowSpeedManagementIOComponent.2025 0929.toml (update)
+- Amélioration de la tolérance du plugin face aux anomalies des réponses serveur
+- Evolution public static function getPluginRootPath()
+
 # 10/09/2025 - SomfyUnified - v2.4.3 beta & stable
 - Ajout équipements en BDD
     - WiFi Device/ 1372 WATER HEATER/ Thermor Aeromax SPLIT 3 VS 270L
