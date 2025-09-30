@@ -6,6 +6,9 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 30/09/2025 - SomfyUnified - v2.4.5 beta & stable
+- Update Python requirements
+
 # 29/09/2025 - SomfyUnified - v2.4.4 beta & stable
 - Update équipements en BDD
     - RollerShutter/ ioRollerShutterWithLowSpeedManagementIOComponent.2025 0929.toml (update)
