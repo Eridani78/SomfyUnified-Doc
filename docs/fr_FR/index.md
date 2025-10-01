@@ -5,10 +5,10 @@
 
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
-| _SomfyUnified_     | _2.4.5_           |
+| _SomfyUnified_     | _2.4.6_           |
 | _SomfyUnifiedExt1_ | _2.0.5_            |
 
-_Updated 2025 0930_
+_Updated 2025 1001_
 
 
 ## Presentation SomfyUnified
@@ -255,6 +255,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | ogp:GarageDoor                                                          |                   |        |        |
 |                            | rts:GarageDoorWithVentilationPositionRTSComponent                       |                   | 10     |        |
 |                            | rts:GarageDoor4TRTSComponent                                            |                   | 3      | 6      |
+|                            | rts:SlidingGarageDoorWithPedestrianPositionRTSComponent                 |                   | 10     | 7      |
 | Gate                       | io:SlidingDiscreteFullyPedestriableGateOpenerIOComponent                |                   |        |        |
 |                            | io:SlidingDiscreteGateOpenerIOComponent                                 |                   |        |        |
 |                            | ogp:Gate                                                                |                   | 4      | 14     |
@@ -299,8 +300,9 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | rts:LightRTSComponent                                                   |                   |        |        |
 | LightSensor                | io:LightIOSystemDeviceSensor                                            |                   |        |        |
 |                            | io:LightIOSystemSensor                                                  |                   |        |        |
-| MusicPlayer         	     | ogp:AudioPlayer                                                         |                   |        |        |
-| NoiseSensor         	     | netatmo:NoiseComponent                                                  | Legrand Netatmo   |        |        |
+| MusicPlayer                | ogp:AudioPlayer                                                         |                   |        |        |
+| NetworkComponent           | zigbee:ZigbeeNetworkNode                                                |                   | 4      | 11     |
+| NoiseSensor                | netatmo:NoiseComponent                                                  | Legrand Netatmo   |        |        |
 | OccupancySensor       	 | io:OccupancyIOSystemDeviceSensor                                        |                   |        |        |
 | OnOff       	             | io:OnOffIOComponent                                                     |                   |        |        |
 | Pergola      	             | io:SimpleBioclimaticPergolaIOComponent                                  |                   |        |        |
@@ -346,7 +348,8 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | netatmo:NetatmoThermostatTemperatureSensor                              | Legrand Netatmo   | 0      | 8      |
 |                            | ogp:TemperatureSensor                                                   | Daikin            |        |        |
 |                            | zigbee:TemperatureSensorComponent                                       |                   |        |        |
-| WaterHeatingSystem         | io:AtlanticDomesticHotWaterProductionV2_AEX_IOComponent                 | Atlantic          | 54     | 55     |
+| WaterHeatingSystem         | io:AtlanticDomesticHotWaterProductionIOComponent                        | Atlantic          | 25     | 27     |
+|                            | io:AtlanticDomesticHotWaterProductionV2_AEX_IOComponent                 | Atlantic          | 54     | 55     |
 |                            | io:AtlanticDomesticHotWaterProductionV2_CETHI_V4_IOComponent            | Atlantic          | 54     | 56     |
 |                            | io:AtlanticDomesticHotWaterProductionV2_CV4E_IOComponent                | Atlantic          | 54     | 56     |
 |                            | io:AtlanticDomesticHotWaterProductionV2_SPLIT_IOComponent               | Atlantic          | 54     | 55     |
