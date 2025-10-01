@@ -6,6 +6,12 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 01/10/2025 - SomfyUnified - v2.4.6 beta & stable
+- Ajout équipements en BDD
+    - GarageDoor/ rtsSlidingGarageDoorWithPedestrianPositionRTSComponent.toml
+    - NetworkComponent/ zigbeeZigbeeNetworkNode.toml
+    - WaterHeatingSystem/ ioAtlanticDomesticHotWaterProductionIOComponent.toml
+
 # 30/09/2025 - SomfyUnified - v2.4.5 beta & stable
 - Update Python requirements
 
