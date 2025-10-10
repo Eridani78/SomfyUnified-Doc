@@ -5,10 +5,10 @@
 
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
-| _SomfyUnified_     | _2.4.6_           |
+| _SomfyUnified_     | _2.4.7_           |
 | _SomfyUnifiedExt1_ | _2.0.5_            |
 
-_Updated 2025 1001_
+_Updated 2025 1010_
 
 
 ## Presentation SomfyUnified
@@ -323,7 +323,8 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | zigbee:TransceiverV3_0Component                                         |                   |        |        |
 | RainSensor                 | io:SomfyRainIOSystemSensor                                              | Somfy             | 1      | 14     |
 |                            | netatmo:RainComponent                                                   | Legrand Netatmo   | 0      | 8      |
-| RemoteController           | io:IzymoController                                                      |                   |        |        |
+| RemoteController           | io:DynamicRemoteController                                              |                   | 0      | 8      |
+|                            | io:IzymoController                                                      |                   |        |        |
 |                            | io:KeygoController                                                      |                   |        |        |
 |                            | rtds:RTDSRemoteControllerComponent                                      |                   |        |        |
 | RollerShutter              | io:MicroModuleRollerShutterSomfyIOComponent                             | Somfy             | 34     | 24     |
@@ -340,12 +341,13 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 | Shutter          	         | ogp:Shutter                                                             |                   |        |        |
 | SmokeSensor                | io:SomfySmokeIOSystemSensor                                             | Somfy             |        |        |
 | SwingingShutter            | rts:SwingingShutterRTSComponent                                         |                   |        |        |
-| TemperatureSensor          | netatmo:TemperatureComponent                                            | Legrand Netatmo   |        |        |
-|                            | io:AtlanticPassAPCOutsideTemperatureSensor                              | Atlantic          |        |        |
+| TemperatureSensor          | io:AtlanticPassAPCOutsideTemperatureSensor                              | Atlantic          |        |        |
 |                            | io:AtlanticPassAPCZoneTemperatureSensor                                 | Atlantic          |        |        |
 |                            | io:TemperatureInCelciusIOSystemDeviceSensor                             |                   |        |        |
 |                            | io:TemperatureIOSystemSensor                                            |                   |        |        |
+|                            | io:TemperatureMeasurementSensor                                         |                   | 0      | 8      |
 |                            | netatmo:NetatmoThermostatTemperatureSensor                              | Legrand Netatmo   | 0      | 8      |
+|                            | netatmo:TemperatureComponent                                            | Legrand Netatmo   |        |        |
 |                            | ogp:TemperatureSensor                                                   | Daikin            |        |        |
 |                            | zigbee:TemperatureSensorComponent                                       |                   |        |        |
 | WaterHeatingSystem         | io:AtlanticDomesticHotWaterProductionIOComponent                        | Atlantic          | 25     | 27     |
