@@ -5,10 +5,10 @@
 
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
-| _SomfyUnified_     | _2.4.7_           |
-| _SomfyUnifiedExt1_ | _2.0.5_            |
+| _SomfyUnified_     | _2.4.8_           |
+| _SomfyUnifiedExt1_ | _2.0.6_            |
 
-_Updated 2025 1010_
+_Updated 2025 1011_
 
 
 ## Presentation SomfyUnified
@@ -353,6 +353,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 | WaterHeatingSystem         | io:AtlanticDomesticHotWaterProductionIOComponent                        | Atlantic          | 25     | 27     |
 |                            | io:AtlanticDomesticHotWaterProductionV2_AEX_IOComponent                 | Atlantic          | 54     | 55     |
 |                            | io:AtlanticDomesticHotWaterProductionV2_CETHI_V4_IOComponent            | Atlantic          | 54     | 56     |
+|                            | io:AtlanticDomesticHotWaterProductionV2_CE_FLAT_C2_IOComponent          | Atlantic          | 75     | 75     |
 |                            | io:AtlanticDomesticHotWaterProductionV2_CV4E_IOComponent                | Atlantic          | 54     | 56     |
 |                            | io:AtlanticDomesticHotWaterProductionV2_SPLIT_IOComponent               | Atlantic          | 54     | 55     |
 |                            | io:AtlanticPassAPCDHWComponent                                          | Atlantic          | 17     | 17     |
