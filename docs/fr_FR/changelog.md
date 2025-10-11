@@ -6,6 +6,11 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 11/10/2025 - SomfyUnified - v2.4.8 beta & stable
+- Ajout équipements en BDD
+    - WaterHeatingSystem/ ioAtlanticDomesticHotWaterProductionV2_CE_FLAT_C2_IOComponent.2025 1011.toml
+    - WaterHeatingSystem/ modbuslinkAtlanticDomesticHotWaterProductionMBLComponent.2025 1011.toml (update)
+
 # 10/10/2025 - SomfyUnified - v2.4.7 beta & stable
 - Ajout équipements en BDD
     - RemoteController/ ioDynamicRemoteController.2025 1010.toml
