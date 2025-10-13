@@ -6,6 +6,12 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 13/10/2025 - SomfyUnified - v2.4.9 beta & stable
+- Ajout équipements en BDD
+    - RollerShutter/ ioRollerShutterUnoIOComponent.toml.2025 1013.toml (new)
+    - data/png/devices/ PositionableRollerShutterUno.png
+- Amélioration code
+
 # 11/10/2025 - SomfyUnifiedExt1 - v2.0.6 beta & stable
 - Update fonctions associées au plugin Extensions
     - core/class/commandMapper/cmdUIHandlers/ WaterHeatingSystemHandler.2025 1011 v2.0.6.class.php (update)
