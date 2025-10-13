@@ -5,10 +5,10 @@
 
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
-| _SomfyUnified_     | _2.4.8_           |
+| _SomfyUnified_     | _2.4.9_           |
 | _SomfyUnifiedExt1_ | _2.0.6_            |
 
-_Updated 2025 1011_
+_Updated 2025 1013_
 
 
 ## Presentation SomfyUnified
@@ -329,6 +329,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | rtds:RTDSRemoteControllerComponent                                      |                   |        |        |
 | RollerShutter              | io:MicroModuleRollerShutterSomfyIOComponent                             | Somfy             | 34     | 24     |
 |                            | io:RollerShutterGenericIOComponent                                      |                   |        |        |
+|                            | io:RollerShutterUnoIOComponent                                          | Somfy             | 34     | 28     |
 |                            | io:RollerShutterVeluxIOComponent                                        |                   |        |        |
 |                            | io:RollerShutterWithBatterySomfyIOComponent                             |                   |        |        |
 |                            | io:RollerShutterWithLowSpeedManagementIOComponent                       | Somfy             |        |        |
