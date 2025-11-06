@@ -5,10 +5,10 @@
 
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
-| _SomfyUnified_     | _2.4.9_           |
+| _SomfyUnified_     | _2.5.0_           |
 | _SomfyUnifiedExt1_ | _2.0.6_            |
 
-_Updated 2025 1013_
+_Updated 2025 1106_
 
 
 ## Presentation SomfyUnified
@@ -194,6 +194,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 
 | Type Equipement            |  Identifiant Equipement                                                 | Constructeur      |
 | :------------------------- | :---------------------------------------------------------------------- | :---------------- |
+| Gaz Boiler                 | NAEMA 3 Duo 25 (1)                                                      | Atlantic          |
 | Towel Rack                 | ASAMA                                                                   | Sauter            |
 |                            | KELUD                                                                   | Sauter            |
 | Water Heater               | AQUEO (150L & 200L)                                                     | Atlantic          |
@@ -203,6 +204,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | AEROMAX SPLIT 3                                                         | Thermor           |
 |                            | DURALIS Connect                                                         | Thermor           |
 
+(1) _via Atlantic Navilink 128 (Thermostat modulant connecté)_<br>
 
 
 ## Liste des équipements en BdD du plugin (API Overkiz)
