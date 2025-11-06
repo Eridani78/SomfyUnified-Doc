@@ -6,6 +6,10 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 06/11/2025 - SomfyUnified - v2.5.0 beta & stable
+- Ajout équipements en BDD
+    - WiFi Device/ 1447 GAZ BOILER/ Atlantic Naema 3 Duo 25
+
 # 13/10/2025 - SomfyUnified - v2.4.9 beta & stable
 - Ajout équipements en BDD
     - RollerShutter/ ioRollerShutterUnoIOComponent.toml.2025 1013.toml (new)
