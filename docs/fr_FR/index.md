@@ -5,10 +5,10 @@
 
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
-| _SomfyUnified_     | _2.5.0_           |
+| _SomfyUnified_     | _2.5.1_           |
 | _SomfyUnifiedExt1_ | _2.0.6_            |
 
-_Updated 2025 1106_
+_Updated 2025 1107_
 
 
 ## Presentation SomfyUnified
