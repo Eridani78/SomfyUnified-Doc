@@ -6,6 +6,12 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 15/11/2025 - SomfyUnified - v3.0.0 beta & stable
+- Ajout équipements en BDD
+    - WiFi Device/ 2145 HEAT PUMP/ Atlantic HYBRELLIA
+- Amélioration code
+- Gestion du status des servers
+
 # 07/11/2025 - SomfyUnified - v2.5.1 beta & stable
 - Ajout équipements en BDD
     - WiFi Device/ 1543 TOWEL RACK/ Sauter ASAMA Connecte II 1750W BLC
