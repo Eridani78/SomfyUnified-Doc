@@ -5,10 +5,10 @@
 
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
-| _SomfyUnified_     | _2.5.1_           |
+| _SomfyUnified_     | _3.0.0_           |
 | _SomfyUnifiedExt1_ | _2.0.6_            |
 
-_Updated 2025 1107_
+_Updated 2025 1115_
 
 
 ## Presentation SomfyUnified
@@ -195,6 +195,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 | Type Equipement            |  Identifiant Equipement                                                 | Constructeur      |
 | :------------------------- | :---------------------------------------------------------------------- | :---------------- |
 | Gaz Boiler                 | NAEMA 3 Duo 25 (1)                                                      | Atlantic          |
+| Heat Pump                  | HYBRELLIA (1)                                                           | Atlantic          |
 | Towel Rack                 | ASAMA                                                                   | Sauter            |
 |                            | KELUD                                                                   | Sauter            |
 | Water Heater               | AQUEO (150L & 200L)                                                     | Atlantic          |
