@@ -10,7 +10,7 @@
 - Ajout équipements en BDD
     - WiFi Device/ 2145 HEAT PUMP/ Atlantic HYBRELLIA
 - Amélioration code
-- Gestion du status des servers
+- Gestion avancée des servers + affichage status
 
 # 07/11/2025 - SomfyUnified - v2.5.1 beta & stable
 - Ajout équipements en BDD
