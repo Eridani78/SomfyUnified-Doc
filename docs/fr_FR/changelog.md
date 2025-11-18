@@ -6,6 +6,18 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 18/11/2025 - SomfyUnified - v3.0.1 beta & stable
+- Ajout équipements en BDD
+    - ConfigurationComponent/ zigbeeSomfyConfigurationToolComponent.toml
+    - ElectricitySensor/ zigbeeLinkyRadioTransmitterSensorComponent.toml
+    - Light/ zigbeeColorLightComponent.toml
+    - Light/ zigbeeOnOffLightComponent.toml
+    - OccupancySensor/ zigbeeMotionSensorComponent.toml
+    - OnOff/ zigbeeOnOffComponent.toml
+    - RemoteController/ zigbeeZigbeeRemoteComponent.toml
+    - WaterSensor/ zigbeeWaterLeakageSensorComponent.toml
+- Amélioration code + bug fixes
+
 # 15/11/2025 - SomfyUnified - v3.0.0 beta & stable
 - Ajout équipements en BDD
     - WiFi Device/ 2145 HEAT PUMP/ Atlantic HYBRELLIA
