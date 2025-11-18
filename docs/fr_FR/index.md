@@ -5,10 +5,10 @@
 
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
-| _SomfyUnified_     | _3.0.0_           |
+| _SomfyUnified_     | _3.0.1_           |
 | _SomfyUnifiedExt1_ | _2.0.6_            |
 
-_Updated 2025 1115_
+_Updated 2025 1118_
 
 
 ## Presentation SomfyUnified
@@ -224,6 +224,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 | ConfigurationComponent     | netatmo:ConfigurationComponent                                          | Legrand Netatmo   |        |        |
 |                            | netatmo:HomeController                                                  | Legrand Netatmo   |        |        |
 |                            | netatmo:WeatherStationConfigurationComponent                            | Legrand Netatmo   |        |        |
+|                            | zigbee:SomfyConfigurationToolComponent                                  | Somfy             | 15     | 28     |
 | ConsumptionSensor          | io:DHWRelatedFossilEnergyConsumptionSensor                              |                   |        |        |
 |                            | io:HeatingRelatedFossilEnergyConsumptionSensor                          |                   |        |        |
 |                            | io:TotalFossilEnergyConsumptionSensor                                   |                   |        |        |
@@ -249,6 +250,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | modbuslink:DHWCumulatedElectricalEnergyConsumptionMBLSystemDeviceSensor | Atlantic, Thermor | 1      | 18     |
 |                            | modbus:YutakiV2DHWElectricalEnergyConsumptionComponent                  | Hitachi           |        | 8      |
 |                            | modbus:YutakiV2SpaceHeatingElectricalEnergyConsumptionComponent         | Hitachi           |        | 8      |
+|                            | zigbee:LinkyRadioTransmitterSensorComponent                             | Somfy             | 6      | 46     |
 | ExteriorScreen             | io:VerticalExteriorAwningIOComponent                                    |                   |        |        |
 | ExteriorVenetianBlind      | io:ExteriorVenetianBlindIOComponent                                     |                   |        |        |
 |                            | rts:ExteriorVenetianBlindRTSComponent                                   |                   | 13     | 7      |
@@ -301,13 +303,17 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | io:LightMicroModuleSomfyIOComponent                                     |                   |        |        |
 |                            | ogp:Light                                                               |                   |        |        |
 |                            | rts:LightRTSComponent                                                   |                   |        |        |
+|                            | zigbee:ColorLightComponent                                              |                   | 26     | 33     |
+|                            | zigbee:OnOffLightComponent                                              |                   | 14     | 22     |
 | LightSensor                | io:LightIOSystemDeviceSensor                                            |                   |        |        |
 |                            | io:LightIOSystemSensor                                                  |                   |        |        |
 | MusicPlayer                | ogp:AudioPlayer                                                         |                   |        |        |
 | NetworkComponent           | zigbee:ZigbeeNetworkNode                                                |                   | 4      | 11     |
 | NoiseSensor                | netatmo:NoiseComponent                                                  | Legrand Netatmo   |        |        |
 | OccupancySensor       	 | io:OccupancyIOSystemDeviceSensor                                        |                   |        |        |
+|                            | zigbee:MotionSensorComponent                                            |                   | 6      | 25     |
 | OnOff       	             | io:OnOffIOComponent                                                     |                   |        |        |
+|                            | zigbee:OnOffComponent                                                   |                   | 14     | 24     |
 | Pergola      	             | io:SimpleBioclimaticPergolaIOComponent                                  |                   |        |        |
 |				             | ogp:Pergola                                                             |                   |        |        |
 | Pod       	             | internal:PodMiniComponent                                               |                   |        |        |
@@ -330,6 +336,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | io:IzymoController                                                      |                   |        |        |
 |                            | io:KeygoController                                                      |                   |        |        |
 |                            | rtds:RTDSRemoteControllerComponent                                      |                   |        |        |
+|                            | zigbee:ZigbeeRemoteComponent                                            |                   | 2      | 23     |
 | RollerShutter              | io:MicroModuleRollerShutterSomfyIOComponent                             | Somfy             | 34     | 24     |
 |                            | io:RollerShutterGenericIOComponent                                      |                   |        |        |
 |                            | io:RollerShutterUnoIOComponent                                          | Somfy             | 34     | 28     |
@@ -363,6 +370,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | io:AtlanticPassAPCDHWComponent                                          | Atlantic          | 17     | 17     |
 |                            | io:DomesticHotWaterTankComponent                                        |                   | 2      | 9      |
 |                            | modbuslink:AtlanticDomesticHotWaterProductionMBLComponent               | Atlantic, Thermor | 51     | 49     |
+| WaterSensor                | zigbee:WaterLeakageSensorComponent                                      |                   | 6      | 24     |
 | WeatherSensor              | core:WeatherSystemSensor                                                |                   |        |        |
 | Wifi                       | internal:WifiComponent                                                  |                   |        |        |
 | WindSensor                 | netatmo:WindComponent                                                   | Legrand Netatmo   | 0      | 9      |
