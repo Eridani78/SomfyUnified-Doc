@@ -13,6 +13,7 @@ _Updated 2025 1118_
 
 ## Presentation SomfyUnified
 Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom et les équipements de l'écosystème Somfy connectés via les API OverKiz.<br>
+Une box compatible (TaHoma, Cozytouch, ...) est nécessaire pour la mise en oeuvre de ce plugin.
 Les serveurs accesibles sont listés ci-dessous:
 
 >- **Somfy TaHoma Cloud**
@@ -34,7 +35,7 @@ Pour accompagner la sortie de son dernier firmware en date du 28.01.2025, Somfy 
 
 [Equipements compatibles Somfy TaHoma](https://assets3.keepeek.com/medias/domain7918/_permalinks/SEO/media75513/somfy-solution-connectee-box-liste-compatibilites-tahoma.pdf)
 
-Après avoir été appairés via l’App TaHoma Somfy, ces matériels deviennent donc potentiellement pilotables via le plugin plugin SomfyUnified.
+Après avoir été appairés via l’App TaHoma Somfy, ces matériels deviennent donc potentiellement pilotables via le plugin SomfyUnified.
 
 Pour les utilisateurs ou futurs utilisateurs du plugin , je vous invite à vérifier si vos matériels peuvent être ainsi pilotés par Jeedom.
 
@@ -84,7 +85,7 @@ On trouve actuellement dans l'écosystèmes le contrôle de dispositifs tels que
 
 L'absence de documentation de la part de Somfy sur les commandes des dispositifs rend la syntaxe de ces opérations particulièrement difficile à anticiper et implémenter dans un plugin et ce, à priori.<br>
 
-Afin de s'adapter à une telle diversité de commandes ou données potentielles, le plugin gère les différents équipements à partir de fichiers de configurations propres à chaque équipement.<br>
+Afin de s'adapter à une telle diversité de commandes ou données potentielles, le plugin gère les différents équipements à partir de fichiers de configurations propres à chaque équipement regroupés dans une Base de Connaissance (BDC) du plugin.<br>
 
 La liste des équipements dont le fichier de configuration est intégré au plugin est donnée en fin de ce document.
 
@@ -155,7 +156,7 @@ Lors du fonctionnement normal, positionner les Logs en mode `Defaut`.
 
 ### Crons
 
-En fonctionnement normal, les Crons `cron` et `cron30` doivent être cochés.
+En fonctionnement normal, les Crons `cron`, `cron10` et `cron30` doivent être cochés.
 
 
 ### Utilisation des commandes user
