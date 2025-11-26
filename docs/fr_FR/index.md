@@ -5,10 +5,10 @@
 
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
-| _SomfyUnified_     | _3.0.1_           |
+| _SomfyUnified_     | _3.0.2_           |
 | _SomfyUnifiedExt1_ | _2.0.6_            |
 
-_Updated 2025 1118_
+_Updated 2025 1126_
 
 
 ## Presentation SomfyUnified
@@ -199,6 +199,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 | Heat Pump                  | HYBRELLIA (1)                                                           | Atlantic          |
 | Towel Rack                 | ASAMA                                                                   | Sauter            |
 |                            | KELUD                                                                   | Sauter            |
+|                            | RIVA 5                                                                  | Thermor           |
 | Water Heater               | AQUEO (150L & 200L)                                                     | Atlantic          |
 |                            | CALYPSO Split                                                           | Atlantic          |
 |                            | CALYPSO Trineo                                                          | Atlantic          |
