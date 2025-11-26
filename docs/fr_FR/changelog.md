@@ -6,6 +6,11 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 26/11/2025 - SomfyUnified - v3.0.2 beta & stable
+- Ajout équipements en BDD
+    - WiFi Device/ 1611 TOWEL RACK/ Thermor RIVA 5
+- Amélioration code
+
 # 18/11/2025 - SomfyUnified - v3.0.1 beta & stable
 - Ajout équipements en BDD
     - ConfigurationComponent/ zigbeeSomfyConfigurationToolComponent.toml
