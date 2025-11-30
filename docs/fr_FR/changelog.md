@@ -6,6 +6,10 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 30/11/2025 - SomfyUnified - v3.0.4 beta & stable
+- Ajout équipements en BDD
+    - WiFi Device/ 1563 TOWEL RACK/ Atlantic DORIS ETROIT 0500W BLC
+
 # 27/11/2025 - SomfyUnified - v3.0.3 beta & stable
 - Ajout équipements en BDD
     - WiFi Device/ 1758 HEAT PUMP/ Atlantic SHOGUN NAVIZONE
