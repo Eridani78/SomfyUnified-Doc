@@ -5,10 +5,10 @@
 
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
-| _SomfyUnified_     | _3.0.4_           |
+| _SomfyUnified_     | _3.1.0_           |
 | _SomfyUnifiedExt1_ | _2.0.6_            |
 
-_Updated 2025 1130_
+_Updated 2025 1207_
 
 
 ## Presentation SomfyUnified
@@ -218,6 +218,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 
 | Type Equipement            |  Identifiant Equipement                                                 | Constructeur      | Action | Info   |
 | :------------------------- | :---------------------------------------------------------------------- | :---------------- | :----- | :----- |
+| AirSensor                  | io:CO2IOSystemDeviceSensor                                              | Atlantic          | 0      | 11     |
 | Alarm                      | internal:TSKAlarmComponent                                              | Somfy             | 14     | 9      |
 |                            | io:AlarmIOComponent                                                     |                   |        |        |
 | Awning                     | io:AwningValanceIOComponent                                             |                   |        |        |
@@ -238,6 +239,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | zigbee:DoorSensorComponent                                              |                   |        |        |
 | Dock                       | internal:TSKDockComponent                                               |                   |        |        |
 | ElectricitySensor          | io:AirConditioningElectricalEnergyConsumptionSensor                     |                   |        |        |
+|                            | io:CoolingRelatedElectricalEnergyConsumptionSensor                      | Atlantic          | 0      | 22     |
 |                            | io:CumulatedElectricalEnergyConsumptionIOSystemDeviceSensor             |                   |        |        |
 |                            | io:DHWCumulatedElectricalEnergyConsumptionIOSystemDeviceSensor          |                   |        |        |
 |                            | io:DHWElectricalEnergyConsumptionSensor                                 |                   |        |        |
@@ -355,6 +357,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | ogp:Blind                                                               | Somfy             | 8      | 25     |
 | Shutter          	         | ogp:Shutter                                                             |                   |        |        |
 | SmokeSensor                | io:SomfySmokeIOSystemSensor                                             | Somfy             |        |        |
+| VentilationSystem          | io:AtlanticHeatRecoveryVentilationIOComponent                           | Atlantic          | 25     | 30     |
 | SwingingShutter            | rts:SwingingShutterRTSComponent                                         |                   |        |        |
 | TemperatureSensor          | io:AtlanticPassAPCOutsideTemperatureSensor                              | Atlantic          |        |        |
 |                            | io:AtlanticPassAPCZoneTemperatureSensor                                 | Atlantic          |        |        |
@@ -369,6 +372,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | io:AtlanticDomesticHotWaterProductionV2_AEX_IOComponent                 | Atlantic          | 54     | 55     |
 |                            | io:AtlanticDomesticHotWaterProductionV2_CETHI_V4_IOComponent            | Atlantic          | 54     | 56     |
 |                            | io:AtlanticDomesticHotWaterProductionV2_CE_FLAT_C2_IOComponent          | Atlantic          | 75     | 75     |
+|                            | io:AtlanticDomesticHotWaterProductionV2_CE_S4_IOComponent               | Atlantic          | 75     | 75     |
 |                            | io:AtlanticDomesticHotWaterProductionV2_CV4E_IOComponent                | Atlantic          | 54     | 56     |
 |                            | io:AtlanticDomesticHotWaterProductionV2_SPLIT_IOComponent               | Atlantic          | 54     | 55     |
 |                            | io:AtlanticPassAPCDHWComponent                                          | Atlantic          | 17     | 17     |
