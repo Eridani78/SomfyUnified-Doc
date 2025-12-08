@@ -6,6 +6,22 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 07/12/2025 - SomfyUnified - v3.1.0 beta & stable
+- Ajout équipements en BDD
+    - data\components\WaterHeatingSystem\ioAtlanticDomesticHotWaterProductionV2_CE_S4_IOComponent.2025 1203.toml (new)
+    - data\components\WaterHeatingSystem\ioAtlanticPassAPCDHWComponent.2025 0529.toml (update)
+    - data\components\AirSensor\ioCO2IOSystemDeviceSensor.2025 1207.toml (new)
+    - data\components\ElectricitySensor\ioCoolingRelatedElectricalEnergyConsumptionSensor.toml (new)
+    - data\components\HeatingSystem\ioAtlanticPassAPCHeatPumpMainComponent.2025 1207.toml (update)
+    - data\components\HeatingSystem\ioAtlanticPassAPCBoilerMainComponent.2025 1207.toml (update)
+    - data\components\TemperatureSensor\ioAtlanticPassAPCOutsideTemperatureSensor.2025 1207.toml (update)
+    - data\components\TemperatureSensor\ioAtlanticPassAPCZoneTemperatureSensor.2025 1207.toml (update)
+    - data\components\TemperatureSensor\ioTemperatureInCelciusIOSystemDeviceSensor.2025 1207.toml (update)
+    - data\components\VentilationSystem\ioAtlanticHeatRecoveryVentilationIOComponent.2025 1207.toml
+
+- Amélioration code (restart automatique des serveurs)
+- Corrections de bugs mineurs
+
 # 30/11/2025 - SomfyUnified - v3.0.4 beta & stable
 - Ajout équipements en BDD
     - WiFi Device/ 1563 TOWEL RACK/ Atlantic DORIS ETROIT 0500W BLC
