@@ -1,12 +1,13 @@
 # Plugins **SomfyUnified - SomfyUnifiedExt1**
-<img src="/docs/assets/images/SomfyUnified-Image.png" alt="" style="height: 20%; width:20%;"/> &nbsp; &nbsp; <img src="/docs/assets/images/SomfyUnifiedExt1-Image.png" alt="" style="height: 20%; width:20%;"/>
+<img src="/docs/assets/images/SomfyUnified-Image.png" alt="" style="height: 20%; width:20%;"/> &nbsp; &nbsp; <img src="/docs/assets/images/SomfyUnifiedExt1-Image.png" alt="" style="height: 20%; width:20%;"/>; <img src="/docs/assets/images/SomfyUnifiedExt2-Image.png" alt="" style="height: 20%; width:20%;"/>
 
-<img src="/SomfyUnified-Doc/docs/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 20%; width:20%;"/> &nbsp; &nbsp; <img src="/SomfyUnified-Doc/docs/assets/images/SomfyUnifiedExt1-Image.png" alt="SomfyUnifiedExt1 logo" style="height: 20%; width:20%;"/>
+<img src="/SomfyUnified-Doc/docs/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 20%; width:20%;"/> &nbsp; &nbsp; <img src="/SomfyUnified-Doc/docs/assets/images/SomfyUnifiedExt1-Image.png" alt="SomfyUnifiedExt1 logo" style="height: 20%; width:20%;"/>&nbsp; &nbsp; <img src="/SomfyUnified-Doc/docs/assets/images/SomfyUnifiedExt1-Image.png" alt="SomfyUnifiedExt2 logo" style="height: 20%; width:20%;"/>
 
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
 | _SomfyUnified_     | _3.2.0_            |
 | _SomfyUnifiedExt1_ | _2.0.6_            |
+| _SomfyUnifiedExt2_ | _1.0.0_            |
 
 _Updated 2025 1222_
 
@@ -44,6 +45,10 @@ Voir liste détaillée des équipements déja inclus dans la base de configurati
 ## Presentation SomfyUnifiedExt1
 Dédié uniquement aux équipements appartenant aux familles **HeatingSystem**, **HitachiHeatingSystem** et **WaterHeatingSystem**.<br>
 Le plugin **SomfyUnifiedExt1** est une extension du plugin **SomfyUnified** qui fournit des widgets et/ou panels/consoles spécifiques pour une amélioration de l'interface utilisateur.
+
+## Presentation SomfyUnifiedExt2
+Dédié uniquement aux équipements appartenant aux familles **VentilationSystem**.<br>
+Le plugin **SomfyUnifiedExt2** est une extension du plugin **SomfyUnified** qui fournit des widgets et/ou panels/consoles spécifiques pour une amélioration de l'interface utilisateur.
 
 ### WiFi Direct
 A partir de la version 2.0 et par extension, il prend également en charge les équipements pilotables par **WiFi Direct** et qui ne nécessitent pas une Box/Gateway pour se connecter au serveur.<br>
