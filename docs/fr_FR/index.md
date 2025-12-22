@@ -1,5 +1,7 @@
-# Plugins **SomfyUnified - SomfyUnifiedExt1**
-<img src="/docs/assets/images/SomfyUnified-Image.png" alt="" style="height: 20%; width:20%;"/> &nbsp; &nbsp; <img src="/docs/assets/images/SomfyUnifiedExt1-Image.png" alt="" style="height: 20%; width:20%;"/>; <img src="/docs/assets/images/SomfyUnifiedExt2-Image.png" alt="" style="height: 20%; width:20%;"/>
+# Plugins
+# SomfyUnified - SomfyUnifiedExt1 - SomfyUnifiedExt2
+
+<img src="/docs/assets/images/SomfyUnified-Image.png" alt="" style="height: 20%; width:20%;"/> &nbsp; &nbsp; <img src="/docs/assets/images/SomfyUnifiedExt1-Image.png" alt="" style="height: 20%; width:20%;"/> &nbsp; &nbsp; <img src="/docs/assets/images/SomfyUnifiedExt2-Image.png" alt="" style="height: 20%; width:20%;"/>
 
 <img src="/SomfyUnified-Doc/docs/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 20%; width:20%;"/> &nbsp; &nbsp; <img src="/SomfyUnified-Doc/docs/assets/images/SomfyUnifiedExt1-Image.png" alt="SomfyUnifiedExt1 logo" style="height: 20%; width:20%;"/>&nbsp; &nbsp; <img src="/SomfyUnified-Doc/docs/assets/images/SomfyUnifiedExt1-Image.png" alt="SomfyUnifiedExt2 logo" style="height: 20%; width:20%;"/>
 
@@ -13,8 +15,13 @@ _Updated 2025 1222_
 
 
 ## Presentation SomfyUnified
-Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom et les équipements de l'écosystème Somfy connectés via les API OverKiz.<br>
-Une box compatible (TaHoma, Cozytouch, ...) est nécessaire pour la mise en oeuvre de ce plugin.
+Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom et les équipements de l'écosystème Somfy.<br>
+Il supporte actuellement deux types d'équipements:
+1) Equipements connectés nécessairement via une box/gateway compatible (TaHoma, Cozytouch, ...) (utilisent les API OverKiz)
+2) Equipements connectés via WiFi Direct (+) (utilisent l'API dédiée)
+
+(+) _Ces équipement possèdent leur propre connexion WiFi et l'équivalent de la box/gateway est en fait intégrée à l'équipement._<br>
+
 Les serveurs accesibles sont listés ci-dessous:
 
 >- **Somfy TaHoma Cloud**
@@ -43,12 +50,16 @@ Pour les utilisateurs ou futurs utilisateurs du plugin , je vous invite à véri
 Voir liste détaillée des équipements déja inclus dans la base de configuration en fin de documentation.
 
 ## Presentation SomfyUnifiedExt1
-Dédié uniquement aux équipements appartenant aux familles **HeatingSystem**, **HitachiHeatingSystem** et **WaterHeatingSystem**.<br>
-Le plugin **SomfyUnifiedExt1** est une extension du plugin **SomfyUnified** qui fournit des widgets et/ou panels/consoles spécifiques pour une amélioration de l'interface utilisateur.
+Le plugin **SomfyUnifiedExt1** est une extension du plugin **SomfyUnified**. Ce dernier doit être installé préalablement à l'extension.<br>
+Il est dédié uniquement aux équipements appartenant aux familles **HeatingSystem**, **HitachiHeatingSystem** et **WaterHeatingSystem**.<br>
 
 ## Presentation SomfyUnifiedExt2
-Dédié uniquement aux équipements appartenant aux familles **VentilationSystem**.<br>
-Le plugin **SomfyUnifiedExt2** est une extension du plugin **SomfyUnified** qui fournit des widgets et/ou panels/consoles spécifiques pour une amélioration de l'interface utilisateur.
+Le plugin **SomfyUnifiedExt2** est une extension du plugin **SomfyUnified**. Ce dernier doit être installé préalablement à l'extension.<br>
+Il est dédié uniquement aux équipements appartenant aux familles **VentilationSystem**.<br>
+
+Les plugins **SomfyUnifiedExt1** et **SomfyUnifiedExt2**:
+1) fournissent des widgets et/ou panels/consoles spécifiques.
+2) regroupent sur une même interface les équipements logiques d'un même équipement physique (exemple: une PAC peut remonter sous Jeedom jusqu'à 10 équipements logiques).
 
 ### WiFi Direct
 A partir de la version 2.0 et par extension, il prend également en charge les équipements pilotables par **WiFi Direct** et qui ne nécessitent pas une Box/Gateway pour se connecter au serveur.<br>
