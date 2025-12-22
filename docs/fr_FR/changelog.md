@@ -6,6 +6,13 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 22/12/2025 - SomfyUnified - v3.2.0 beta & stable
+- Ajout équipements en BDD
+    - WiFi Device/ 1540 TOWEL RACK/ Sauter ASAMA CONNECTE II 0500W BLC
+    - data\components\HeatingSystem\ioAtlanticPassAPCHeatingAndCoolingZoneComponent.2025 1222.toml (update)
+    - data\components\AirSensor\ioCO2IOSystemDeviceSensor.2025 1222.toml (update)
+    - data\components\Gate\ioDynamicGateIOComponent.2025 1222.toml (new)
+
 # 07/12/2025 - SomfyUnified - v3.1.0 beta & stable
 - Ajout équipements en BDD
     - data\components\WaterHeatingSystem\ioAtlanticDomesticHotWaterProductionV2_CE_S4_IOComponent.2025 1203.toml (new)
