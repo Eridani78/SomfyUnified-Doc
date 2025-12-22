@@ -5,10 +5,10 @@
 
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
-| _SomfyUnified_     | _3.1.0_           |
+| _SomfyUnified_     | _3.2.0_            |
 | _SomfyUnifiedExt1_ | _2.0.6_            |
 
-_Updated 2025 1207_
+_Updated 2025 1222_
 
 
 ## Presentation SomfyUnified
@@ -267,7 +267,8 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | rts:GarageDoorWithVentilationPositionRTSComponent                       |                   | 10     |        |
 |                            | rts:GarageDoor4TRTSComponent                                            |                   | 3      | 6      |
 |                            | rts:SlidingGarageDoorWithPedestrianPositionRTSComponent                 |                   | 10     | 7      |
-| Gate                       | io:SlidingDiscreteFullyPedestriableGateOpenerIOComponent                |                   |        |        |
+| Gate                       | io:DynamicGateIOComponent                                               | Somfy             | 26     | 26     |
+|                            | io:SlidingDiscreteFullyPedestriableGateOpenerIOComponent                |                   |        |        |
 |                            | io:SlidingDiscreteGateOpenerIOComponent                                 |                   |        |        |
 |                            | ogp:Gate                                                                |                   | 4      | 14     |
 |                            | rts:GateOpenerRTSComponent                                              |                   | 9      |        |
@@ -275,19 +276,19 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | rts:SlidingGateOpenerRTSComponent                                       |                   |        |        |
 | Generic                    | ovp:ModbusMainController                                                | Hitachi           | 3      | 8      |
 | HeatingSystem              | io:AtlanticElectricalHeaterIOComponent                                  | Atlantic          |        |        |
-|				             | io:AtlanticElectricalHeaterWithAdjustableTemperatureSetpointIOComponent | Atlantic          |        |        |
-|				             | io:AtlanticElectricalTowelDryerIOComponent                              | Atlantic          |        |        |
-|				             | io:AtlanticElectricalTowelDryer_IC3_IOComponent                         | Atlantic          |        |        |
-|				             | io:AtlanticPassAPCBoilerMainComponent                                   | Atlantic          |        |        |
-|				             | io:AtlanticPassAPCHeatingAndCoolingZoneComponent                        | Atlantic          |        |        |
-|				             | io:AtlanticPassAPCHeatingZoneComponent                                  | Atlantic          |        |        |
-|				             | io:AtlanticPassAPCHeatPumpMainComponent                                 | Atlantic          |        |        |
-|				             | io:AtlanticPassAPCZoneControlMainComponent                              | Atlantic          |        |        |
-|				             | io:AtlanticPassAPCZoneControlZoneComponent                              | Atlantic          | 32     | 30     |
-|				             | modbus:YutakiRoomThermostatZone1Component                               | Hitachi           |        | 7      |
-|				             | modbus:YutakiRoomThermostatZone2Component                               | Hitachi           |        | 7      |
-|				             | netatmo:NetatmoRoomController                                           | Legrand Netatmo   | 6      | 20     |
-|				             | ogp:HvacZone                                                            | Daikin            |        |        |
+|                            | io:AtlanticElectricalHeaterWithAdjustableTemperatureSetpointIOComponent | Atlantic          |        |        |
+|                            | io:AtlanticElectricalTowelDryerIOComponent                              | Atlantic          |        |        |
+|                            | io:AtlanticElectricalTowelDryer_IC3_IOComponent                         | Atlantic          |        |        |
+|                            | io:AtlanticPassAPCBoilerMainComponent                                   | Atlantic          |        |        |
+|                            | io:AtlanticPassAPCHeatingAndCoolingZoneComponent                        | Atlantic          |        |        |
+|                            | io:AtlanticPassAPCHeatingZoneComponent                                  | Atlantic          |        |        |
+|                            | io:AtlanticPassAPCHeatPumpMainComponent                                 | Atlantic          |        |        |
+|                            | io:AtlanticPassAPCZoneControlMainComponent                              | Atlantic          |        |        |
+|                            | io:AtlanticPassAPCZoneControlZoneComponent                              | Atlantic          | 32     | 30     |
+|                            | modbus:YutakiRoomThermostatZone1Component                               | Hitachi           |        | 7      |
+|                            | modbus:YutakiRoomThermostatZone2Component                               | Hitachi           |        | 7      |
+|                            | netatmo:NetatmoRoomController                                           | Legrand Netatmo   | 6      | 20     |
+|                            | ogp:HvacZone                                                            | Daikin            |        |        |
 | HitachiHeatingSystem       | hlrrwifi:HLinkMainController                                            | Hitachi           | 1      | 20     |
 |                            | modbus:YutakiMainComponent                                              | Hitachi           | 41     | 73     |
 |                            | modbus:YutakiV2DHWTComponent                                            | Hitachi           | 18     | 21     |
@@ -316,17 +317,17 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 | MusicPlayer                | ogp:AudioPlayer                                                         |                   |        |        |
 | NetworkComponent           | zigbee:ZigbeeNetworkNode                                                |                   | 4      | 11     |
 | NoiseSensor                | netatmo:NoiseComponent                                                  | Legrand Netatmo   |        |        |
-| OccupancySensor       	 | io:OccupancyIOSystemDeviceSensor                                        |                   |        |        |
+| OccupancySensor            | io:OccupancyIOSystemDeviceSensor                                        |                   |        |        |
 |                            | zigbee:MotionSensorComponent                                            |                   | 6      | 25     |
-| OnOff       	             | io:OnOffIOComponent                                                     |                   |        |        |
+| OnOff                      | io:OnOffIOComponent                                                     |                   |        |        |
 |                            | zigbee:OnOffComponent                                                   |                   | 14     | 24     |
 | Pergola      	             | io:SimpleBioclimaticPergolaIOComponent                                  |                   |        |        |
-|				             | ogp:Pergola                                                             |                   |        |        |
-| Pod       	             | internal:PodMiniComponent                                               |                   |        |        |
-|				             | internal:PodV2Component                                                 |                   |        |        |
-|				             | internal:PodV3Component                                                 |                   |        |        |
-|				             | internal:UPodComponent                                                  |                   |        |        |
-|				             | internal:UPodNetWorkComponent                                           |                   |        |        |
+|                            | ogp:Pergola                                                             |                   |        |        |
+| Pod                        | internal:PodMiniComponent                                               |                   |        |        |
+|                            | internal:PodV2Component                                                 |                   |        |        |
+|                            | internal:PodV3Component                                                 |                   |        |        |
+|                            | internal:UPodComponent                                                  |                   |        |        |
+|                            | internal:UPodNetWorkComponent                                           |                   |        |        |
 | ProtocolGateway            | enocean:TransceiverEnoceanComponent                                     |                   |        |        |
 |                            | hlrrwifi:HLRRWifiBridge                                                 | Hitachi           | 2      | 8      |
 |                            | homekit:StackComponent                                                  |                   |        |        |
