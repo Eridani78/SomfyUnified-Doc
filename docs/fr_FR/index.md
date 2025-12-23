@@ -47,14 +47,14 @@ Pour les utilisateurs ou futurs utilisateurs du plugin , je vous invite à véri
 Voir liste détaillée des équipements déja inclus dans la base de configuration en fin de documentation.
 
 ## Presentation SomfyUnifiedExt1
-Le plugin **SomfyUnifiedExt1** est une extension du plugin **SomfyUnified**. Ce dernier doit être installé préalablement à l'extension.<br>
+Le plugin **SomfyUnifiedExt1** est une extension du plugin **SomfyUnified**. Attention, ce dernier doit être installé préalablement à l'extension.<br>
 Il est dédié uniquement aux équipements appartenant aux familles:<br>
 - **HeatingSystem**<br>
 - **HitachiHeatingSystem**<br>
 - **WaterHeatingSystem**<br>
 
 ## Presentation SomfyUnifiedExt2
-Le plugin **SomfyUnifiedExt2** est une extension du plugin **SomfyUnified**. Ce dernier doit être installé préalablement à l'extension.<br>
+Le plugin **SomfyUnifiedExt2** est une extension du plugin **SomfyUnified**. Attention, ce dernier doit être installé préalablement à l'extension.<br>
 Il est dédié uniquement aux équipements appartenant aux familles:<br>
 - **VentilationSystem**<br>
 
