@@ -3,8 +3,6 @@
 
 <img src="../assets/images/SomfyUnified-Image.png" alt="" style="height: 20%; width:20%;"/> &nbsp; &nbsp; <img src="../assets/images/SomfyUnifiedExt1-Image.png" alt="" style="height: 20%; width:20%;"/> &nbsp; &nbsp; <img src="../assets/images/SomfyUnifiedExt2-Image.png" alt="" style="height: 20%; width:20%;"/>
 
-<img src="/SomfyUnified-Doc/docs/assets/images/SomfyUnified-Image.png" alt="SomfyUnified logo" style="height: 20%; width:20%;"/> &nbsp; &nbsp; <img src="/SomfyUnified-Doc/docs/assets/images/SomfyUnifiedExt1-Image.png" alt="SomfyUnifiedExt1 logo" style="height: 20%; width:20%;"/>&nbsp; &nbsp; <img src="/SomfyUnified-Doc/docs/assets/images/SomfyUnifiedExt1-Image.png" alt="SomfyUnifiedExt2 logo" style="height: 20%; width:20%;"/>
-
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
 | _SomfyUnified_     | _3.2.0_            |
@@ -13,18 +11,11 @@
 
 _Updated 2025 1222_
 
-
-
-
-
-
-
-
 ## Presentation SomfyUnified
 Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom et les équipements de l'écosystème Somfy.<br>
 Il supporte actuellement deux types d'équipements:
-1) Equipements connectés nécessairement via une box/gateway compatible (TaHoma, Cozytouch, ...) (utilisent les API OverKiz)
-2) Equipements connectés via WiFi Direct (+) (utilisent l'API dédiée)
+1) Equipements connectés nécessairement via une box/gateway compatible (TaHoma, Cozytouch, ...) (utilisent les API OverKiz)<br>
+2) Equipements connectés via WiFi Direct (+) (utilisent l'API dédiée)<br>
 
 (+) _Ces équipement possèdent leur propre connexion WiFi et l'équivalent de la box/gateway est en fait intégrée à l'équipement._<br>
 
@@ -45,7 +36,7 @@ Les serveurs accesibles sont listés ci-dessous:
 >- **Ubiwizz**
 
 ### SOMFY: liste des matériels compatibles TaHoma
-Pour accompagner la sortie de son dernier firmware en date du 28.01.2025, Somfy a éditer une longue liste des matériels compatibles TaHoma dont je vous joins ici le lien:
+Pour accompagner la sortie de son dernier firmware, Somfy a éditer une liste très complète des matériels compatibles TaHoma dont je vous joins ici le lien:
 
 [Equipements compatibles Somfy TaHoma](https://assets3.keepeek.com/medias/domain7918/_permalinks/SEO/media75513/somfy-solution-connectee-box-liste-compatibilites-tahoma.pdf)
 
@@ -57,11 +48,15 @@ Voir liste détaillée des équipements déja inclus dans la base de configurati
 
 ## Presentation SomfyUnifiedExt1
 Le plugin **SomfyUnifiedExt1** est une extension du plugin **SomfyUnified**. Ce dernier doit être installé préalablement à l'extension.<br>
-Il est dédié uniquement aux équipements appartenant aux familles **HeatingSystem**, **HitachiHeatingSystem** et **WaterHeatingSystem**.<br>
+Il est dédié uniquement aux équipements appartenant aux familles:<br>
+**HeatingSystem**<br>
+**HitachiHeatingSystem**<br>
+**WaterHeatingSystem**<br>
 
 ## Presentation SomfyUnifiedExt2
 Le plugin **SomfyUnifiedExt2** est une extension du plugin **SomfyUnified**. Ce dernier doit être installé préalablement à l'extension.<br>
-Il est dédié uniquement aux équipements appartenant aux familles **VentilationSystem**.<br>
+Il est dédié uniquement aux équipements appartenant aux familles:<br>
+**VentilationSystem**<br>
 
 Les plugins **SomfyUnifiedExt1** et **SomfyUnifiedExt2**:
 1) fournissent des widgets et/ou panels/consoles spécifiques.
@@ -71,7 +66,7 @@ Les plugins **SomfyUnifiedExt1** et **SomfyUnifiedExt2**:
 A partir de la version 2.0 et par extension, il prend également en charge les équipements pilotables par **WiFi Direct** et qui ne nécessitent pas une Box/Gateway pour se connecter au serveur.<br>
 
 **Notice**<br>
-La connection des équipements avec connections via NaviClim, Navilink reste à être validée par de futurs utilisateurs.
+La connection des équipements avec connections via NaviClim, Navilink est également supportée.
 
 ## Caractéristiques
 ### Gestion multi-serveurs
@@ -178,7 +173,7 @@ Lors du fonctionnement normal, positionner les Logs en mode `Defaut`.
 
 ### Crons
 
-En fonctionnement normal, les Crons `cron`, `cron10` et `cron30` doivent être cochés.
+En fonctionnement normal, les Crons `cron`, `cron10` et `cron30` doivent être activés.
 
 
 ### Utilisation des commandes user
@@ -189,7 +184,7 @@ En fonctionnement normal, les Crons `cron`, `cron10` et `cron30` doivent être c
 
 La suppression d'un serveur (onglet Manage Servers) supprime le serveur de la configuration du plugin mais ne SUPPRIME PAS les équipements qui auraient déja été créés sur ce serveur.<br>
 En effet, la suppression d'un équipement peut avoir de nombreuses répercutions sur une configuration utilisateur.<br>
-C'est pour cela que, dans le plugin SomfyUnified, le suppression d'un équipement est laissée uniquement à l'initiative d'une opération réalisée manuellement par l'utilisateur.
+C'est pour cela que, dans le plugin SomfyUnified, la suppression d'un équipement est laissée uniquement à l'initiative d'une opération réalisée manuellement par l'utilisateur.
 
 
 ## FAQ
