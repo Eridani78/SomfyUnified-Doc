@@ -58,9 +58,9 @@ Le plugin **SomfyUnifiedExt2** est une extension du plugin **SomfyUnified**. Att
 Il est dédié uniquement aux équipements appartenant aux familles:<br>
 - **VentilationSystem**<br>
 
-Les plugins **SomfyUnifiedExt1** et **SomfyUnifiedExt2**:
-1) fournissent des widgets et/ou panels/consoles spécifiques.
-2) regroupent sur une même interface les équipements logiques d'un même équipement physique (exemple: une PAC peut remonter sous Jeedom jusqu'à 10 équipements logiques).
+Les plugins **SomfyUnifiedExt1** et **SomfyUnifiedExt2**:<br>
+1) fournissent des widgets et/ou panels/consoles spécifiques<br>
+2) regroupent sur une même interface les équipements logiques d'un même équipement physique (exemple: une PAC peut remonter sous Jeedom jusqu'à 10 équipements logiques)<br>
 
 ### WiFi Direct
 A partir de la version 2.0 et par extension, il prend également en charge les équipements pilotables par **WiFi Direct** et qui ne nécessitent pas une Box/Gateway pour se connecter au serveur.<br>
