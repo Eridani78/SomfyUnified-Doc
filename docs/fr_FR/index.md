@@ -5,11 +5,11 @@
 
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
-| _SomfyUnified_     | _3.2.0_            |
-| _SomfyUnifiedExt1_ | _2.0.6_            |
+| _SomfyUnified_     | _3.3.0_            |
+| _SomfyUnifiedExt1_ | _2.1.0_            |
 | _SomfyUnifiedExt2_ | _1.0.0_            |
 
-_Updated 2025 1222_
+_Updated 2026 0115_
 
 ## Presentation SomfyUnified
 Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom et les équipements de l'écosystème Somfy.<br>
@@ -240,6 +240,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 | AirSensor                  | io:CO2IOSystemDeviceSensor                                              | Atlantic          | 0      | 11     |
 | Alarm                      | internal:TSKAlarmComponent                                              | Somfy             | 14     | 9      |
 |                            | io:AlarmIOComponent                                                     |                   |        |        |
+|                            | myfox:SomfyProtectAlarmController                                       | Somfy             | 6      | 12     |
 | Awning                     | io:AwningValanceIOComponent                                             |                   |        |        |
 |                            | io:HorizontalAwningIOComponent                                          |                   |        |        |
 |                            | ogp:Awning                                                              |                   |        |        |
@@ -304,6 +305,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | io:AtlanticPassAPCHeatPumpMainComponent                                 | Atlantic          |        |        |
 |                            | io:AtlanticPassAPCZoneControlMainComponent                              | Atlantic          |        |        |
 |                            | io:AtlanticPassAPCZoneControlZoneComponent                              | Atlantic          | 32     | 30     |
+|                            | io:HeatingValveIOComponent                                              | Somfy             | 16     | 42     |
 |                            | modbus:YutakiRoomThermostatZone1Component                               | Hitachi           |        | 7      |
 |                            | modbus:YutakiRoomThermostatZone2Component                               | Hitachi           |        | 7      |
 |                            | netatmo:NetatmoRoomController                                           | Legrand Netatmo   | 6      | 20     |
@@ -330,6 +332,8 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | ogp:Light                                                               |                   |        |        |
 |                            | rts:LightRTSComponent                                                   |                   |        |        |
 |                            | zigbee:ColorLightComponent                                              |                   | 26     | 33     |
+|                            | zigbee:ColorTemperatureCIEXYLightComponent                              |                   | 21     | 28     |
+|                            | zigbee:ColorTemperatureLightComponent                                   |                   | 19     | 26     |
 |                            | zigbee:OnOffLightComponent                                              |                   | 14     | 22     |
 | LightSensor                | io:LightIOSystemDeviceSensor                                            |                   |        |        |
 |                            | io:LightIOSystemSensor                                                  |                   |        |        |
@@ -382,7 +386,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 | TemperatureSensor          | io:AtlanticPassAPCOutsideTemperatureSensor                              | Atlantic          |        |        |
 |                            | io:AtlanticPassAPCZoneTemperatureSensor                                 | Atlantic          |        |        |
 |                            | io:TemperatureInCelciusIOSystemDeviceSensor                             |                   |        |        |
-|                            | io:TemperatureIOSystemSensor                                            |                   |        |        |
+|                            | io:TemperatureIOSystemSensor                                            | Somfy             | 1      | 19     |
 |                            | io:TemperatureMeasurementSensor                                         |                   | 0      | 8      |
 |                            | netatmo:NetatmoThermostatTemperatureSensor                              | Legrand Netatmo   | 0      | 8      |
 |                            | netatmo:TemperatureComponent                                            | Legrand Netatmo   |        |        |
