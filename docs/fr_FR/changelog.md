@@ -6,6 +6,19 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+
+# 15/01/2026 - SomfyUnifiedExt1 - v2.1.0 beta & stable
+- Amélioration code (necessite mise à jour du plugin SomfyUnified en version >= v3.3.0)
+
+# 15/01/2026 - SomfyUnified - v3.3.0 beta & stable
+- Ajout équipements en BDD
+    - data\components\Alarm\myfoxSomfyProtectAlarmController.2026 0115.toml (new)
+    - data\components\HeatingSystem\ioHeatingValveIOComponent.2026 0115.toml (new)
+    - data\components\Light\zigbeeColorTemperatureCIEXYLightComponent.2026 0115.toml (new)
+    - data\components\Light\zigbeeColorTemperatureLightComponent.2026 0115.toml (new)
+    - data\components\TemperatureSensor\ioTemperatureIOSystemSensor.2026 0115.toml (update)
+    - data\png\devices\ValveHeatingTemperatureInterface.png (new)
+
 # 22/12/2025 - SomfyUnified - v3.2.0 beta & stable
 - Ajout équipements en BDD
     - WiFi Device/ 1540 TOWEL RACK/ Sauter ASAMA CONNECTE II 0500W BLC
