@@ -6,6 +6,9 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 20/01/2026 - SomfyUnified - v3.3.1 beta & stable
+- Ajout équipements en BDD
+    - WiFi Device/ 1658 WATER HEATER/ Atlantic CALYPSO VS 240L
 
 # 15/01/2026 - SomfyUnifiedExt1 - v2.1.0 beta & stable
 - Amélioration code (necessite mise à jour du plugin SomfyUnified en version >= v3.3.0)
