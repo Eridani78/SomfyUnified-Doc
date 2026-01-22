@@ -5,11 +5,11 @@
 
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
-| _SomfyUnified_     | _3.3.1_            |
+| _SomfyUnified_     | _3.3.2_            |
 | _SomfyUnifiedExt1_ | _2.1.0_            |
 | _SomfyUnifiedExt2_ | _1.0.0_            |
 
-_Updated 2026 0120_
+_Updated 2026 0122_
 
 ## Presentation SomfyUnified
 Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom et les équipements de l'écosystème Somfy.<br>
@@ -258,6 +258,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | rtds:RTDSContactSensor                                                  |                   |        |        |
 |                            | zigbee:DoorSensorComponent                                              |                   |        |        |
 | Dock                       | internal:TSKDockComponent                                               |                   |        |        |
+| DoorLock                   | myfox:SomfyProtectDoorLock                                              | Somfy             | 3      | 10     |
 | ElectricitySensor          | io:AirConditioningElectricalEnergyConsumptionSensor                     |                   |        |        |
 |                            | io:CoolingRelatedElectricalEnergyConsumptionSensor                      | Atlantic          | 0      | 22     |
 |                            | io:CumulatedElectricalEnergyConsumptionIOSystemDeviceSensor             |                   |        |        |
@@ -300,7 +301,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | io:AtlanticElectricalTowelDryerIOComponent                              | Atlantic          |        |        |
 |                            | io:AtlanticElectricalTowelDryer_IC3_IOComponent                         | Atlantic          |        |        |
 |                            | io:AtlanticPassAPCBoilerMainComponent                                   | Atlantic          |        |        |
-|                            | io:AtlanticPassAPCHeatingAndCoolingZoneComponent                        | Atlantic          |        |        |
+|                            | io:AtlanticPassAPCHeatingAndCoolingZoneComponent                        | Atlantic          | 28     | 28     |
 |                            | io:AtlanticPassAPCHeatingZoneComponent                                  | Atlantic          |        |        |
 |                            | io:AtlanticPassAPCHeatPumpMainComponent                                 | Atlantic          |        |        |
 |                            | io:AtlanticPassAPCZoneControlMainComponent                              | Atlantic          |        |        |
