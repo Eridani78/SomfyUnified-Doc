@@ -6,6 +6,13 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 22/01/2026 - SomfyUnified - v3.3.2 beta & stable
+- Ajout équipements en BDD
+    - data\components\DoorLock\myfoxSomfyProtectDoorLock.2026 0122.toml (new)
+    - data\png\devices\DoorLock.png (new)
+    - WiFi Device/ 1557 TOWEL RACK/ Atlantic DORIS
+- Bug fixes
+
 # 20/01/2026 - SomfyUnified - v3.3.1 beta & stable
 - Ajout équipements en BDD
     - WiFi Device/ 1658 WATER HEATER/ Atlantic CALYPSO VS 240L
