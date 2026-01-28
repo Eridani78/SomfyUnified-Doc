@@ -6,6 +6,19 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 28/01/2026 - SomfyUnified - v3.3.3 beta & stable
+- Ajout équipements en BDD
+    - data\components\HumiditySensor\ioRelativeHumidityIOSystemDeviceSensor.2026 0128.toml (update)
+    - data\components\HumiditySensor\netatmoHumidityComponent.2026 0128.toml (update)
+    - data\components\HumiditySensor\zigbeeRelativeHumidityComponent.2026 0128.toml (update)
+    - data\components\LightSensor\ioLightIOSystemDeviceSensor.2026 0128.toml (update)
+    - data\components\LightSensor\ioLightIOSystemSensor.2026 0128.toml (update)
+    - data\components\LightSensor\ioSunEnergyActuatorSensor.2026 0128.toml (new)
+    - data\components\RollerShutter\ioDynamicRollerShutterIOComponent.2026 0128.toml (new)
+    - data\components\VentilationSystem\ioAtlanticHeatRecoveryVentilationIOComponent.2026 0128.toml (update)
+    - WiFi Device/ 1880 TOWEL RACK/ Atlantic NEFERTITI
+- Ameliorations code
+
 # 22/01/2026 - SomfyUnified - v3.3.2 beta & stable
 - Ajout équipements en BDD
     - data\components\DoorLock\myfoxSomfyProtectDoorLock.2026 0122.toml (new)
