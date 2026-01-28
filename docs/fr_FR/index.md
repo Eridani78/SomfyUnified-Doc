@@ -5,11 +5,11 @@
 
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
-| _SomfyUnified_     | _3.3.2_            |
+| _SomfyUnified_     | _3.3.3_            |
 | _SomfyUnifiedExt1_ | _2.1.0_            |
 | _SomfyUnifiedExt2_ | _1.0.0_            |
 
-_Updated 2026 0122_
+_Updated 2026 0128_
 
 ## Presentation SomfyUnified
 Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom et les équipements de l'écosystème Somfy.<br>
@@ -210,7 +210,7 @@ Comme le plugin **SomfyUnified** assure la gestion de tous les serveurs enregist
 
 ## Liste des équipements en BdD du plugin (Cozytouch WiFi Direct)
 
-A cette date, l'inclusion des équipements suivant a été effectuée:
+A cette date, l'inclusion des équipements suivant (2) a été effectuée:
 
 | Type Equipement            |  Identifiant Equipement                                                 | Constructeur      |
 | :------------------------- | :---------------------------------------------------------------------- | :---------------- |
@@ -220,6 +220,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 | Towel Rack                 | ASAMA                                                                   | Sauter            |
 |                            | DORIS                                                                   | Atlantic          |
 |                            | KELUD                                                                   | Sauter            |
+|                            | NEFERTITI                                                               | Atlantic          |
 |                            | RIVA 5                                                                  | Thermor           |
 | Water Heater               | AQUEO (150L & 200L)                                                     | Atlantic          |
 |                            | CALYPSO Split                                                           | Atlantic          |
@@ -229,7 +230,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | DURALIS Connect                                                         | Thermor           |
 
 (1) _via Atlantic Navilink 128 (Thermostat modulant connecté)_<br>
-
+(2) Dans chaque famille, certains modeles uniquement car leur identifiant depand du modele, de la puissance, de la forme, de la couleur, etc ...
 
 ## Liste des équipements en BdD du plugin (API Overkiz)
 
@@ -338,6 +339,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | zigbee:OnOffLightComponent                                              |                   | 14     | 22     |
 | LightSensor                | io:LightIOSystemDeviceSensor                                            |                   |        |        |
 |                            | io:LightIOSystemSensor                                                  |                   |        |        |
+|                            | io:SunEnergyActuatorSensor                                              | Somfy             |        | 9      |
 | MusicPlayer                | ogp:AudioPlayer                                                         |                   |        |        |
 | NetworkComponent           | zigbee:ZigbeeNetworkNode                                                |                   | 4      | 11     |
 | NoiseSensor                | netatmo:NoiseComponent                                                  | Legrand Netatmo   |        |        |
@@ -368,7 +370,8 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | io:KeygoController                                                      |                   |        |        |
 |                            | rtds:RTDSRemoteControllerComponent                                      |                   |        |        |
 |                            | zigbee:ZigbeeRemoteComponent                                            |                   | 2      | 23     |
-| RollerShutter              | io:MicroModuleRollerShutterSomfyIOComponent                             | Somfy             | 34     | 24     |
+| RollerShutter              | io:DynamicRollerShutterIOComponent                                      | Somfy             | 36     | 31     |
+|                            | io:MicroModuleRollerShutterSomfyIOComponent                             | Somfy             | 34     | 24     |
 |                            | io:RollerShutterGenericIOComponent                                      |                   |        |        |
 |                            | io:RollerShutterUnoIOComponent                                          | Somfy             | 34     | 28     |
 |                            | io:RollerShutterVeluxIOComponent                                        |                   |        |        |
