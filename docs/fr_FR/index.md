@@ -64,7 +64,7 @@ Les plugins **SomfyUnifiedExt1** et **SomfyUnifiedExt2**:<br>
 3) ATTENTION ! Les equipements WiFi Direct ne sont, pour le moment, pas supportés par les plugins **SomfyUnifiedExt1** et **SomfyUnifiedExt2**.<br>
 
 ### WiFi Direct
-A partir de la version 2.0 et par extension, le plugin **SomfyUnified** prend également en charge les équipements pilotables par **WiFi Direct** et qui ne nécessitent pas une Box/Gateway pour se connecter au serveur.<br>
+A partir de la version 2.0 et par extension, le plugin **SomfyUnified** prend également en charge les équipements pilotables par **WiFi Direct**. Les équipements WiFi Direct sont les matériels connectés qui ne nécessitent pas une Box/Gateway (TaHoma, Cozytouch, ...) pour se connecter au serveur.<br>
 
 **Notice**<br>
 La connection des équipements avec connections via NaviClim, Navilink est également supportée.
