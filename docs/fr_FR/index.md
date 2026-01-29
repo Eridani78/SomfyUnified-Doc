@@ -61,9 +61,10 @@ Il est dédié uniquement aux équipements appartenant aux familles:<br>
 Les plugins **SomfyUnifiedExt1** et **SomfyUnifiedExt2**:<br>
 1) fournissent des widgets et/ou panels/consoles spécifiques<br>
 2) regroupent sur une même interface les équipements logiques d'un même équipement physique (exemple: une PAC peut remonter sous Jeedom jusqu'à 10 équipements logiques)<br>
+3) ATTENTION ! Les equipements WiFi Direct ne sont, pour le moment, pas supportés par les plugins **SomfyUnifiedExt1** et **SomfyUnifiedExt2**.<br>
 
 ### WiFi Direct
-A partir de la version 2.0 et par extension, il prend également en charge les équipements pilotables par **WiFi Direct** et qui ne nécessitent pas une Box/Gateway pour se connecter au serveur.<br>
+A partir de la version 2.0 et par extension, le plugin **SomfyUnified** prend également en charge les équipements pilotables par **WiFi Direct** et qui ne nécessitent pas une Box/Gateway pour se connecter au serveur.<br>
 
 **Notice**<br>
 La connection des équipements avec connections via NaviClim, Navilink est également supportée.
