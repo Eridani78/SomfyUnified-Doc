@@ -6,10 +6,10 @@
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
 | _SomfyUnified_     | _3.3.3_            |
-| _SomfyUnifiedExt1_ | _2.1.0_            |
+| _SomfyUnifiedExt1_ | _3.3.0_            |
 | _SomfyUnifiedExt2_ | _1.0.0_            |
 
-_Updated 2026 0128_
+_Updated 2026 0201_
 
 ## Presentation SomfyUnified
 Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom et les équipements de l'écosystème Somfy.<br>
