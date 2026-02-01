@@ -6,7 +6,7 @@
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
 | _SomfyUnified_     | _3.3.3_            |
-| _SomfyUnifiedExt1_ | _3.3.0_            |
+| _SomfyUnifiedExt1_ | _3.0.0_            |
 | _SomfyUnifiedExt2_ | _1.0.0_            |
 
 _Updated 2026 0201_
