@@ -5,11 +5,11 @@
 
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
-| _SomfyUnified_     | _3.3.3_            |
+| _SomfyUnified_     | _3.4.0_            |
 | _SomfyUnifiedExt1_ | _3.0.0_            |
 | _SomfyUnifiedExt2_ | _1.0.0_            |
 
-_Updated 2026 0201_
+_Updated 2026 0213_
 
 ## Presentation SomfyUnified
 Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom et les équipements de l'écosystème Somfy.<br>
@@ -289,6 +289,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | io:GarageOpenerIOComponent                                              |                   | 25     | 21     |
 |                            | ogp:GarageDoor                                                          |                   |        |        |
 |                            | rts:GarageDoorWithVentilationPositionRTSComponent                       |                   | 10     |        |
+|                            | rts:GarageDoorRTSComponent                                              | Somfy             | 9      | 7      |
 |                            | rts:GarageDoor4TRTSComponent                                            |                   | 3      | 6      |
 |                            | rts:SlidingGarageDoorWithPedestrianPositionRTSComponent                 |                   | 10     | 7      |
 | Gate                       | io:DynamicGateIOComponent                                               | Somfy             | 26     | 26     |
@@ -313,6 +314,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | modbus:YutakiRoomThermostatZone1Component                               | Hitachi           |        | 7      |
 |                            | modbus:YutakiRoomThermostatZone2Component                               | Hitachi           |        | 7      |
 |                            | netatmo:NetatmoRoomController                                           | Legrand Netatmo   | 6      | 20     |
+|                            | netatmo:ThermostatHeatingCoolingComponent                               | Legrand Netatmo   | 1      | 16     |
 |                            | ogp:HvacZone                                                            | Daikin            |        |        |
 | HitachiHeatingSystem       | hlrrwifi:HLinkMainController                                            | Hitachi           | 1      | 20     |
 |                            | modbus:YutakiMainComponent                                              | Hitachi           | 41     | 73     |
@@ -321,6 +323,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | modbus:YutakiV2Zone2Component                                           | Hitachi           | 26     | 25     |
 | HumiditySensor             | io:RelativeHumidityIOSystemDeviceSensor                                 |                   |        |        |
 |                            | netatmo:HumidityComponent                                               | Legrand Netatmo   |        |        |
+|                            | netatmo:NetatmoHumidityMeasurement                                      | Legrand Netatmo   |        | 8      |
 |                            | zigbee:RelativeHumidityComponent                                        |                   |        |        |
 | Light                      | hue:ColorTemperatureLightBulbHUEComponent                               | Philps Hue        |        |        |
 |                            | hue:ExtendedColorLightCandleHUEComponent                                | Philps Hue        |        |        |
