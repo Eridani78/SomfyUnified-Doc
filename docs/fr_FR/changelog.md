@@ -6,6 +6,19 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 17/02/2026 - SomfyUnified - v3.4.2 beta & stable
+- Ameliorations code
+
+# 14/02/2026 - SomfyUnified - v3.4.1 beta & stable
+- Ameliorations code
+
+# 13/02/2026 - SomfyUnified - v3.4.0 beta & stable
+- Ajout équipements en BDD
+    - data\cloud-api\components\GarageDoor\rtsGarageDoorRTSComponent.toml
+    - data\cloud-api\components\HeatingSystem\netatmoThermostatHeatingCoolingComponent.toml
+    - data\cloud-api\components\HumiditySensor\netatmoNetatmoHumidityMeasurement.toml
+- Ameliorations code
+
 # 28/01/2026 - SomfyUnified - v3.3.3 beta & stable
 - Ajout équipements en BDD
     - data\components\HumiditySensor\ioRelativeHumidityIOSystemDeviceSensor.2026 0128.toml (update)
