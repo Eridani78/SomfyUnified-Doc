@@ -5,11 +5,11 @@
 
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
-| _SomfyUnified_     | _3.4.2_            |
+| _SomfyUnified_     | _3.4.3_            |
 | _SomfyUnifiedExt1_ | _3.0.0_            |
 | _SomfyUnifiedExt2_ | _1.0.0_            |
 
-_Updated 2026 0217_
+_Updated 2026 0222_
 
 ## Presentation SomfyUnified
 Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom et les équipements de l'écosystème Somfy.<br>
@@ -219,6 +219,7 @@ A cette date, l'inclusion des équipements suivant (2) a été effectuée:
 | Gaz Boiler                 | NAEMA 3 Duo 25 (1)                                                      | Atlantic          |
 | Heat Pump                  | HYBRELLIA (1)                                                           | Atlantic          |
 |                            | SHOGUN NAVIZONE                                                         | Atlantic          |
+|                            | TAKAO                                                                   | Atlantic Fujitsu  |
 | Towel Rack                 | ASAMA                                                                   | Sauter            |
 |                            | DORIS                                                                   | Atlantic          |
 |                            | KELUD                                                                   | Sauter            |
