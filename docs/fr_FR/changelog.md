@@ -6,6 +6,12 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 22/02/2026 - SomfyUnifiedExt1 - v3.0.1 beta & stable
+- Ameliorations code
+
+# 22/02/2026 - SomfyUnified - v3.4.3 beta & stable
+- Ameliorations code
+
 # 17/02/2026 - SomfyUnified - v3.4.2 beta & stable
 - Ameliorations code
 
