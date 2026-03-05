@@ -5,11 +5,11 @@
 
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
-| _SomfyUnified_     | _3.4.4_            |
+| _SomfyUnified_     | _3.4.5_            |
 | _SomfyUnifiedExt1_ | _3.0.0_            |
 | _SomfyUnifiedExt2_ | _1.0.0_            |
 
-_Updated 2026 0224_
+_Updated 2026 0305_
 
 ## Presentation SomfyUnified
 Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom et les équipements de l'écosystème Somfy.<br>
@@ -235,7 +235,7 @@ A cette date, l'inclusion des équipements suivant (2) a été effectuée:
 (1) _via Atlantic Navilink 128 (Thermostat modulant connecté)_<br>
 (2) Dans chaque famille, certains modeles uniquement car leur identifiant depand du modele, de la puissance, de la forme, de la couleur, etc ...
 
-## Liste des équipements en BdD du plugin (API Overkiz)
+## Liste des équipements en BdC du plugin (API Overkiz)
 
 A cette date, l'inclusion des équipements suivant a été effectuée:
 
@@ -316,7 +316,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | modbus:YutakiRoomThermostatZone2Component                               | Hitachi           |        | 7      |
 |                            | netatmo:NetatmoRoomController                                           | Legrand Netatmo   | 6      | 20     |
 |                            | netatmo:ThermostatHeatingCoolingComponent                               | Legrand Netatmo   | 1      | 16     |
-|                            | ogp:HvacZone                                                            | Daikin            |        |        |
+|                            | ogp:HvacZone                                                            | Daikin            | 9      | 47     |
 | HitachiHeatingSystem       | hlrrwifi:HLinkMainController                                            | Hitachi           | 1      | 20     |
 |                            | modbus:YutakiMainComponent                                              | Hitachi           | 41     | 73     |
 |                            | modbus:YutakiV2DHWTComponent                                            | Hitachi           | 18     | 21     |
@@ -345,6 +345,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | zigbee:OnOffLightComponent                                              |                   | 14     | 22     |
 | LightSensor                | io:LightIOSystemDeviceSensor                                            |                   |        |        |
 |                            | io:LightIOSystemSensor                                                  |                   |        |        |
+|                            | io:LightSensor                                                          | Somfy             | 5      | 21     |
 |                            | io:SunEnergyActuatorSensor                                              | Somfy             |        | 9      |
 | MusicPlayer                | ogp:AudioPlayer                                                         |                   |        |        |
 | NetworkComponent           | zigbee:ZigbeeNetworkNode                                                |                   | 4      | 11     |
@@ -398,6 +399,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | io:TemperatureInCelciusIOSystemDeviceSensor                             |                   |        |        |
 |                            | io:TemperatureIOSystemSensor                                            | Somfy             | 1      | 19     |
 |                            | io:TemperatureMeasurementSensor                                         |                   | 0      | 8      |
+|                            | io:TemperatureSensor                                                    | Somfy             | 5      | 21     |
 |                            | netatmo:NetatmoThermostatTemperatureSensor                              | Legrand Netatmo   | 0      | 8      |
 |                            | netatmo:TemperatureComponent                                            | Legrand Netatmo   |        |        |
 |                            | ogp:TemperatureSensor                                                   | Daikin            |        |        |
@@ -412,6 +414,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | io:AtlanticPassAPCDHWComponent                                          | Atlantic          | 17     | 17     |
 |                            | io:DomesticHotWaterTankComponent                                        |                   | 2      | 9      |
 |                            | modbuslink:AtlanticDomesticHotWaterProductionMBLComponent               | Atlantic, Thermor | 51     | 49     |
+|                            | ogp:DomesticHotWater                                                    | Daikin            | 6      | 45     |
 | WaterSensor                | zigbee:WaterLeakageSensorComponent                                      |                   | 6      | 24     |
 | WeatherSensor              | core:WeatherSystemSensor                                                |                   |        |        |
 | Wifi                       | internal:WifiComponent                                                  |                   |        |        |
