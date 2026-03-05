@@ -6,6 +6,16 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+
+# 05/03/2026 - SomfyUnified - v3.4.5 beta & stable
+- Ajout équipements en BDD
+    - WiFi Device/ 1656 WATER HEATER/ Thermor AEROMAX 6 VS 240L
+    - SomfyUnified-Data\data\cloud-api\components\LightSensor\ioLightSensor.toml (new)
+    - SomfyUnified-Data\data\cloud-api\components\Pergola\2026 0305 ioSimpleBioclimaticPergolaIOComponent.toml (update)
+    - SomfyUnified-Data\data\cloud-api\components\TemperatureSensor\ioTemperatureSensor.toml (new)
+    - SomfyUnified-Data\data\cloud-api\components\WaterHeatingSystem\ogpDomesticHotWater.toml (new)
+- Ameliorations code
+
 # 24/02/2026 - SomfyUnified - v3.4.4 beta & stable
 - Corrections de bugs mineurs
 
