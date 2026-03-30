@@ -6,6 +6,10 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 30/03/2026 - SomfyUnified - v3.4.6 beta & stable
+- Ajout équipements en BDD
+    - SomfyUnified-Data\data\cloud-api\components\HeatingSystem\ioAtlanticElectricalHeaterWithAdjustableTemperatureSetpointIOComponent.toml (update)
+- Ameliorations code
 
 # 05/03/2026 - SomfyUnified - v3.4.5 beta & stable
 - Ajout équipements en BDD
