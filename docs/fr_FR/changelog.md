@@ -8,16 +8,16 @@
 
 # 30/03/2026 - SomfyUnified - v3.4.6 beta & stable
 - Ajout équipements en BDD
-    - SomfyUnified-Data\data\cloud-api\components\HeatingSystem\ioAtlanticElectricalHeaterWithAdjustableTemperatureSetpointIOComponent.toml (update)
+    - HeatingSystem\ioAtlanticElectricalHeaterWithAdjustableTemperatureSetpointIOComponent.toml (update)
 - Ameliorations code
 
 # 05/03/2026 - SomfyUnified - v3.4.5 beta & stable
 - Ajout équipements en BDD
     - WiFi Device/ 1656 WATER HEATER/ Thermor AEROMAX 6 VS 240L
-    - SomfyUnified-Data\data\cloud-api\components\LightSensor\ioLightSensor.toml (new)
-    - SomfyUnified-Data\data\cloud-api\components\Pergola\2026 0305 ioSimpleBioclimaticPergolaIOComponent.toml (update)
-    - SomfyUnified-Data\data\cloud-api\components\TemperatureSensor\ioTemperatureSensor.toml (new)
-    - SomfyUnified-Data\data\cloud-api\components\WaterHeatingSystem\ogpDomesticHotWater.toml (new)
+    - LightSensor\ioLightSensor.toml (new)
+    - Pergola\2026 0305 ioSimpleBioclimaticPergolaIOComponent.toml (update)
+    - TemperatureSensor\ioTemperatureSensor.toml (new)
+    - WaterHeatingSystem\ogpDomesticHotWater.toml (new)
 - Ameliorations code
 
 # 24/02/2026 - SomfyUnified - v3.4.4 beta & stable
@@ -37,9 +37,9 @@
 
 # 13/02/2026 - SomfyUnified - v3.4.0 beta & stable
 - Ajout équipements en BDD
-    - data\cloud-api\components\GarageDoor\rtsGarageDoorRTSComponent.toml
-    - data\cloud-api\components\HeatingSystem\netatmoThermostatHeatingCoolingComponent.toml
-    - data\cloud-api\components\HumiditySensor\netatmoNetatmoHumidityMeasurement.toml
+    - GarageDoor\rtsGarageDoorRTSComponent.toml
+    - HeatingSystem\netatmoThermostatHeatingCoolingComponent.toml
+    - HumiditySensor\netatmoNetatmoHumidityMeasurement.toml
 - Ameliorations code
 
 # 28/01/2026 - SomfyUnified - v3.3.3 beta & stable
