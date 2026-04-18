@@ -6,6 +6,13 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 18/04/2026 - SomfyUnified - v3.4.7 beta & stable
+- Ajout équipements en BDD
+    - CircuitBreaker\netatmoElectricVehicleChargerComponent.2026 0407.toml (new)
+    - ElectricitySensor\netatmoElectricEnergyConsumptionSensor.2026 0407.toml (new)
+    - GarageDoor\ioDynamicGarageDoor.2026 0411.toml (new)
+- Ameliorations code
+
 # 30/03/2026 - SomfyUnified - v3.4.6 beta & stable
 - Ajout équipements en BDD
     - HeatingSystem\ioAtlanticElectricalHeaterWithAdjustableTemperatureSetpointIOComponent.toml (update)
