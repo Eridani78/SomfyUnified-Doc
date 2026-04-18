@@ -5,11 +5,11 @@
 
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
-| _SomfyUnified_     | _3.4.6_            |
+| _SomfyUnified_     | _3.4.7_            |
 | _SomfyUnifiedExt1_ | _3.0.0_            |
 | _SomfyUnifiedExt2_ | _1.0.0_            |
 
-_Updated 2026 0330_
+_Updated 2026 0418_
 
 ## Presentation SomfyUnified
 Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom et les équipements de l'écosystème Somfy.<br>
@@ -250,6 +250,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | ogp:Awning                                                              |                   |        |        |
 |                            | rts:HorizontalAwningRTSComponent                                        |                   |        |        |
 | CarbonDioxideSensor        | netatmo:CO2Component                                                    | Legrand Netatmo   |        |        |
+| CircuitBreaker             | netatmo:ElectricVehicleChargerComponent                                 | Legrand Netatmo   | 6      | 18     |
 | ConfigurationComponent     | netatmo:ConfigurationComponent                                          | Legrand Netatmo   |        |        |
 |                            | netatmo:HomeController                                                  | Legrand Netatmo   |        |        |
 |                            | netatmo:WeatherStationConfigurationComponent                            | Legrand Netatmo   |        |        |
@@ -281,12 +282,14 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | modbuslink:DHWCumulatedElectricalEnergyConsumptionMBLSystemDeviceSensor | Atlantic, Thermor | 1      | 18     |
 |                            | modbus:YutakiV2DHWElectricalEnergyConsumptionComponent                  | Hitachi           |        | 8      |
 |                            | modbus:YutakiV2SpaceHeatingElectricalEnergyConsumptionComponent         | Hitachi           |        | 8      |
+|                            | netatmo:ElectricEnergyConsumptionSensor                                 | Legrand Netatmo   | 0      | 9      |
 |                            | zigbee:LinkyRadioTransmitterSensorComponent                             | Somfy             | 6      | 46     |
 | ExteriorScreen             | io:VerticalExteriorAwningIOComponent                                    |                   |        |        |
 | ExteriorVenetianBlind      | io:ExteriorVenetianBlindIOComponent                                     |                   |        |        |
 |                            | rts:ExteriorVenetianBlindRTSComponent                                   |                   | 13     | 7      |
 | GarageDoor                 | io:DiscreteGarageOpenerIOComponent                                      |                   | 24     | 20     |
 |                            | io:DiscreteGarageOpenerWithPartialPositionIOComponent                   | Somfy             | 29     | 20     |
+|                            | io:DynamicGarageDoor                                                    | Somfy             | 27     | 28     |
 |                            | io:GarageOpenerIOComponent                                              |                   | 25     | 21     |
 |                            | ogp:GarageDoor                                                          |                   |        |        |
 |                            | rts:GarageDoorWithVentilationPositionRTSComponent                       |                   | 10     |        |
