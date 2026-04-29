@@ -12,6 +12,7 @@
     - SomfyUnified-Data\data\cloud-api\components\HeatingSystem\ioAtlanticElectricalHeaterWithAdjustableTemperatureSetpointIOComponent.2026 0419.toml (update)
     - SomfyUnified-Data\data\cloud-api\components\VenetianBlind\ogpVenetianBlind.2026 0420.toml (new)
 - Ameliorations code
+- Ajout serveur SOMFY_EUROPE_DAIKIN
 
 # 18/04/2026 - SomfyUnified - v3.4.7 beta & stable
 - Ajout équipements en BDD
