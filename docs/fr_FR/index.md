@@ -5,11 +5,11 @@
 
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
-| _SomfyUnified_     | _3.4.7_            |
+| _SomfyUnified_     | _3.4.8_            |
 | _SomfyUnifiedExt1_ | _3.0.0_            |
 | _SomfyUnifiedExt2_ | _1.0.0_            |
 
-_Updated 2026 0418_
+_Updated 2026 0429_
 
 ## Presentation SomfyUnified
 Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom et les équipements de l'écosystème Somfy.<br>
@@ -395,7 +395,6 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | ogp:Blind                                                               | Somfy             | 8      | 25     |
 | Shutter          	         | ogp:Shutter                                                             |                   |        |        |
 | SmokeSensor                | io:SomfySmokeIOSystemSensor                                             | Somfy             |        |        |
-| VentilationSystem          | io:AtlanticHeatRecoveryVentilationIOComponent                           | Atlantic          | 25     | 30     |
 | SwingingShutter            | rts:SwingingShutterRTSComponent                                         |                   |        |        |
 | TemperatureSensor          | io:AtlanticPassAPCOutsideTemperatureSensor                              | Atlantic          |        |        |
 |                            | io:AtlanticPassAPCZoneTemperatureSensor                                 | Atlantic          |        |        |
@@ -407,6 +406,8 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | netatmo:TemperatureComponent                                            | Legrand Netatmo   |        |        |
 |                            | ogp:TemperatureSensor                                                   | Daikin            |        |        |
 |                            | zigbee:TemperatureSensorComponent                                       |                   |        |        |
+| VenetianBlind              | ogp:VenetianBlind                                                       | Somfy             | 11     | 16     |
+| VentilationSystem          | io:AtlanticHeatRecoveryVentilationIOComponent                           | Atlantic          | 25     | 30     |
 | WaterHeatingSystem         | io:AtlanticDomesticHotWaterProductionIOComponent                        | Atlantic          | 25     | 27     |
 |                            | io:AtlanticDomesticHotWaterProductionV2_AEX_IOComponent                 | Atlantic          | 54     | 55     |
 |                            | io:AtlanticDomesticHotWaterProductionV2_CETHI_V4_IOComponent            | Atlantic          | 54     | 56     |
@@ -421,6 +422,6 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 | WaterSensor                | zigbee:WaterLeakageSensorComponent                                      |                   | 6      | 24     |
 | WeatherSensor              | core:WeatherSystemSensor                                                |                   |        |        |
 | Wifi                       | internal:WifiComponent                                                  |                   |        |        |
-| WindSensor                 | netatmo:WindComponent                                                   | Legrand Netatmo   | 0      | 9      |
 | Window                     | io:WindowOpenerVeluxIOComponent                                         | Velux             |        |        |
 |                            | ogp:Window                                                              | Velux             | 9      | 27     |
+| WindSensor                 | netatmo:WindComponent                                                   | Legrand Netatmo   | 0      | 9      |
