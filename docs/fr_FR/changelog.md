@@ -6,6 +6,13 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 29/04/2026 - SomfyUnified - v3.4.8 beta & stable
+- Ajout équipements en BDD
+    - SomfyUnified-Data\data\cloud-api\components\ElectricitySensor\netatmoElectricEnergyConsumptionSensor.2026 0419.toml (update)
+    - SomfyUnified-Data\data\cloud-api\components\HeatingSystem\ioAtlanticElectricalHeaterWithAdjustableTemperatureSetpointIOComponent.2026 0419.toml (update)
+    - SomfyUnified-Data\data\cloud-api\components\VenetianBlind\ogpVenetianBlind.2026 0420.toml (new)
+- Ameliorations code
+
 # 18/04/2026 - SomfyUnified - v3.4.7 beta & stable
 - Ajout équipements en BDD
     - CircuitBreaker\netatmoElectricVehicleChargerComponent.2026 0407.toml (new)
