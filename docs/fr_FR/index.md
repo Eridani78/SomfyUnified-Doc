@@ -5,11 +5,11 @@
 
 | Plugin             | Version applicable |
 | :----------------: | :----------------: |
-| _SomfyUnified_     | _3.4.8_            |
+| _SomfyUnified_     | _3.5.0_            |
 | _SomfyUnifiedExt1_ | _3.0.0_            |
 | _SomfyUnifiedExt2_ | _1.0.0_            |
 
-_Updated 2026 0429_
+_Updated 2026 0520_
 
 ## Presentation SomfyUnified
 Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom et les équipements de l'écosystème Somfy.<br>
@@ -339,6 +339,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 |                            | io:DimmableLightIOComponent                                             |                   |        |        |
 |                            | io:DimmableLightMicroModuleSomfyIOComponent                             | Somfy             | 35     | 22     |
 |                            | io:DimmableRGBLightIOComponent                                          |                   |        |        |
+|                            | io:DynamicLight                                                         | Somfy             | 27     | 23     |
 |                            | io:LightMicroModuleSomfyIOComponent                                     |                   |        |        |
 |                            | ogp:Light                                                               |                   |        |        |
 |                            | rts:LightRTSComponent                                                   |                   |        |        |
@@ -355,7 +356,8 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 | NoiseSensor                | netatmo:NoiseComponent                                                  | Legrand Netatmo   |        |        |
 | OccupancySensor            | io:OccupancyIOSystemDeviceSensor                                        |                   |        |        |
 |                            | zigbee:MotionSensorComponent                                            |                   | 6      | 25     |
-| OnOff                      | io:OnOffIOComponent                                                     |                   |        |        |
+| OnOff                      | io:DynamicOutletIOComponent                                             | Somfy             | 25     | 21     |
+|                            | io:OnOffIOComponent                                                     |                   |        |        |
 |                            | zigbee:OnOffComponent                                                   |                   | 14     | 24     |
 | Pergola      	             | io:SimpleBioclimaticPergolaIOComponent                                  |                   |        |        |
 |                            | ogp:Pergola                                                             |                   |        |        |
@@ -396,6 +398,7 @@ A cette date, l'inclusion des équipements suivant a été effectuée:
 | Shutter          	         | ogp:Shutter                                                             |                   |        |        |
 | SmokeSensor                | io:SomfySmokeIOSystemSensor                                             | Somfy             |        |        |
 | SwingingShutter            | rts:SwingingShutterRTSComponent                                         |                   |        |        |
+|                            | io:SwingingShutterSomfyIOComponent                                      | Somfy             | 29     | 21     |
 | TemperatureSensor          | io:AtlanticPassAPCOutsideTemperatureSensor                              | Atlantic          |        |        |
 |                            | io:AtlanticPassAPCZoneTemperatureSensor                                 | Atlantic          |        |        |
 |                            | io:TemperatureInCelciusIOSystemDeviceSensor                             |                   |        |        |
