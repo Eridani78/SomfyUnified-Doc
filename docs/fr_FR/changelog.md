@@ -6,6 +6,13 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+
+# 20/06/2026 - SomfyUnified - v3.5.0 beta & stable
+- Ajout équipements en BDD
+    - components\SwingingShutter\ioSwingingShutterSomfyIOComponent.2026 0504.toml (new)
+    - components\Light\ioDynamicLight.2026 0523.toml (new)
+    - omponents\OnOff\ioDynamicOutletIOComponent.2026 0523.toml (new)
+
 # 29/04/2026 - SomfyUnified - v3.4.8 beta & stable
 - Ajout équipements en BDD
     - SomfyUnified-Data\data\cloud-api\components\ElectricitySensor\netatmoElectricEnergyConsumptionSensor.2026 0419.toml (update)
