@@ -184,16 +184,19 @@ Cette opération est réalisée à partir de la page de configuration du plugin,
 Plusieurs serveurs peuvent être choisis et configurés.<br>
 Le plugin **SomfyUnified** assure alors la gestion de tous les serveurs enregistrés par l'utilisateur.<br>
 
+Les serveurs seront sélectionnés en tenant compte des cofigurations suivantes:<br>
 
-| Serveurs              | Type API   | Applicable                                          |
-| :-------------------- | :--------: | :-------------------------------------------------- |
-| ATLANTIC_COZYTOUCH    | cloud      | Equipement connecté via box TaHoma/Cozytouch        |
-| ...                   | ...        | ...                                                 |
-| SOMFY_LOCAL           | local      | Equipement connecté via box TaHoma. Pour Mode Local |
-| SOMFY_EUROPE          | cloud      | Equipement connecté via box TaHoma/Cozytouch        |
-| ...                   | ...        | ...                                                 |
-| COZYTOUCH_WIFI        | cloud      | Equipement connecté via WiFi Direct                 |
-| SOMFY_EUROPE_DAIKIN   | cloud      | Réservé à une configuration avec des équipements Daikin parmi les équipements |
+| Serveurs Utilisateur  | Type API   | Configuration                                                                 |
+| :-------------------- | :--------: | :---------------------------------------------------------------------------- |
+| ATLANTIC_COZYTOUCH    | cloud      | Equipements connectés via box TaHoma/Cozytouch                                |
+| ...                   | ...        | ...                                                                           |
+| SOMFY_LOCAL           | local      | Equipements connectés via box TaHoma. Pour Mode Local                         |
+| SOMFY_EUROPE          | cloud      | Equipements connectés via box TaHoma/Cozytouch                                |
+| ...                   | ...        | ...                                                                           |
+| COZYTOUCH_WIFI        | cloud      | Equipements connectés via WiFi Direct                                               |
+| SOMFY_EUROPE_DAIKIN   | cloud      | Réservé à une configuration avec un système DAIKIN (via l'intégration Somfy TaHoma) |
+|                       |            | parmi les équipements (1)                                                           |
+(1) _L'utilisation du serveur SOMFY_EUROPE simultanément est déconseillée._<br>
 
 
 ### Suppression d'un serveur
