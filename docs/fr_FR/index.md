@@ -178,7 +178,7 @@ En fonctionnement normal, les Crons `cron`, `cron10`, `cronHourly` et `cronDaily
 
 ### Selection d'un serveur
 
-Pour que votre équipement puisse être piloté sous votre Jeedom, vous devez en premier lieu sélectionner le serveur avec lequel le dialogue sera établi.<br>
+Pour que votre équipement puisse être piloté par votre Jeedom, vous devez en premier lieu sélectionner le serveur avec lequel le dialogue sera établi.<br>
 Cette opération est réalisée à partir de la page de configuration du plugin, onglet "Manage Servers".<br>
 
 Plusieurs serveurs peuvent être choisis et configurés.<br>
@@ -193,7 +193,7 @@ Les serveurs seront sélectionnés en tenant compte des cofigurations suivantes:
 | SOMFY_LOCAL           | local      | Equipements connectés via box TaHoma. Utilisation Mode Local                                                       |
 | SOMFY_EUROPE          | cloud      | Equipements connectés via box TaHoma/Cozytouch                                                                     |
 | ...                   | ...        | ...                                                                                                                |
-| COZYTOUCH_WIFI        | cloud      | Equipements connectés via WiFi Direct                                                                              |
+| COZYTOUCH_WIFI        | cloud      | Equipements connectés via WiFi Direct (et non via une box TaHoma/Cozytouch)                                        |
 | SOMFY_EUROPE_DAIKIN   | cloud      | Réservé à une configuration contenant un système DAIKIN (via l'intégration Somfy TaHoma) parmi les équipements (1) |
 
 (1) _L'utilisation du serveur SOMFY_EUROPE simultanément est déconseillée._<br>
