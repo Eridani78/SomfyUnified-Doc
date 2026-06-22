@@ -160,13 +160,6 @@ L'utilisation du serveur local de votre gateway Somfy nécessite que vous ayez a
 La gateway Somfy a la capacité d'enregistrer et de conserver plusieurs tokens.<br>
 Le plugin propose les fonctionalités de gestion des token de votre gateway (création avec label utilisateur, suppression).
 
-### API locale en mode IP
-
-Le mode IP est à utiliser lorsqu'un système DNS dans votre configuration ne résoud pas les hostnames de type **.local**.<br>
-C'est le cas en particulier lorsque vous utilisez une box Jeedom Atlas.<br>
-Le mode IP peut être activé lors de la création ou mise à jour d'un serveur de type **Local**.<br>
-Lorsque le Mode IP est activé, la vérification SSL est obligatoirement et automatiquement désactivée (verifySSL = No).<br>
-
 
 ### Utilisation des Logs
 
@@ -176,12 +169,32 @@ Lors du fonctionnement normal, positionner les Logs en mode `Defaut`.
 
 ### Crons
 
-En fonctionnement normal, les Crons `cron`, `cron10` et `cron30` doivent être activés.
+En fonctionnement normal, les Crons `cron`, `cron10`, `cronHourly` et `cronDaily` doivent être activés.
 
 
 ### Utilisation des commandes user
 
 ...
+
+### Selection d'un serveur
+
+Pour que votre équipement puisse être piloté sous votre Jeedom, vous devez en premier lieu sélectionner le serveur avec lequel le dialogue sera établi.<br>
+Cette opération est réalisée à partir de la page de configuration du plugin, onglet "Manage Servers".<br>
+
+Plusieurs serveurs peuvent être choisis et configurés.<br>
+Le plugin **SomfyUnified** assure alors la gestion de tous les serveurs enregistrés par l'utilisateur.<br>
+
+
+| Supported Servers     | Type API   | Applicable                                          |
+| :-------------------: | :--------: | :-------------------------------------------------: |
+| ATLANTIC_COZYTOUCH    | cloud      | Equipement connecté via box TaHoma/Cozytouch        |
+| ...                   | ...        |                                                     |
+| SOMFY_LOCAL           | local      | Equipement connecté via box TaHoma. Pour Mode Local |
+| SOMFY_EUROPE          | cloud      | Equipement connecté via box TaHoma/Cozytouch        |
+| ...                   | ...        |                                                     |
+| COZYTOUCH_WIFI        | cloud      | Equipement connecté via WiFi Direct                 |
+| SOMFY_EUROPE_DAIKIN   | cloud      | Réservé à une configuration avec des équipements Daikin parmi les équipements |
+
 
 ### Suppression d'un serveur
 
