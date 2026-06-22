@@ -9,11 +9,11 @@
 | _SomfyUnifiedExt1_ | _3.0.0_            |
 | _SomfyUnifiedExt2_ | _1.0.0_            |
 
-_Updated 2026 0520_
+_Updated 2026 0620_
 
 ## Presentation SomfyUnified
 Le plugin **SomfyUnified** est destiné à permettre une interface entre Jeedom et les équipements de l'écosystème Somfy.<br>
-Il supporte actuellement deux types d'équipements:
+Il supporte actuellement deux types d'équipements:<br>
 1) Equipements connectés nécessairement via une box/gateway compatible (TaHoma, Cozytouch, ...) (utilisent les API OverKiz)<br>
 2) Equipements connectés via WiFi Direct (+) (utilisent l'API dédiée)<br>
 
@@ -218,6 +218,7 @@ A cette date, l'inclusion des équipements suivant (2) a été effectuée:
 | :------------------------- | :---------------------------------------------------------------------- | :---------------- |
 | Gaz Boiler                 | NAEMA 3 Duo 25 (1)                                                      | Atlantic          |
 | Heat Pump                  | HYBRELLIA (1)                                                           | Atlantic          |
+|                            | MURAO (3)                                                               | Atlantic          |
 |                            | SHOGUN NAVIZONE                                                         | Atlantic          |
 |                            | TAKAO                                                                   | Atlantic Fujitsu  |
 | Towel Rack                 | ASAMA                                                                   | Sauter            |
@@ -233,7 +234,8 @@ A cette date, l'inclusion des équipements suivant (2) a été effectuée:
 |                            | DURALIS Connect                                                         | Thermor           |
 
 (1) _via Atlantic Navilink 128 (Thermostat modulant connecté)_<br>
-(2) Dans chaque famille, certains modeles uniquement car leur identifiant depand du modele, de la puissance, de la forme, de la couleur, etc ...
+(2) Dans chaque famille, certains modeles uniquement car leur identifiant depand du modele, de la puissance, de la forme, de la couleur, etc ...<br>
+(3) _via Atlantic Cozytouch Hub (Zigbee protocol connected devices)_<br>
 
 ## Liste des équipements en BdC du plugin (API Overkiz)
 
