@@ -185,13 +185,13 @@ Plusieurs serveurs peuvent être choisis et configurés.<br>
 Le plugin **SomfyUnified** assure alors la gestion de tous les serveurs enregistrés par l'utilisateur.<br>
 
 
-| Supported Servers     | Type API   | Applicable                                          |
-| :-------------------: | :--------: | :-------------------------------------------------: |
+| Serveurs              | Type API   | Applicable                                          |
+| :-------------------- | :--------: | :-------------------------------------------------- |
 | ATLANTIC_COZYTOUCH    | cloud      | Equipement connecté via box TaHoma/Cozytouch        |
-| ...                   | ...        |                                                     |
+| ...                   | ...        | ...                                                 |
 | SOMFY_LOCAL           | local      | Equipement connecté via box TaHoma. Pour Mode Local |
 | SOMFY_EUROPE          | cloud      | Equipement connecté via box TaHoma/Cozytouch        |
-| ...                   | ...        |                                                     |
+| ...                   | ...        | ...                                                 |
 | COZYTOUCH_WIFI        | cloud      | Equipement connecté via WiFi Direct                 |
 | SOMFY_EUROPE_DAIKIN   | cloud      | Réservé à une configuration avec des équipements Daikin parmi les équipements |
 
