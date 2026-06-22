@@ -194,8 +194,8 @@ Les serveurs seront sélectionnés en tenant compte des cofigurations suivantes:
 | SOMFY_EUROPE          | cloud      | Equipements connectés via box TaHoma/Cozytouch                                |
 | ...                   | ...        | ...                                                                           |
 | COZYTOUCH_WIFI        | cloud      | Equipements connectés via WiFi Direct                                               |
-| SOMFY_EUROPE_DAIKIN   | cloud      | Réservé à une configuration avec un système DAIKIN (via l'intégration Somfy TaHoma) |
-|                       |            | parmi les équipements (1)                                                           |
+| SOMFY_EUROPE_DAIKIN   | cloud      | Réservé à une configuration contenant un système DAIKIN (via l'intégration Somfy TaHoma) parmi les équipements (1) |
+
 (1) _L'utilisation du serveur SOMFY_EUROPE simultanément est déconseillée._<br>
 
 
