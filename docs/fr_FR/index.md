@@ -46,22 +46,21 @@ Pour les utilisateurs ou futurs utilisateurs du plugin , je vous invite à véri
 
 Voir liste détaillée des équipements déja inclus dans la base de configuration en fin de documentation.
 
-## Presentation SomfyUnifiedExt1
+## Presentation SomfyUnifiedExt1 - SomfyUnifiedExt2
+Les plugins **SomfyUnifiedExt1** et **SomfyUnifiedExt2**:<br>
+1) fournissent des widgets et/ou panels/consoles spécifiques<br>
+2) regroupent sur une même interface les équipements logiques d'un même équipement physique (exemple: une PAC peut remonter sous Jeedom jusqu'à 10 équipements logiques)<br>
+3) ATTENTION ! Les equipements WiFi Direct ne sont, pour le moment, pas supportés par les plugins **SomfyUnifiedExt1** et **SomfyUnifiedExt2**.<br>
+
 Le plugin **SomfyUnifiedExt1** est une extension du plugin **SomfyUnified**. Attention, ce dernier doit être installé préalablement à l'extension.<br>
 Il est dédié uniquement aux équipements appartenant aux familles:<br>
 - **HeatingSystem**<br>
 - **HitachiHeatingSystem**<br>
 - **WaterHeatingSystem**<br>
 
-## Presentation SomfyUnifiedExt2
 Le plugin **SomfyUnifiedExt2** est une extension du plugin **SomfyUnified**. Attention, ce dernier doit être installé préalablement à l'extension.<br>
 Il est dédié uniquement aux équipements appartenant aux familles:<br>
 - **VentilationSystem**<br>
-
-Les plugins **SomfyUnifiedExt1** et **SomfyUnifiedExt2**:<br>
-1) fournissent des widgets et/ou panels/consoles spécifiques<br>
-2) regroupent sur une même interface les équipements logiques d'un même équipement physique (exemple: une PAC peut remonter sous Jeedom jusqu'à 10 équipements logiques)<br>
-3) ATTENTION ! Les equipements WiFi Direct ne sont, pour le moment, pas supportés par les plugins **SomfyUnifiedExt1** et **SomfyUnifiedExt2**.<br>
 
 ### WiFi Direct
 A partir de la version 2.0 et par extension, le plugin **SomfyUnified** prend également en charge les équipements pilotables par **WiFi Direct**.<br>
